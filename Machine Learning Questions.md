@@ -39,6 +39,7 @@ A random forest is generally better than a decision tree, however, you should no
 
 
 **Q3: What are the differences and similarities between gradient boosting and random forest? and what are the advantage and disadvantages of each when compared to each other?**
+
 Similarities:
 1. Both these algorithms are decision-tree based algorithms
 2. Both these algorithms are ensemble algorithms
