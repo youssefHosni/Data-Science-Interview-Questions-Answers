@@ -1,8 +1,8 @@
 # Deep Learning Questions #
 
 ## Questions ##
-* Q1: What are autoencoders? Explain the different layers of autoencoders and mention three practical usages of them?
-* Q2: What is an activation function and discuss the use of an activation function? Explain three different types of activation functions?
+* [Q1: What are autoencoders? Explain the different layers of autoencoders and mention three practical usages of them?]()
+* [Q2: What is an activation function and discuss the use of an activation function? Explain three different types of activation functions?]()
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Questions & Answers ##
