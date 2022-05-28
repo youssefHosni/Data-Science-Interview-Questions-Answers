@@ -22,9 +22,9 @@ NOTE- It's a requirement that the dimensionality of the input and output be the 
 
 Autoencoders have a wide variety of usage in the real world. The following are some of the popular ones:
 
-1.) Transformers and Big Bird (Autoencoders is one of these components in both algorithms): Text Summarizer, Text Generator
-2.) Image compression
-3.) Nonlinear version of PCA
+1. Transformers and Big Bird (Autoencoders is one of these components in both algorithms): Text Summarizer, Text Generator
+2. Image compression
+3. Nonlinear version of PCA
 
 
 ### Q2: What is an activation function and discuss the use of an activation function? Explain three different types of activation functions? ###
