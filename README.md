@@ -1,3 +1,7 @@
 # Data-Science-Interview-Questions
 
-In this repo t
+[Machine Learning Questions] 
+[Deep Learning Questions] 
+[Statstics Questions] 
+[Probability Questions] 
+[Python Questions]
