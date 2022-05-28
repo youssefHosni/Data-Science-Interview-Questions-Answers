@@ -2,7 +2,7 @@
 
 ## Questions ##
 * [Q1: Mention three ways to make your model robust to outliers?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Machine%20Learning%20Questions.md#:~:text=Questions%20%26%20Answers-,Q1%3A%20Mention%20three%20ways%20to%20make%20your%20model%20robust%20to%20outliers%3F,-Investigating%20the%20outliers)
-* Q2: Describe the motivation behind random forests and mention two reasons why they are better than individual decision trees?
+* [Q2: Describe the motivation behind random forests and mention two reasons why they are better than individual decision trees?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Machine%20Learning%20Questions.md#:~:text=means%20losing%20information.-,Q2%3A%20Describe%20the%20motivation%20behind%20random%20forests%20and%20mention%20two%20reasons%20why%20they%20are%20better%20than%20individual%20decision%20trees%3F,-The%20motivation%20behind)
 * Q3: What are the differences and similarities between gradient boosting and random forest? and what are the advantage and disadvantages of each when compared to each other?
 * Q4: What are L1 and L2 regularization? What are the differences between the two?
 * Q5: What are the Bias and Variance in a Machine Learning Model and explain the bias-variance trade-off?
