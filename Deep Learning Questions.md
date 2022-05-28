@@ -1,8 +1,31 @@
 # Deep Learning Questions #
 
 ## Questions ##
+* Q1: What are autoencoders? Explain the different layers of autoencoders and mention three practical usages of them?
+* Q2: What is an activation function and discuss the use of an activation function? Explain three different types of activation functions?
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Questions & Answers ##
+
+### Q1: What are autoencoders? Explain the different layers of autoencoders and mention three practical usages of them? ###
+
+Answer:
+
+Autoencoders are one of the deep learning types used for unsupervised learning. There are key layers of autoencoders, which are the input layer, encoder, bottleneck hidden layer, decoder, and output.
+
+The three layers of the autoencoder are:-
+1) Encoder - Compresses the input data to an encoded representation which is typically much smaller than the input data.
+2) Latent Space Representation/ Bottleneck/ Code - Compact summary of the input containing the most important features
+3) Decoder - Decompresses the knowledge representation and reconstructs the data back from its encoded form.
+Then a loss function is used at the top to compare the input and output images.
+NOTE- It's a requirement that the dimensionality of the input and output be the same. Everything in the middle can be played with.
+
+Autoencoders have a wide variety of usage in the real world. The following are some of the popular ones:
+
+1.) Transformers and Big Bird (Autoencoders is one of these components in both algorithms): Text Summarizer, Text Generator
+2.) Image compression
+3.) Nonlinear version of PCA
+
 
 ### Q2: What is an activation function and discuss the use of an activation function? Explain three different types of activation functions? ###
 
