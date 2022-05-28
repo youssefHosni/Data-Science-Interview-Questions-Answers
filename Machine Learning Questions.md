@@ -13,7 +13,7 @@
 
 ### Questions & Answers ##
 
-**Q1: Mention three ways to make your model robust to outliers?**
+### Q1: Mention three ways to make your model robust to outliers? ###
 
 1. Investigating the outliers is always the first step in understanding how to treat them. After you understand the nature of why the outliers occurred you can apply one of the several methods mentioned below.
 
@@ -30,7 +30,7 @@ If the distribution is skewed using IQR we can detect and treat it by again eith
 
 7. Remove the outliers, only do this if you are certain that the outliers are true anomalies that are not worth adding to your model. This should be your last consideration since dropping them means losing information.
 
-**Q2: Describe the motivation behind random forests and mention two reasons why they are better than individual decision trees?**
+### Q2: Describe the motivation behind random forests and mention two reasons why they are better than individual decision trees? ###
 
 The motivation behind random forest or ensemble models in general in layman's terms, Let's say we have a question/problem to solve we bring 100 people and ask each of them the question/problem and record their solution. Next, we prepare a solution which is a combination/ a mixture of all the solutions provided by these 100 people. We will find that the aggregated solution will be close to the actual solution. This is known as the "Wisdom of the crowd" and this is the motivation behind Random Forests. We take weak learners (ML models) specifically, Decision Trees in the case of Random Forest & aggregate their results to get good predictions by removing dependency on a particular set of features.  In regression, we take the mean and for Classification, we take the majority vote of the classifiers.
 
@@ -40,7 +40,7 @@ A random forest is generally better than a decision tree, however, you should no
 2) Generally, ensemble models like Random Forest perform better as they are aggregations of various models (Decision Trees in the case of Random Forest), using the concept of the "Wisdom of the crowd."
 
 
-**Q3: What are the differences and similarities between gradient boosting and random forest? and what are the advantage and disadvantages of each when compared to each other?**
+### Q3: What are the differences and similarities between gradient boosting and random forest? and what are the advantage and disadvantages of each when compared to each other? ###
 
 Similarities:
 1. Both these algorithms are decision-tree based algorithms
@@ -74,7 +74,7 @@ The disadvantage of GB over RF:
 4. Tunning the hyperparameters of gradient boosting is harder than those of random forest.
 
 
-**Q4: What are L1 and L2 regularization? What are the differences between the two?**
+### Q4: What are L1 and L2 regularization? What are the differences between the two? ###
 
 Answer:
 
@@ -89,7 +89,7 @@ Where L is the regularization parameter
 
 2 - L1 regularization penalizes weights by adding a term to the loss function which is the absolute value of the loss. This leads to it removing small values of the parameters leading in the end to the parameter hitting zero and staying there for the rest of the epochs. Removing this specific variable completely from our calculation. So, It helps in simplifying our model. It is also helpful for feature selection as it shrinks the coefficient to zero which is not significant in the model.
 
-**Q5: What are the Bias and Variance in a Machine Learning Model and explain the bias-variance trade-off?**
+### Q5: What are the Bias and Variance in a Machine Learning Model and explain the bias-variance trade-off? ###
 
 Answer:
 
@@ -105,7 +105,7 @@ The goal of any supervised machine learning algorithm is to achieve low bias and
 For example, if you want to predict the housing prices given a large set of potential predictors. A model with high bias but low variance, such as linear regression will be easy to implement, but it will oversimplify the problem resulting in high bias and low variance. This high bias and low variance would mean in this context that the predicted house prices are frequently off from the market value, but the value of the variance of these predicted prices is low.
 On the other side, a model with low bias and high variance such as a neural network will lead to predicted house prices closer to the market value, but with predictions varying widely based on the input features. 
 
-**Q6: Mention three ways to handle missing or corrupted data in a dataset?**
+### Q6: Mention three ways to handle missing or corrupted data in a dataset? ###
 
 Answer:
 
@@ -126,7 +126,7 @@ Some machine learning algorithms are robust to missing values in the dataset. Th
 
 Data imputation means the substitution of estimated values for missing or inconsistent data in your dataset. There are different ways to estimate the values that will replace the missing value. The simplest one is to replace the missing value with the most repeated value in the row or the column. Another simple way is to replace it with the mean, median, or mode of the rest of the row or the column. This advantage of this is that it is an easy and fast way to handle the missing data, but it might lead to data leakage and does not factor the covariance between features. A better way is to use a machine learning model to learn the pattern between the data and predict the missing values, this is a very good method to estimate the missing values that will not lead to data leakage and will factor the covariance between the feature, the drawback of this method is the computational complexity especially if your dataset is large.
 
-**Q7: Explain briefly the logistic regression model and state an example of when you have used it recently?**
+### Q7: Explain briefly the logistic regression model and state an example of when you have used it recently? ###
 
 Answer:
 
