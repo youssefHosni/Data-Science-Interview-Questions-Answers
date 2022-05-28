@@ -4,10 +4,10 @@
 * [Q1: Mention three ways to make your model robust to outliers?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Machine%20Learning%20Questions.md#:~:text=Questions%20%26%20Answers-,Q1%3A%20Mention%20three%20ways%20to%20make%20your%20model%20robust%20to%20outliers%3F,-Investigating%20the%20outliers)
 * [Q2: Describe the motivation behind random forests and mention two reasons why they are better than individual decision trees?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Machine%20Learning%20Questions.md#:~:text=means%20losing%20information.-,Q2%3A%20Describe%20the%20motivation%20behind%20random%20forests%20and%20mention%20two%20reasons%20why%20they%20are%20better%20than%20individual%20decision%20trees%3F,-The%20motivation%20behind)
 * [Q3: What are the differences and similarities between gradient boosting and random forest? and what are the advantage and disadvantages of each when compared to each other?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Machine%20Learning%20Questions.md#:~:text=of%20the%20crowd.%22-,Q3%3A%20What%20are%20the%20differences%20and%20similarities%20between%20gradient%20boosting%20and%20random%20forest%3F%20and%20what%20are%20the%20advantage%20and%20disadvantages%20of%20each%20when%20compared%20to%20each%20other%3F,-Similarities%3A)
-* [Q4: What are L1 and L2 regularization? What are the differences between the two?]()
-* [Q5: What are the Bias and Variance in a Machine Learning Model and explain the bias-variance trade-off?]()
-* [Q6: Mention three ways to handle missing or corrupted data in a dataset?]()
-* [Q7: Explain briefly the logistic regression model and state an example of when you have used it recently?]()
+* [Q4: What are L1 and L2 regularization? What are the differences between the two?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Machine%20Learning%20Questions.md#:~:text=of%20random%20forest.-,Q4%3A%20What%20are%20L1%20and%20L2%20regularization%3F%20What%20are%20the%20differences%20between%20the%20two%3F,-Answer%3A)
+* [Q5: What are the Bias and Variance in a Machine Learning Model and explain the bias-variance trade-off?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Machine%20Learning%20Questions.md#:~:text=in%20the%20model.-,Q5%3A%20What%20are%20the%20Bias%20and%20Variance%20in%20a%20Machine%20Learning%20Model%20and%20explain%20the%20bias%2Dvariance%20trade%2Doff%3F,-Answer%3A)
+* [Q6: Mention three ways to handle missing or corrupted data in a dataset?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Machine%20Learning%20Questions.md#:~:text=the%20input%20features.-,Q6%3A%20Mention%20three%20ways%20to%20handle%20missing%20or%20corrupted%20data%20in%20a%20dataset%3F,-Answer%3A)
+* [Q7: Explain briefly the logistic regression model and state an example of when you have used it recently?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Machine%20Learning%20Questions.md#:~:text=dataset%20is%20large.-,Q7%3A%20Explain%20briefly%20the%20logistic%20regression%20model%20and%20state%20an%20example%20of%20when%20you%20have%20used%20it%20recently%3F,-Logistic%20regression%20is)
 
 ### Questions & Answers ##
 
@@ -88,6 +88,7 @@ Where L is the regularization parameter
 2 - L1 regularization penalizes weights by adding a term to the loss function which is the absolute value of the loss. This leads to it removing small values of the parameters leading in the end to the parameter hitting zero and staying there for the rest of the epochs. Removing this specific variable completely from our calculation. So, It helps in simplifying our model. It is also helpful for feature selection as it shrinks the coefficient to zero which is not significant in the model.
 
 **Q5: What are the Bias and Variance in a Machine Learning Model and explain the bias-variance trade-off?**
+
 Answer:
 
 The goal of any supervised machine learning model is to estimate the mapping function (f) that predicts the target variable (y) given input (x). The prediction error can be broken down into three parts:
@@ -103,6 +104,7 @@ For example, if you want to predict the housing prices given a large set of pote
 On the other side, a model with low bias and high variance such as a neural network will lead to predicted house prices closer to the market value, but with predictions varying widely based on the input features. 
 
 **Q6: Mention three ways to handle missing or corrupted data in a dataset?**
+
 Answer:
 
 In general, real-world data often has a lot of missing values. The cause of missing values can be data corruption or failure to record data. The handling of missing data is very important during the preprocessing of the dataset as many machine learning algorithms do not support missing values. However, you should start by asking the data owner/stakeholder about the missing or corrupted data. It might be at the data entry level, because of file encoding, etc. which if aligned, can be handled without the need to use advanced techniques.
@@ -123,6 +125,8 @@ Some machine learning algorithms are robust to missing values in the dataset. Th
 Data imputation means the substitution of estimated values for missing or inconsistent data in your dataset. There are different ways to estimate the values that will replace the missing value. The simplest one is to replace the missing value with the most repeated value in the row or the column. Another simple way is to replace it with the mean, median, or mode of the rest of the row or the column. This advantage of this is that it is an easy and fast way to handle the missing data, but it might lead to data leakage and does not factor the covariance between features. A better way is to use a machine learning model to learn the pattern between the data and predict the missing values, this is a very good method to estimate the missing values that will not lead to data leakage and will factor the covariance between the feature, the drawback of this method is the computational complexity especially if your dataset is large.
 
 **Q7: Explain briefly the logistic regression model and state an example of when you have used it recently?**
+
+Answer:
 
 Logistic regression is used to calculate the probability of occurrence of an event in the form of a dependent output variable based on independent input variables. Logistic regression is commonly used to estimate the probability that an instance belongs to a particular class. If the probability is bigger than 0.5 then it will belong to that class (positive) and if it is below 0.5 it will belong to the other class. This will make it a binary classifier.
 
