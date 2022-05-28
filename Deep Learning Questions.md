@@ -2,7 +2,7 @@
 
 ## Questions ##
 * [Q1: What are autoencoders? Explain the different layers of autoencoders and mention three practical usages of them?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Deep%20Learning%20Questions.md#:~:text=Questions%20%26%20Answers-,Q1%3A%20What%20are%20autoencoders%3F%20Explain%20the%20different%20layers%20of%20autoencoders%20and%20mention%20three%20practical%20usages%20of%20them%3F,-Answer%3A)
-* [Q2: What is an activation function and discuss the use of an activation function? Explain three different types of activation functions?]()
+* [Q2: What is an activation function and discuss the use of an activation function? Explain three different types of activation functions?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Deep%20Learning%20Questions.md#:~:text=version%20of%20PCA-,Q2%3A%20What%20is%20an%20activation%20function%20and%20discuss%20the%20use%20of%20an%20activation%20function%3F%20Explain%20three%20different%20types%20of%20activation%20functions%3F,-Answer%3A)
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Questions & Answers ##
