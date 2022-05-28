@@ -1,13 +1,13 @@
 # Machine Learning Interview Questions #
 
 ## Questions ##
-Q1: Mention three ways to make your model robust to outliers?
-Q2: Describe the motivation behind random forests and mention two reasons why they are better than individual decision trees?
-Q3: What are the differences and similarities between gradient boosting and random forest? and what are the advantage and disadvantages of each when compared to each other?
-Q4: What are L1 and L2 regularization? What are the differences between the two?
-Q5: What are the Bias and Variance in a Machine Learning Model and explain the bias-variance trade-off?
-Q6: Mention three ways to handle missing or corrupted data in a dataset?
-Q7: Explain briefly the logistic regression model and state an example of when you have used it recently?
+* Q1: Mention three ways to make your model robust to outliers?
+* Q2: Describe the motivation behind random forests and mention two reasons why they are better than individual decision trees?
+* Q3: What are the differences and similarities between gradient boosting and random forest? and what are the advantage and disadvantages of each when compared to each other?
+* Q4: What are L1 and L2 regularization? What are the differences between the two?
+* Q5: What are the Bias and Variance in a Machine Learning Model and explain the bias-variance trade-off?
+* Q6: Mention three ways to handle missing or corrupted data in a dataset?
+* Q7: Explain briefly the logistic regression model and state an example of when you have used it recently?
 
 ### Questions & Answers ##
 
