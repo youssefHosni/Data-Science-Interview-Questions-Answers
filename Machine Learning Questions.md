@@ -9,6 +9,8 @@
 * [Q6: Mention three ways to handle missing or corrupted data in a dataset?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Machine%20Learning%20Questions.md#:~:text=the%20input%20features.-,Q6%3A%20Mention%20three%20ways%20to%20handle%20missing%20or%20corrupted%20data%20in%20a%20dataset%3F,-Answer%3A)
 * [Q7: Explain briefly the logistic regression model and state an example of when you have used it recently?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Machine%20Learning%20Questions.md#:~:text=dataset%20is%20large.-,Q7%3A%20Explain%20briefly%20the%20logistic%20regression%20model%20and%20state%20an%20example%20of%20when%20you%20have%20used%20it%20recently%3F,-Logistic%20regression%20is)
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ### Questions & Answers ##
 
 **Q1: Mention three ways to make your model robust to outliers?**
