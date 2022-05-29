@@ -10,13 +10,15 @@
 
 ### Q1: Explain the central limit theorem and give examples of when you can use it in a real-world problem? ###
 
-Answer (Solution (Summary of all of the mentioned answers):
+Answers:
 
 The center limit theorem states that if any random variable, regardless of the distribution, is sampled a large enough times, the sample mean will be approximately normally distributed. This allows for studying the properties of any statistical distribution as long as there is a large enough sample size.
 
 Important remark from Adrian Olszewski:
 ⚠️ we can rely on the CLT with means (because it applies to any unbiased statistic) only if expressing data in this way makes sense. And it makes sense *ONLY* in the case of unimodal and symmetric data, coming from additive processes. So forget skewed, multi-modal data with mixtures of distributions, coming from multiplicative processes, and non-trivial mean-variance relationships. That are the places where arithmetic means is meaningless. Thus, using the CLT of e.g. bootstrap will give some valid answers to an invalid question.
+
 ⚠️ the distribution of means isn't enough. Every single kind of inference requires the entire test statistic to follow a certain distribution. And the test statistic consists also of the estimate of variance. Never assume the same sample size sufficient for means will suffice for the entire test statistic. See an excerpt from Rand Wilcox attached. Especially do never believe in magic numbers like N=30.
+
 ⚠️ think first about how to sensible describe your data, state the hypothesis of interest and then apply a valid method.
 
 
