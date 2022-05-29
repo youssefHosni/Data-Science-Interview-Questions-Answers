@@ -1,7 +1,7 @@
 # Statistics Questions # 
 
 ## Questions ##
-* [Q1: Explain the central limit theorem and give examples of when you can use it in a real-world problem?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Statistics%20Questions.md#:~:text=Questions%20%26%20Answers-,Q1%3A%20Explain%20the%20central%20limit%20theorem%20and%20give%20examples%20of%20when%20you%20can%20use%20it%20in%20a%20real%2Dworld%20problem%3F,-Answer%20(Solution%20(Summary)
+* [Q1: Explain the central limit theorem and give examples of when you can use it in a real-world problem?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Statistics%20Questions.md#:~:text=Questions%20%26%20Answers-,Q1%3A%20Explain%20the%20central%20limit%20theorem%20and%20give%20examples%20of%20when%20you%20can%20use%20it%20in%20a%20real%2Dworld%20problem%3F,-Answer%20(Solution%20(Summary))
 * [Q2: Describe briefly the hypothesis testing and p-value in layman’s term? And give a practical application for them ?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Statistics%20Questions.md#:~:text=plant%20are%20defective.-,Q2%3A%20Describe%20briefly%20the%20hypothesis%20testing%20and%20p%2Dvalue%20in%20layman%E2%80%99s%20term%3F%20And%20give%20a%20practical%20application%20for%20them%20%3F,-In%20Layman%27s%20terms)
 
 
