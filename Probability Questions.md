@@ -1,8 +1,8 @@
 # Probability Questions #
 
 ## Questions ##
-* Q1: You and your friend are playing a game with a fair coin. The two of you will continue to toss the coin until the sequence HH or TH shows up. If HH shows up first, you win, and if TH shows up first your friend win. What is the probability of you winning the game?
-* Q2: If you roll a dice three times, what is the probability to get two consecutive threes?
+* [Q1: You and your friend are playing a game with a fair coin. The two of you will continue to toss the coin until the sequence HH or TH shows up. If HH shows up first, you win, and if TH shows up first your friend win. What is the probability of you winning the game?]()
+* [Q2: If you roll a dice three times, what is the probability to get two consecutive threes?]()
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Questions & Answers ##
 
