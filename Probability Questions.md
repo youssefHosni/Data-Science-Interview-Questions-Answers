@@ -1,8 +1,8 @@
 # Probability Questions #
 
 ## Questions ##
-* [Q1: You and your friend are playing a game with a fair coin. The two of you will continue to toss the coin until the sequence HH or TH shows up. If HH shows up first, you win, and if TH shows up first your friend win. What is the probability of you winning the game?]()
-* [Q2: If you roll a dice three times, what is the probability to get two consecutive threes?]()
+* [Q1: You and your friend are playing a game with a fair coin. The two of you will continue to toss the coin until the sequence HH or TH shows up. If HH shows up first, you win, and if TH shows up first your friend win. What is the probability of you winning the game?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Probability%20Questions.md#:~:text=Questions%20%26%20Answers-,Q1%3A%20You%20and%20your%20friend%20are%20playing%20a%20game%20with%20a%20fair%20coin.%20The%20two%20of%20you%20will%20continue%20to%20toss%20the%20coin%20until%20the%20sequence%20HH%20or%20TH%20shows%20up.%20If%20HH%20shows%20up%20first%2C%20you%20win%2C%20and%20if%20TH%20shows%20up%20first%20your%20friend%20win.%20What%20is%20the%20probability%20of%20you%20winning%20the%20game%3F,-Answer%3A)
+* [Q2: If you roll a dice three times, what is the probability to get two consecutive threes?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Probability%20Questions.md#:~:text=friend%20(3/4)-,Q2%3A%20If%20you%20roll%20a%20dice%20three%20times%2C%20what%20is%20the%20probability%20to%20get%20two%20consecutive%20threes%3F,-The%20right%20answer)
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Questions & Answers ##
 
