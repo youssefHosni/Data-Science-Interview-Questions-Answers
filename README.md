@@ -1,7 +1,7 @@
 # Data-Science-Interview-Questions
-
 * [Machine Learning Questions](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Machine%20Learning%20Questions.md)
 * [Deep Learning Questions](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Deep%20Learning%20Questions.md) 
 * [Statstics Questions](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Statistics%20Questions.md) 
-* [Probability Questions]() 
+* [Probability Questions](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Probability%20Questions.md) 
 * [Python Questions]()
+* [Resume Based Questions]()
