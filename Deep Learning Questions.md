@@ -57,3 +57,25 @@ It solves the problem of vanishing gradient on both sides by returning a value â
 
 
 ### Q3: You are using a deep neural network for a prediction task. After training your model, you notice that it is strongly overfitting the training set and that the performance on the test isnâ€™t good. What can you do to reduce overfitting? ###
+
+To reduce overfitting in a deep neural network changes can be made in three places/stages: The input data to the network, the network architecture, and the training process:
+
+1. The input data to the network:
+
+* Check if all the features are available and reliable
+* Check if the training sample distribution is the same as the validation and test set distribution. Because if there is a difference in validation set distribution then it is hard for the model to predict as these complex patterns are unknown to the model.
+* Check for train / valid data contamination (or leakage)
+* The dataset size is enough, if not try data augmentation to increase the data size
+* The dataset is balanced
+
+2. Network architecture:
+* Overfitting could be due to model complexity. Question each component:
+** can fully connect layers be replaced with convolutional + pooling layers?
+** what is the justification for the number of layers and number of neurons chosen? Given how hard it is to tune these, can a pre-trained model be used?
+** Add regularization - ridge (l1), lasso (l2), elastic net (both)
+* Add dropouts
+* Add batch normalization
+
+3. The training process:
+* Improvements in validation losses should decide when to stop training. Use callbacks for early stopping when there are no significant changes in the validation loss and restore_best_weights.
+
