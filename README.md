@@ -7,4 +7,5 @@ The questions can be divided into six categoreies: machine learning questions, d
 * [Statstics Questions](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Statistics%20Questions.md) 
 * [Probability Questions](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Probability%20Questions.md) 
 * [Python Questions](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Python%20Questions.md)
+* [SQL & DB Questions](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/SQL%20&%20DB%20Questions.md)
 * [Resume Based Questions]()
