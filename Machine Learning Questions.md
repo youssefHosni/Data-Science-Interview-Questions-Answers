@@ -176,11 +176,11 @@ Mini-batch Gradient:
 
 At each step instead of computing the gradients on the whole data set as in the Batch Gradient Descent or using one random instance as in the Stochastic Gradient Descent, this algorithm computes the gradients on small random sets of instances called mini-batches.
 
-Pros:
+Pros: 
 1. The algorithm's progress space is less erratic than with Stochastic Gradient Descent, especially with large mini-batches.
 2. You can get a performance boost from hardware optimization of matrix operations, especially when using GPUs.
 
-Cons:
+Cons: 
 1. It might be difficult to escape from local minima.
 
-
+![alt text](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Figures/gradient%20descent%20vs%20batch%20gradient%20descent.png)
