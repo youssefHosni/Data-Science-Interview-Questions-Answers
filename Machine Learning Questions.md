@@ -184,3 +184,8 @@ Cons:
 1. It might be difficult to escape from local minima.
 
 ![alt text](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Figures/gradient%20descent%20vs%20batch%20gradient%20descent.png)
+
+### Q9: Explain what is information gain and entropy in the context of decision trees? ###
+### Q10: Explain the linear regression model and discuss its assumption? ###
+### Q11: Explain briefly the K-Means clustering and how can we find the best value of K? ###
+### Q12: Define Precision, recall, and F1 and discuss the trade-off between them? ###
