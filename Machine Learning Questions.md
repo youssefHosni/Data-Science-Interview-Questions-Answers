@@ -186,6 +186,40 @@ Cons:
 ![alt text](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Figures/gradient%20descent%20vs%20batch%20gradient%20descent.png)
 
 ### Q9: Explain what is information gain and entropy in the context of decision trees? ###
+Entropy and Information Gain are two key metrics used in determining the relevance of decision making when constructing a decision tree model and to determine the nodes and the best way to split.
+
+The idea of a decision tree is to divide the data set into smaller data sets based on the descriptive features until we reach a small enough set that contains data points that fall under one label.
+
+Entropy is the measure of impurity, disorder, or uncertainty in a bunch of examples. Entropy controls how a Decision Tree decides to split the data.
+Information gain calculates the reduction in entropy or surprise from transforming a dataset in some way. It is commonly used in the construction of decision trees from a training dataset, by evaluating the information gain for each variable, and selecting the variable that maximizes the information gain, which in turn minimizes the entropy and best splits the dataset into groups for effective classification.
+
 ### Q10: Explain the linear regression model and discuss its assumption? ###
+Linear regression is a supervised statistical model to predict dependent variable quantity based on independent variables.
+Linear regression is a parametric model and the objective of linear regression is that it has to learn coefficients using the training data and predict the target value given only independent values.
+
+Some of the linear regression assumptions and how to validate them:
+
+1. Linear relationship between independent and dependent variables
+2. Independent residuals and the constant residuals at every x
+We can check for 1 and 2 by plotting the residuals(error terms) against the fitted values (upper left graph). Generally, we should look for a lack of patterns and a consistent variance across the horizontal line.
+3. Normally distributed residuals
+We can check for this using a couple of methods:
+* Q-Q-plot(upper right graph): If data is normally distributed, points should roughly align with the 45-degree line.
+* Boxplot: it also helps visualize outliers
+* Shapiro–Wilk test: If the p-value is lower than the chosen threshold, then the null hypothesis (Data is normally distributed) is rejected.
+4. Low multicollinearity
+* you can calculate the VIF (Variable Inflation Factors) using your favorite statistical tool. If the value for each covariate is lower than 10 (some say 5), you're good to go.
+
+The figure below summarizes these assumptions.
+![alt text](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Figures/Linear%20regression%20assumptions.jpg)
+
 ### Q11: Explain briefly the K-Means clustering and how can we find the best value of K? ###
+K-Means is a well-known clustering algorithm. K-Means clustering is often used because it is easy to interpret and implement. It starts by partitioning a set of data into K distinct clusters and then arbitrary selects centroids of each of these clusters. It iteratively updates partitions by first assigning the points to the closet cluster and then updating the centroid and then repeating this process until convergence. The process essentially minimizes the total inter-cluster variation across all clusters. 
+The elbow method is a well-known method to find the best value of K in K-means clustering. The intuition behind this technique is that the first few clusters will explain a lot of the variation in the data, but past a certain point, the amount of information added is diminishing. Looking at the graph below of the explained variation (on the y-axis) versus the number of cluster K (on the x-axis), there should be a sharp change in the y-axis at some level of K. For example in the graph below the drop-off is at k=3.
+![alt text](https://github.com/youssefHosni/Data-Science-Interview-Questions)
+
+The explained variation is quantified by the within-cluster sum of squared errors. To calculate this error notice, we look for each cluster at the total sum of squared errors using Euclidean distance. 
+
+Another popular alternative method to find the value of K is to apply the silhouette method, which aims to measure how similar points are in its cluster compared to other clusters. It can be calculated with this equation: (x-y)/max(x,y), where x is the mean distance to the examples of the nearest cluster, and y is the mean distance to other examples in the same cluster. The coefficient varies between -1 and 1 for any given point. A value of 1 implies that the point is in the right cluster and the value of -1 implies that it is in the wrong cluster. By plotting the silhouette coefficient on the y-axis versus each K we can get an idea of the optimal number of clusters. However, it is worthy to note that this method is more computationally expensive than the previous one.
+
 ### Q12: Define Precision, recall, and F1 and discuss the trade-off between them? ###
