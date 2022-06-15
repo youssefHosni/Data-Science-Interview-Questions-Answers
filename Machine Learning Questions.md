@@ -216,7 +216,7 @@ The figure below summarizes these assumptions.
 ### Q11: Explain briefly the K-Means clustering and how can we find the best value of K? ###
 K-Means is a well-known clustering algorithm. K-Means clustering is often used because it is easy to interpret and implement. It starts by partitioning a set of data into K distinct clusters and then arbitrary selects centroids of each of these clusters. It iteratively updates partitions by first assigning the points to the closet cluster and then updating the centroid and then repeating this process until convergence. The process essentially minimizes the total inter-cluster variation across all clusters. 
 The elbow method is a well-known method to find the best value of K in K-means clustering. The intuition behind this technique is that the first few clusters will explain a lot of the variation in the data, but past a certain point, the amount of information added is diminishing. Looking at the graph below of the explained variation (on the y-axis) versus the number of cluster K (on the x-axis), there should be a sharp change in the y-axis at some level of K. For example in the graph below the drop-off is at k=3.
-![alt text](https://github.com/youssefHosni/Data-Science-Interview-Questions)
+![alt text](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Figures/Elbow%20diagram.png)
 
 The explained variation is quantified by the within-cluster sum of squared errors. To calculate this error notice, we look for each cluster at the total sum of squared errors using Euclidean distance. 
 
