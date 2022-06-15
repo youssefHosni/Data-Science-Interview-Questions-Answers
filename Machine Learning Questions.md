@@ -9,6 +9,11 @@
 * [Q6: Mention three ways to handle missing or corrupted data in a dataset?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Machine%20Learning%20Questions.md#:~:text=the%20input%20features.-,Q6%3A%20Mention%20three%20ways%20to%20handle%20missing%20or%20corrupted%20data%20in%20a%20dataset%3F,-Answer%3A)
 * [Q7: Explain briefly the logistic regression model and state an example of when you have used it recently?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Machine%20Learning%20Questions.md#:~:text=dataset%20is%20large.-,Q7%3A%20Explain%20briefly%20the%20logistic%20regression%20model%20and%20state%20an%20example%20of%20when%20you%20have%20used%20it%20recently%3F,-Logistic%20regression%20is)
 * [Q8:Explain briefly batch gradient descent, stochastic gradient descent, and mini-batch gradient descent? and what are the pros and cons for each of them?]()
+* [Q9: Explain what is information gain and entropy in the context of decision trees?]()
+* [Q10: Explain the linear regression model and discuss its assumption?]()
+* [Q11: Explain briefly the K-Means clustering and how can we find the best value of K?]()
+* [Q12: Define Precision, recall, and F1 and discuss the trade-off between them?]()
+
 
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -139,4 +144,43 @@ It is important to remember that the Logistic regression isn't a classification 
 There is a lot of classification applications to it:
 
 Classify email as spam or not, To identify whether the patient is healthy or not, and so on.
+
+### Q8:Explain briefly batch gradient descent, stochastic gradient descent, and mini-batch gradient descent? and what are the pros and cons for each of them? ###
+
+Gradient descent is a generic optimization algorithm cable for finding optimal solutions to a wide range of problems. The general idea of gradient descent is to tweak parameters iteratively in order to minimize a cost function.
+
+Batch Gradient Descent:
+In Batch Gradient descent the whole training data is used to minimize the loss function by taking a step towards the nearest minimum by calculating the gradient (the direction of descent)
+
+Pros:
+Since the whole data set is used to calculate the gradient it will be stable and reach the minimum of the cost function without bouncing (if the learning rate is chosen cooreclty)
+
+Cons:
+
+Since batch gradient descent uses all the training set to compute the gradient at every step, it will be very slow especially if the size of the training data is large.
+
+
+Stochastic Gradient Descent:
+
+Stochastic Gradient Descent picks up a random instance in the training data set at every step and computes the gradient-based only on that single instance.
+
+Pros:
+1. It makes the training much faster as it only works on one instance at a time.
+2. It become easier to train large datasets
+
+Cons:
+
+Due to the stochastic (random) nature of this algorithm, this algorithm is much less regular than the batch gradient descent. Instead of gently decreasing until it reaches the minimum, the cost function will bounce up and down, decreasing only on average. Over time it will end up very close to the minimum, but once it gets there it will continue to bounce around, not settling down there. So once the algorithm stops the final parameter are good but not optimal. For this reason, it is important to use a training schedule to overcome this randomness.
+
+Mini-batch Gradient:
+
+At each step instead of computing the gradients on the whole data set as in the Batch Gradient Descent or using one random instance as in the Stochastic Gradient Descent, this algorithm computes the gradients on small random sets of instances called mini-batches.
+
+Pros:
+1. The algorithm's progress space is less erratic than with Stochastic Gradient Descent, especially with large mini-batches.
+2. You can get a performance boost from hardware optimization of matrix operations, especially when using GPUs.
+
+Cons:
+1. It might be difficult to escape from local minima.
+
 
