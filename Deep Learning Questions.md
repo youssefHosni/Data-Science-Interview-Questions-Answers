@@ -80,3 +80,20 @@ To reduce overfitting in a deep neural network changes can be made in three plac
 3. The training process:
 * Improvements in validation losses should decide when to stop training. Use callbacks for early stopping when there are no significant changes in the validation loss and restore_best_weights.
 
+### Q4: Why should we use Batch Normalization? ###
+
+Batch normalization is a technique for training very deep neural networks that standardizes the inputs to a layer for each mini-batch.
+
+Usually, a dataset is fed into the network in the form of batches where the distribution of the data differs for every batch size. By doing this, there might be chances of vanishing gradient or exploding gradient when it tries to backpropagate. In order to combat these issues, we can use BN (with irreducible error) layer mostly on the inputs to the layer before the activation function in the previous layer and after fully connected layers.
+
+
+Batch Normalisation has the following effects on the Neural Network:
+
+1. Robust Training of the deeper layers of the network.
+2. Better covariate-shift proof NN Architecture.
+3. Has a slight regularisation effect.
+4. Centred and Controlled values of Activation.
+5. Tries to Prevent exploding/vanishing gradient.
+6. Faster Training/Convergence to the minimum loss function
+
+![Alt_text](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Figures/Batch%20normalization.jpg)
