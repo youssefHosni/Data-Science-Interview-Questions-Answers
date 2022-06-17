@@ -61,4 +61,4 @@ So, the probability of the above event is
 * **Method3:**
 
 Using the Monte Carlo method as shown in the figure below:
-![Alt_text]()
+![Alt_text](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Figures/Monte%20Carlo%20Methods.png)
