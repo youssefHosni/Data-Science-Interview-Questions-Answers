@@ -36,8 +36,8 @@ By Inclusion-Exclusion Principle:
 Probability of at least two consecutive threes
 = Probability of two consecutive threes in first two rolls + Probability of two consecutive threes in last two rolls - Probability of three consecutive threes
 
-= 2*Probability of two consecutive threes in first two rolls - Probability of three consecutive threes
-= 2*1/6*1/6 - 1/6*1/6*1/6 = 11/216
+= 2 * Probability of two consecutive threes in first two rolls - Probability of three consecutive threes
+= 2 * (1/6) * (1/6) - (1/6) * (1/6) * (1/6) = 11/216
 
 It can be seen also like this:
 
