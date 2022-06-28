@@ -233,3 +233,16 @@ In the real world, there is always a trade-off between optimizing  for precision
 
 ![alt_text](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Figures/precision%20Vs%20recall%20Vs%20F%20Score.png)
 
+### Q13: What are the differences between a model that minimizes squared error and the one that minimizes the absolute error? and in which cases each error metric would be more appropriate? ###
+
+Both mean square error (MSE) and mean absolute error (MAE) measures the distances between vectors and express average model prediction in units of the target variable. Both can range from 0 to infinity, the lower they are the better the model.
+
+The main difference between them is that in MSE the errors are squared before being averaged while in MAE they are not. This means that a large weight will be given to large errors. MSE is useful when large errors in the model are trying to be avoided. This means that outliers affect MSE more than MAE, that is why MAE is more robust to outliers. 
+Computation-wise MSE is easier to use as the gradient calculation will be more straightforward than MAE, which requires linear programming to calculate it.
+
+
+
+
+
+
+
