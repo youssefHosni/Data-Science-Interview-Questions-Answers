@@ -5,6 +5,7 @@
 * [Q2: What is an activation function and discuss the use of an activation function? Explain three different types of activation functions?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Deep%20Learning%20Questions.md#:~:text=version%20of%20PCA-,Q2%3A%20What%20is%20an%20activation%20function%20and%20discuss%20the%20use%20of%20an%20activation%20function%3F%20Explain%20three%20different%20types%20of%20activation%20functions%3F,-Answer%3A)
 * [Q3: You are using a deep neural network for a prediction task. After training your model, you notice that it is strongly overfitting the training set and that the performance on the test isn’t good. What can you do to reduce overfitting?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Deep%20Learning%20Questions.md#:~:text=Q3%3A%20You%20are%20using%20a%20deep%20neural%20network%20for%20a%20prediction%20task.%20After%20training%20your%20model%2C%20you%20notice%20that%20it%20is%20strongly%20overfitting%20the%20training%20set%20and%20that%20the%20performance%20on%20the%20test%20isn%E2%80%99t%20good.%20What%20can%20you%20do%20to%20reduce%20overfitting%3F)
 * [Q4: Why should we use Batch Normalization?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Deep%20Learning%20Questions.md#:~:text=Q4%3A%20Why%20should%20we%20use%20Batch%20Normalization%3F)
+* [Q5:How to know whether your model is suffering from the problem of Exploding Gradients?]()
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Questions & Answers ##
@@ -98,3 +99,7 @@ Batch Normalisation has the following effects on the Neural Network:
 6. Faster Training/Convergence to the minimum loss function
 
 ![Alt_text](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Figures/Batch%20normalization.jpg)
+
+### Q5: How to know whether your model is suffering from the problem of Exploding Gradients? ###
+
+
