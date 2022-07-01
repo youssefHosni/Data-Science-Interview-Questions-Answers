@@ -102,4 +102,17 @@ Batch Normalisation has the following effects on the Neural Network:
 
 ### Q5: How to know whether your model is suffering from the problem of Exploding Gradients? ###
 
+By taking incremental steps towards the minimal value, the gradient descent algorithm aims to minimize the error. The weights and biases in a neural network are updated using these processes. However, at times, the steps grow excessively large, resulting in increased updates to weights and bias terms to the point where the weights overflow (or become NaN, that is, Not a Number). An exploding gradient is the result of this, and it is an unstable method.
+
+There are some subtle signs that you may be suffering from exploding gradients during the training of your network, such as:
+
+1. The model is unable to get traction on your training data (e g. poor loss).
+2. The model is unstable, resulting in large changes in loss from update to update.
+3. The model loss goes to NaN during training.
+
+If you have these types of problems, you can dig deeper to see if you have a problem with exploding gradients. There are some less subtle signs that you can use to confirm that you have exploding gradients:
+
+1. The model weights quickly become very large during training.
+2. The model weights go to NaN values during training.
+3. The error gradient values are consistently above 1.0 for each node and layer during training.
 
