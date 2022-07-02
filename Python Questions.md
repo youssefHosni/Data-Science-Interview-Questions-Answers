@@ -4,6 +4,7 @@
 * [Q2:Given an array, find all the duplicates in this array? For example: input: [1,2,3,1,3,6,5] output: [1,3]](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Python%20Questions.md#:~:text=intersect%20(set(Y))-,Q2%3AGiven%20an%20array%2C%20find%20all%20the%20duplicates%20in%20this%20array%3F%20For%20example%3A%20input%3A%20%5B1%2C2%2C3%2C1%2C3%2C6%2C5%5D%20output%3A%20%5B1%2C3%5D,-Answer%3A)
 * [Q3: Given an integer array, return the maximum product of any three numbers in the array?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Python%20Questions.md#:~:text=i)%0Aprint(res)-,Q3%3A%20Given%20an%20integer%20array%2C%20return%20the%20maximum%20product%20of%20any%20three%20numbers%20in%20the%20array%3F,-Answer%3A)
 * [Q4: Given an integer array, find the sum of the largest contiguous subarray within the array. For example, given the array A = [0,-1,-5,-2,3,14] it should return 17 because of [3,14]. Note that if all the elements are negative it should return zero.]()
+* [Q5: Define tuples and lists in Python What are the major differences between them?]()
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Questions & Answers: ##
@@ -42,4 +43,9 @@ def max_three(arr):
     b = heapq.nsmallest(2, arr) # for negative case
     return max(a[2]*a[1]*a[0], b[1]*b[0]*a[0])
 ```
+
+### Q5: Define tuples and lists in Python What are the major differences between them?###
+Answer:
+
+
 
