@@ -83,7 +83,7 @@ A tuple is a collection of objects which ordered and immutable. Tuples are seque
 4. Tuple does not have many built-in methods.
 
 
-Mutable = we can change, add, delete and modify stuff
-Immutable = we cannot change, add, delete and modify stuff
+* Mutable = we can change, add, delete and modify stuff
+* Immutable = we cannot change, add, delete and modify stuff
 
 
