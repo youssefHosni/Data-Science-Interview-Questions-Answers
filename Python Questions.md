@@ -65,5 +65,25 @@ def max_subarray(arr):
 ### Q5: Define tuples and lists in Python What are the major differences between them?###
 Answer:
 
+Lists:
+In Python, a list is created by placing elements inside square brackets [], separated by commas. A list can have any number of items and they may be of different types (integer, float, string, etc.). A list can also have another list as an item. This is called a nested list.
+
+1. Lists are mutable
+2. Lists are better for performing operations, such as insertion and deletion.
+3. Lists consume more memory
+4. Lists have several built-in methods
+
+
+Tuples:
+A tuple is a collection of objects which ordered and immutable. Tuples are sequences, just like lists. The differences between tuples and lists are, the tuples cannot be changed unlike lists and tuples use parentheses, whereas lists use square brackets.
+
+1. Tuples are immutable
+2. Tuple data type is appropriate for accessing the elements
+3. Tuples consume less memory as compared to the list
+4. Tuple does not have many built-in methods.
+
+
+Mutable = we can change, add, delete and modify stuff
+Immutable = we cannot change, add, delete and modify stuff
 
 
