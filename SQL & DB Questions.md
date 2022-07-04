@@ -18,3 +18,18 @@ A JOIN clause is used to combine rows from two or more tables, based on a relate
 
 ### Q2: Define the primary, foreign, and unique keys and the differences between them? ###
 
+**Primary key:** Is a key that is used to uniquely identify each row or record in the table, it can be a single column or composite pk that contains more than one column
+
+* The primary key doesn't accept null or repeated values
+* The purpose of the primary key is to keep the Entity's integrity
+* There is only one PK in each table
+* Every row must have a unique primary key
+
+**Foreign key:** Is a key that is used to identify, show or describe the relationship between tuples of two tables. It acts as a cross-reference between tables because it references the primary key of another table, thereby establishing a link between them.
+
+* The purpose of the foreign key is to keep data integrity
+* It can contain null values or primary key values
+
+**Unique key:** It's a key that can identify each row in the table as the primary key but it can contain one null value
+
+* Every table can have more than one Unique key
