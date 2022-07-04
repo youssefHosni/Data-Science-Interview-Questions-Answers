@@ -14,6 +14,7 @@
 * [Q11: Explain briefly the K-Means clustering and how can we find the best value of K?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Machine%20Learning%20Questions.md#:~:text=summarizes%20these%20assumptions.-,Q11%3A%20Explain%20briefly%20the%20K%2DMeans%20clustering%20and%20how%20can%20we%20find%20the%20best%20value%20of%20K%3F,-K%2DMeans%20is)
 * [Q12: Define Precision, recall, and F1 and discuss the trade-off between them?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Machine%20Learning%20Questions.md#:~:text=the%20previous%20one.-,Q12%3A%20Define%20Precision%2C%20recall%2C%20and%20F1%20and%20discuss%20the%20trade%2Doff%20between%20them%3F,-%C2%A9%202022%20GitHub%2C%20Inc)
 * [Q13:What are the differences between a model that minimizes squared error and the one that minimizes the absolute error? and in which cases each error metric would be more appropriate?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Machine%20Learning%20Questions.md#:~:text=Q13%3A%20What%20are%20the%20differences%20between%20a%20model%20that%20minimizes%20squared%20error%20and%20the%20one%20that%20minimizes%20the%20absolute%20error%3F%20and%20in%20which%20cases%20each%20error%20metric%20would%20be%20more%20appropriate%3F)
+* [Q14:Define and compare parametric and non-parametric models and give two examples for each of them?]()
 
 
 
@@ -239,6 +240,8 @@ Both mean square error (MSE) and mean absolute error (MAE) measures the distance
 
 The main difference between them is that in MSE the errors are squared before being averaged while in MAE they are not. This means that a large weight will be given to large errors. MSE is useful when large errors in the model are trying to be avoided. This means that outliers affect MSE more than MAE, that is why MAE is more robust to outliers. 
 Computation-wise MSE is easier to use as the gradient calculation will be more straightforward than MAE, which requires linear programming to calculate it.
+
+### Q14: Define and compare parametric and non-parametric models and give two examples for each of them?###
 
 
 
