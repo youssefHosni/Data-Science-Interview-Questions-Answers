@@ -2,7 +2,7 @@
 
 ## Questions ##
 * [Q1: What are joins in SQL and discuss its types?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/SQL%20&%20DB%20Questions.md#:~:text=Questions%20%26%20Answers-,Q1%3A%20What%20are%20joins%20in%20SQL%20and%20discuss%20its%20types%3F,-A%20JOIN%20clause)
-* [Q2: Define the primary, foreign, and unique keys and the differences between them?]()
+* [Q2: Define the primary, foreign, and unique keys and the differences between them?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/SQL%20&%20DB%20Questions.md#:~:text=hand%20side%20table.-,Q2%3A%20Define%20the%20primary%2C%20foreign%2C%20and%20unique%20keys%20and%20the%20differences%20between%20them%3F,-Primary%20key%3A)
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Questions & Answers ##
