@@ -55,22 +55,7 @@ The rest of the answer is [here](https://365datascience.com/career-advice/job-in
 
 Answer:
 
-In general, real-world data often has a lot of missing values. The cause of missing values can be data corruption or failure to record data. The handling of missing data is very important during the preprocessing of the dataset as many machine learning algorithms do not support missing values. However, you should start by asking the data owner/stakeholder about the missing or corrupted data. It might be at the data entry level, because of file encoding, etc. which if aligned, can be handled without the need to use advanced techniques.
-
-There are different ways to handle missing data, we will discuss only three of them:
-
-1. Deleting the row with missing values
-
-The first method to handle missing values is to delete the rows or columns that have null values. This is an easy and fast method and leads to a robust model, however, it will lead to the loss of a lot of information depending on the amount of missing data and can only be applied if the missing data represent a small percentage of the whole dataset.
-
-2. Using learning algorithms that support missing values
-
-Some machine learning algorithms are robust to missing values in the dataset. The K-NN algorithm can ignore a column from a distance measure when there are missing values. Naive Bayes can also support missing values when making a prediction. Another algorithm that can handle a dataset with missing values or null values is the random forest model and Xgboost (check the post in the first comment), as it can work on non-linear and categorical data. The problem with this method is that these models' implementation in the scikit-learn library does not support handling missing values, so you will have to implement it yourself.
-
-
-3. Missing value imputation 
-
-Data imputation means the substitution of estimated values for missing or inconsistent data in your dataset. There are different ways to estimate the values that will replace the missing value. The simplest one is to replace the missing value with the most repeated value in the row or the column. Another simple way is to replace it with the mean, median, or mode of the rest of the row or the column. This advantage of this is that it is an easy and fast way to handle the missing data, but it might lead to data leakage and does not factor the covariance between features. A better way is to use a machine learning model to learn the pattern between the data and predict the missing values, this is a very good method to estimate the missing values that will not lead to data leakage and will factor the covariance between the feature, the drawback of this method is the computational complexity especially if your dataset is large.
+In general, real-world data often has a lot of missing values. The cause of missing values can be data corruption or failure to record data. The rest of the answer is [here](https://365datascience.com/career-advice/job-interview-tips/machine-learning-interview-questions-and-answers/#9:~:text=10.-,Mention%20three%20ways%20to%20handle%20missing%20or%20corrupted%20data%20in%20a%C2%A0dataset.,-In%20general%2C%20real)
 
 ### Q7: Explain briefly the logistic regression model and state an example of when you have used it recently? ###
 
