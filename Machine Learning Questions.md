@@ -157,13 +157,7 @@ K-Means is a well-known clustering algorithm. K-Means clustering is often used b
 
 ### Q12: Define Precision, recall, and F1 and discuss the trade-off between them? ###
 
-Precision and recall are two classification evaluation metrics that are used beyond accuracy. Consider a classification task with two classes. **Precision** is the actual positive positive proportion of observations that were predicted positive by the classifier. **Recall** is the percentage of total positive cases captured out of all positive cases. 
-
-In the real world, there is always a trade-off between optimizing  for precision and recall. Consider you are working on a classification task for classifying cancer patients from healthy people. Optimizing the model to have only high recall will mean that the model will catch most of the people with cancer but at the same time, the number of misdiagnosed people with cancer will increase. This will subject healthy people to dangerous and costly cancer treatments. On the other hand, optimizing the model to have high precision will make the model confident about the diagnosis, in favor of missing some people who truly have the disease. This will lead to fatal outcomes as they will not be treated. Therefore it is important to optimize both precision and recall and the percentage of importance of each of them will depend on the application you are working on. 
-
-**F1 score** is the harmonic mean of precision and recall, and it is calculated using the following formula: F1 = 2*(precision*recall) / (precision+recall). The F1 score is used when the recall and the precision are equally important.
-
-![alt_text](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Figures/precision%20Vs%20recall%20Vs%20F%20Score.png)
+Precision and recall are two classification evaluation metrics that are used beyond accuracy. The rest of the answer is [here](https://365datascience.com/career-advice/job-interview-tips/machine-learning-interview-questions-and-answers/#9:~:text=9.-,Define%20precision%2C%20recall%2C%20and%20F1%20and%20discuss%20the%20trade%2Doff%20between%C2%A0them.,-Precision%20and%20recall)
 
 ### Q13: What are the differences between a model that minimizes squared error and the one that minimizes the absolute error? and in which cases each error metric would be more appropriate? ###
 
