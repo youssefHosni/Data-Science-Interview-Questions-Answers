@@ -43,17 +43,7 @@ The rest of the answer is [here](https://365datascience.com/career-advice/job-in
 
 Answer:
 
-Regularization is a technique used to avoid overfitting by trying to make the model more simple. One way to apply regularization is by adding the weights to the loss function. This is done in order to consider minimizing unimportant weights. In L1 regularization we add the sum of the absolute of the weights to the loss function. In L2 regularization we add the sum of the squares of the weights to the loss function.
-
-So both L1 and L2 regularization are ways to reduce overfitting, but to understand the difference it's better to know how they are calculated:
-Loss (L2) : Cost function + L * weights ²
-Loss (L1) : Cost function + L * |weights|
-Where L is the regularization parameter
-
-1- L2 regularization penalizes huge parameters preventing any of the single parameters to get too large. But weights never become zeros. It adds parameters square to the loss. Preventing the model from overfitting on any single feature.
-
-2 - L1 regularization penalizes weights by adding a term to the loss function which is the absolute value of the loss. This leads to it removing small values of the parameters leading in the end to the parameter hitting zero and staying there for the rest of the epochs. Removing this specific variable completely from our calculation. So, It helps in simplifying our model. It is also helpful for feature selection as it shrinks the coefficient to zero which is not significant in the model.
-
+Regularization is a technique used to avoid overfitting by trying to make the model more simple.The rest of the answer is [here](https://365datascience.com/career-advice/job-interview-tips/machine-learning-interview-questions-and-answers/#2:~:text=6.%20What%20are%20L1%20and%20L2%20regularizations%3F%20What%20are%20the%20differences%20between%20the%C2%A0two%3F)
 ### Q5: What are the Bias and Variance in a Machine Learning Model and explain the bias-variance trade-off? ###
 
 Answer:
