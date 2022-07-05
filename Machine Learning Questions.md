@@ -153,6 +153,15 @@ Computation-wise MSE is easier to use as the gradient calculation will be more s
 
 ### Q14: Define and compare parametric and non-parametric models and give two examples for each of them?###
 
+Answer:
+
+**Parametric models** assume that the dataset comes from a certain function with some set of parameters that should be tuned to reach the optimal performance. For such models, the number of parameters is determined prior to training, thus the degree of freedom is limited, and reduces the chances of overfitting.
+
+Ex. Linear Regression, Logistic Regression, LDA
+
+**Nonparametric models** don't assume anything about the function from which the dataset was sampled. For these models, the number of parameters is not determined prior to training, thus they are free to generalize the model based on the data. Sometimes these models overfit themselves while generalizing. To generalize they need more data in comparison with Parametric Models. They are relatively more difficult to interpret compared to Parametric Models.
+
+Ex. Decision Tree, Random Forest.
 
 
 
