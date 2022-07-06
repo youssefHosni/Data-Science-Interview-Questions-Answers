@@ -118,12 +118,10 @@ If you have these types of problems, you can dig deeper to see if you have a pro
 3. The error gradient values are consistently above 1.0 for each node and layer during training.
 
 ### Q6: Can you name and explain a few hyperparameters used for training a neural network? ###
-Q35: Can you name and explain a few hyperparameters used for training a neural network?
 
 Answer:
 
 Hyperparameters are any parameter in the model that affects the performance but is not learned from the data unlike parameters ( weights and biases), the only way to change it is manually by the user.
-
 
 
 1. Number of nodes: number of inputs in each layer.
