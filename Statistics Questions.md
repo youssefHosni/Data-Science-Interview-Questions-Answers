@@ -4,6 +4,8 @@
 * [Q1: Explain the central limit theorem and give examples of when you can use it in a real-world problem?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Statistics%20Questions.md#:~:text=Questions%20%26%20Answers-,Q1%3A%20Explain%20the%20central%20limit%20theorem%20and%20give%20examples%20of%20when%20you%20can%20use%20it%20in%20a%20real%2Dworld%20problem%3F,-Answers%3A)
 * [Q2: Briefly explain the A/B testing and its application? What are some common pitfalls encountered in A/B testing?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Statistics%20Questions.md#:~:text=Q2%3ABriefly%20explain%20the%20A/B%20testing%20and%20its%20application%3F%20What%20are%20some%20common%20pitfalls%20encountered%20in%20A/B%20testing%3F)
 * [Q3: Describe briefly the hypothesis testing and p-value in layman’s term? And give a practical application for them ?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Statistics%20Questions.md#:~:text=plant%20are%20defective.-,Q2%3A%20Describe%20briefly%20the%20hypothesis%20testing%20and%20p%2Dvalue%20in%20layman%E2%80%99s%20term%3F%20And%20give%20a%20practical%20application%20for%20them%20%3F,-In%20Layman%27s%20terms)
+* [Q4: Given a left-skewed distribution that has a median of 60, what conclusions can we draw about the mean and the mode of the data?]()
+
 
 
 
@@ -63,3 +65,6 @@ The rule of thumb is to reject the null hypothesis if the p-value < 0.05, which 
 To explain the hypothesis testing in Layman's term with an example, suppose we have two drugs A and B, and we want to determine whether these two drugs are the same or different. This idea of trying to determine whether the drugs are the same or different is called hypothesis testing. The null hypothesis is that the drugs are the same, and the p-value helps us decide whether we should reject the null hypothesis or not.
 
 p-values are numbers between 0 and 1, and in this particular case, it helps us to quantify how confident we should be to conclude that drug A is different from drug B. The closer the p-value is to 0, the more confident we are that the drugs A and B are different.
+
+### Q4: Given a left-skewed distribution that has a median of 60, what conclusions can we draw about the mean and the mode of the data? ###
+
