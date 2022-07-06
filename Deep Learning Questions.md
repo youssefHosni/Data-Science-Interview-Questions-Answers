@@ -118,3 +118,44 @@ If you have these types of problems, you can dig deeper to see if you have a pro
 3. The error gradient values are consistently above 1.0 for each node and layer during training.
 
 ### Q6: Can you name and explain a few hyperparameters used for training a neural network? ###
+Q35: Can you name and explain a few hyperparameters used for training a neural network?
+
+Answer:
+
+Hyperparameters are any parameter in the model that affects the performance but is not learned from the data unlike parameters ( weights and biases), the only way to change it is manually by the user.
+
+
+
+1. Number of nodes: number of inputs in each layer.
+
+2. Batch normalization: normalization/standardization of inputs in a layer.
+
+3. Learning rate: the rate at which weights are updated.
+
+4. Dropout rate: percent of nodes to drop temporarily during the forward pass.
+
+5. Kernel: matrix to perform dot product of image array with
+
+6. Activation function: defines how the weighted sum of inputs is transformed into outputs (e.g. tanh, sigmoid, softmax, Relu, etc)
+
+7. Number of epochs: number of passes an algorithm has to perform for training
+
+8. Batch size: number of samples to pass through the algorithm individually. E.g. if the dataset has 1000 records and we set a batch size of 100 then the dataset will be divided into 10 batches which will be propagated to the algorithm one after another.
+
+9. Momentum: Momentum can be seen as a learning rate adaptation technique that adds a fraction of the past update vector to the current update vector. This helps damps oscillations and speed up progress towards the minimum.
+
+9. Optimizers: They focus on getting the learning rate right.
+
+Adagrad optimizer: Adagrad uses a large learning rate for infrequent features and a smaller learning rate for frequent features.
+
+Other optimizers, like Adadelta, RMSProp, and Adam, make further improvements to fine-tuning the learning rate and momentum to get to the optimal weights and bias. Thus getting the learning rate right is key to well-trained models.
+
+10. Learning Rate: Controls how much to update weights & bias (w+b) terms after training on each batch. Several helpers are used to getting the learning rate right.
+
+
+
+
+
+
+
+
