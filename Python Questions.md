@@ -5,7 +5,7 @@
 * [Q3: Given an integer array, return the maximum product of any three numbers in the array?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Python%20Questions.md#:~:text=i)
 * [Q4: Given an integer array, find the sum of the largest contiguous subarray within the array. For example, given the array A = [0,-1,-5,-2,3,14] it should return 17 because of [3,14]. Note that if all the elements are negative it should return zero.](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Python%20Questions.md#:~:text=Q4%3A%20Q4%3A%20Given%20an%20integer%20array%2C%20find%20the%20sum%20of%20the%20largest%20contiguous%20subarray%20within%20the%20array.%20For%20example%2C%20given%20the%20array%20A%20%3D%20%5B0%2C%2D1%2C%2D5%2C%2D2%2C3%2C14%5D%20it%20should%20return%2017%20because%20of%20%5B3%2C14%5D.%20Note%20that%20if%20all%20the%20elements%20are%20negative%20it%20should%20return%20zero.)
 * [Q5: Define tuples and lists in Python What are the major differences between them?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Python%20Questions.md#:~:text=Q5%3A%20Define%20tuples%20and%20lists%20in%20Python%20What%20are%20the%20major%20differences%20between%20them%3F%23%23%23)
-* [Q6: Compute the Euclidean Distance Between Two Series?]()
+* [Q6: Compute the Euclidean Distance Between Two Series?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Python%20Questions.md#:~:text=and%20modify%20stuff-,Q6%3A%20Compute%20the%20Euclidean%20Distance%20Between%20Two%20Series%3F,-Footer)
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Questions & Answers: ##
