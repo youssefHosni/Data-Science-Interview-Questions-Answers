@@ -68,3 +68,12 @@ p-values are numbers between 0 and 1, and in this particular case, it helps us t
 
 ### Q4: Given a left-skewed distribution that has a median of 60, what conclusions can we draw about the mean and the mode of the data? ###
 
+Answer:
+Left skewed distribution means the tail of the distribution is to the left and the tip is to the right. So the mean which tends to be near outliers (very large or small values) will be shifted towards the left or in other words, towards the tail.
+
+While the mode (which represents the most repeated value) will be near the tip and the median is the middle element independent of the distribution skewness, therefore it will be smaller than the mode and more than the mean.
+
+Mean < 60
+Mode > 60
+
+![Alt_text]()
