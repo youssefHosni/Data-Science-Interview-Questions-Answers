@@ -76,4 +76,4 @@ While the mode (which represents the most repeated value) will be near the tip a
 Mean < 60
 Mode > 60
 
-![Alt_text]()
+![Alt_text](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Figures/1657144303401.jpg)
