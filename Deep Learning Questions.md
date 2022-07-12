@@ -7,7 +7,7 @@
 * [Q4: Why should we use Batch Normalization?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Deep%20Learning%20Questions.md#:~:text=Q4%3A%20Why%20should%20we%20use%20Batch%20Normalization%3F)
 * [Q5:How to know whether your model is suffering from the problem of Exploding Gradients?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Deep%20Learning%20Questions.md#:~:text=Q5%3A%20How%20to%20know%20whether%20your%20model%20is%20suffering%20from%20the%20problem%20of%20Exploding%20Gradients%3F)
 * [Q6: Can you name and explain a few hyperparameters used for training a neural network?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Deep%20Learning%20Questions.md#:~:text=layer%20during%20training.-,Q6%3A%20Can%20you%20name%20and%20explain%20a%20few%20hyperparameters%20used%20for%20training%20a%20neural%20network%3F,-Answer%3A)
-* [Q7: Can you explain the parameter sharing concept in deep learning?]()
+* [Q7: Can you explain the parameter sharing concept in deep learning?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Deep%20Learning%20Questions.md#:~:text=learning%20rate%20right.-,Q7%3A%20Can%20you%20explain%20the%20parameter%20sharing%20concept%20in%20deep%20learning%3F,-Answer%3A)
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Questions & Answers ##
