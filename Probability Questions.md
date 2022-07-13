@@ -5,7 +5,7 @@
 * [Q2: If you roll a dice three times, what is the probability to get two consecutive threes?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Probability%20Questions.md#:~:text=friend%20(3/4)-,Q2%3A%20If%20you%20roll%20a%20dice%20three%20times%2C%20what%20is%20the%20probability%20to%20get%20two%20consecutive%20threes%3F,-The%20right%20answer)
 * [Q3: Suppose you have ten fair dice. If you randomly throw them simultaneously, what is the probability that the sum of all of the top faces is divisible by six?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Probability%20Questions.md#:~:text=of%2011/216.-,Q3%3A%20Suppose%20you%20have%20ten%20fair%20dice.%20If%20you%20randomly%20throw%20them%20simultaneously%2C%20what%20is%20the%20probability%20that%20the%20sum%20of%20all%20of%20the%20top%20faces%20is%20divisible%20by%20six%3F,-Answer%3A%201/6)
 * [Q4: If you have three draws from a uniformly distributed random variable between 0 and 2, what is the probability that the median of three numbers is greater than 1.5?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Probability%20Questions.md#:~:text=of%2011/216.-,Q3%3A%20If%20you%20have%20three%20draws%20from%20a%20uniformly%20distributed%20random%20variable%20between%200%20and%202%2C%20what%20is%20the%20probability%20that%20the%20median%20of%20three%20numbers%20is%20greater%20than%201.5%3F,-The%20right%20answer)
-* [Q5: ]()
+* [Q5: Assume you have a deck of 100 cards with values ranging from 1 to 100 and you draw two cards randomly without replacement, what is the probability that the number of one of them is double the other?]()
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Questions & Answers ##
 
@@ -72,3 +72,7 @@ So, the probability of the above event is
 
 Using the Monte Carlo method as shown in the figure below:
 ![Alt_text](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Figures/Monte%20Carlo%20Methods.png)
+
+### Q5: Assume you have a deck of 100 cards with values ranging from 1 to 100 and you draw two cards randomly without replacement, what is the probability that the number of one of them is double the other? ###
+
+
