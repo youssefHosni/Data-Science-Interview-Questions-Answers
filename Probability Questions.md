@@ -75,4 +75,5 @@ Using the Monte Carlo method as shown in the figure below:
 
 ### Q5: Assume you have a deck of 100 cards with values ranging from 1 to 100 and you draw two cards randomly without replacement, what is the probability that the number of one of them is double the other? ###
 
+There are a total of (100 C 2) = 4950 ways to choose two cards at random from the 100 cards and there are only 50 pairs of these 4950 ways that you will get one number and it's double. Therefore the probability that the number of one of them is double the other is 50/4950.
 
