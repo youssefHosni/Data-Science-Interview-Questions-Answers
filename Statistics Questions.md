@@ -76,5 +76,5 @@ Mode > 60
 
 ![Alt_text](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Figures/1657144303401.jpg)
 
-### Q5: What is the meaning of selection bias and how to avoid it?###
+### Q5: What is the meaning of selection bias and how to avoid it? ###
 Answer:
