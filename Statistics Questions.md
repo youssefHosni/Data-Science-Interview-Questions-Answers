@@ -78,3 +78,4 @@ Mode > 60
 
 ### Q5: What is the meaning of selection bias and how to avoid it? ###
 Answer:
+Selection bias is a Non sampling error where all participants are not equally balanced or objectively represented.
