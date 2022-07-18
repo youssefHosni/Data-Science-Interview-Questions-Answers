@@ -47,4 +47,4 @@ The **IN** operator is used to select rows in which a certain value exists in a 
 For example, select COLUMN from tablename where 'USA' in (country);
 
 IN is mainly best for categorical variables(it can be used with Numerical as well) whereas Between is for Numerical Variables
-[!Alt_text]()
+[!Alt_text](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Figures/Betweem%26IN.png)
