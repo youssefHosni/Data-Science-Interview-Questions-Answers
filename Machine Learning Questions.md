@@ -16,7 +16,7 @@
 * [Q13:What are the differences between a model that minimizes squared error and the one that minimizes the absolute error? and in which cases each error metric would be more appropriate?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Machine%20Learning%20Questions.md#:~:text=Q13%3A%20What%20are%20the%20differences%20between%20a%20model%20that%20minimizes%20squared%20error%20and%20the%20one%20that%20minimizes%20the%20absolute%20error%3F%20and%20in%20which%20cases%20each%20error%20metric%20would%20be%20more%20appropriate%3F)
 * [Q14:Define and compare parametric and non-parametric models and give two examples for each of them?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Machine%20Learning%20Questions.md#:~:text=Q14%3A%20Define%20and%20compare%20parametric%20and%20non%2Dparametric%20models%20and%20give%20two%20examples%20for%20each%20of%20them%3F%23%23%23)
 * [Q15:Explain the kernel trick in SVM and why we use it and how to choose what kernel to use?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Machine%20Learning%20Questions.md#:~:text=Tree%2C%20Random%20Forest.-,Q15%3AExplain%20the%20kerenl%20trick%20in%20SVM%20and%20why%20we%20use%20it%20and%20how%20to%20choose%20what%20kernel%20to%20use%3F,-Answer%3A)
-
+* [Q16: Define the cross-validation process and the motivation behind using it?]()
 
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -176,5 +176,7 @@ Having domain knowledge can be very helpful in choosing the optimal kernel for y
 For linear problems, we can try linear or logistic kernels and for nonlinear problems, we can use RBF or Gaussian kernels.
 
 ![Alt_text](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Figures/Kerenl%20trick.png)
+
+### Q16: Define the cross-validation process and the motivation behind using it? ###
 
 
