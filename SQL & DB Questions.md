@@ -36,3 +36,15 @@ A JOIN clause is used to combine rows from two or more tables, based on a relate
 * Every table can have more than one Unique key
 
 ### Q3: What is the difference between BETWEEN and IN operators in SQL? ###
+Answer:
+
+The SQL **BETWEEN** operator selects values within a given range. It is inclusive of both the ranges, begin and end values are included.  The values can be text, date, numbers, or other
+
+For example, select * from tablename where price BETWEEN 10 and 100;
+
+The **IN** operator is used to select rows in which a certain value exists in a given field. It is used with the WHERE clause to match values in a list.
+
+For example, select COLUMN from tablename where 'USA' in (country);
+
+IN is mainly best for categorical variables(it can be used with Numerical as well) whereas Between is for Numerical Variables
+[!Alt_text]()
