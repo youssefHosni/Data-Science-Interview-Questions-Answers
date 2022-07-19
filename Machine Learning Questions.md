@@ -180,3 +180,5 @@ For linear problems, we can try linear or logistic kernels and for nonlinear pro
 ### Q16: Define the cross-validation process and the motivation behind using it? ###
 
 
+![Alt_text](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Figures/grid_search_cross_validation.png)
+
