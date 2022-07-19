@@ -194,5 +194,5 @@ This process aims in accomplishing the following:
 
 Cross-validation is always good to be used for small datasets, and if used for large datasets the computational complexity will increase depending on the number of folds.
 
-![Alt_text]()
+![Alt_text](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Figures/cross%20validation.png)
 
