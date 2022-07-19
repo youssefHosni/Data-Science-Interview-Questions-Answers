@@ -8,6 +8,7 @@
 * [Q5:How to know whether your model is suffering from the problem of Exploding Gradients?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Deep%20Learning%20Questions.md#:~:text=Q5%3A%20How%20to%20know%20whether%20your%20model%20is%20suffering%20from%20the%20problem%20of%20Exploding%20Gradients%3F)
 * [Q6: Can you name and explain a few hyperparameters used for training a neural network?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Deep%20Learning%20Questions.md#:~:text=layer%20during%20training.-,Q6%3A%20Can%20you%20name%20and%20explain%20a%20few%20hyperparameters%20used%20for%20training%20a%20neural%20network%3F,-Answer%3A)
 * [Q7: Can you explain the parameter sharing concept in deep learning?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Deep%20Learning%20Questions.md#:~:text=learning%20rate%20right.-,Q7%3A%20Can%20you%20explain%20the%20parameter%20sharing%20concept%20in%20deep%20learning%3F,-Answer%3A)
+* [Q8: Describe the architecture of a typical Convolutional Neural Network (CNN)?]()
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Questions & Answers ##
@@ -161,7 +162,7 @@ Note that sometimes the parameter sharing assumption may not make sense. This is
 
 One practical example is when the input is faces that have been centered in the image. You might expect that different eye-specific or hair-specific features could (and should) be learned in different spatial locations. In that case, it is common to relax the parameter sharing scheme, and instead, simply call the layer a Locally-Connected Layer.
 
-
+### Q8: Describe the architecture of a typical Convolutional Neural Network (CNN)? ###
 
 
 
