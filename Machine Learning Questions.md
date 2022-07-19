@@ -178,7 +178,21 @@ For linear problems, we can try linear or logistic kernels and for nonlinear pro
 ![Alt_text](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Figures/Kerenl%20trick.png)
 
 ### Q16: Define the cross-validation process and the motivation behind using it? ###
+Cross-validation is a technique used to assess the performance of a learning model in several subsamples of training data. In general, we split the data into train and test sets where we use the training data to train our model and the test data to evaluate the performance of the model on unseen data and validation set for choosing the best hyperparameters. Now, a random split in most cases(for large datasets) is fine. But for smaller datasets, it is susceptible to loss of important information present in the data in which it was not trained. Hence, cross-validation though computationally bit expensive combats this issue.
 
+The process of cross-validation is as the following:
 
-![Alt_text](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Figures/grid_search_cross_validation.png)
+1. Define k or the number of folds
+2. Randomly shuffle the data into K equally-sized blocks (folds)
+3. For each i in fold 1 to k train the data using all the folds except for fold i and test on the fold i.
+3. Average the K validation/test error from the previous step to get an estimate of the error.
+
+This process aims in accomplishing the following:
+1- Prevent overfitting during training by avoiding training and testing on the same subset of the data points
+
+2- Avoid information loss by using a certain subset of the data for validation only. This is important for small datasets.
+
+Cross-validation is always good to be used for small datasets, and if used for large datasets the computational complexity will increase depending on the number of folds.
+
+![Alt_text]()
 
