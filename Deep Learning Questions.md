@@ -172,6 +172,6 @@ One practical example is when the input is faces that have been centered in the 
 * At the end, there is one or more fully connected layers.
 * Pretty much depending on problem type, the network might be deep though.
 
-![Alt_text]()
+![Alt_text](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Figures/CNN_architecture.png)
 
 
