@@ -80,3 +80,6 @@ There are a total of (100 C 2) = 4950 ways to choose two cards at random from th
 
 ### Q6: What is the difference between the Bernoulli and Binomial distribution? ###
 Answer:
+The Bernoulli distribution is the discrete probability distribution of a random variable which takes a binary output: 1 with probability p, and 0 with probability (1-p). The idea is that, whenever we are running an experiment that might lead either to success or to a failure, we can associate with our success (labeled with 1) a probability p, while our failure (labeled with 0) will have probability (1-p).
+
+In the Binomial distribution we keep the same idea as before: we count probability of a success or failure outcome in an experiment, but this time is is repeated multiple times.
