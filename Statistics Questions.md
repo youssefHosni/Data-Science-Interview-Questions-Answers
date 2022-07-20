@@ -6,6 +6,7 @@
 * [Q3: Describe briefly the hypothesis testing and p-value in layman’s term? And give a practical application for them ?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Statistics%20Questions.md#:~:text=plant%20are%20defective.-,Q2%3A%20Describe%20briefly%20the%20hypothesis%20testing%20and%20p%2Dvalue%20in%20layman%E2%80%99s%20term%3F%20And%20give%20a%20practical%20application%20for%20them%20%3F,-In%20Layman%27s%20terms)
 * [Q4: Given a left-skewed distribution that has a median of 60, what conclusions can we draw about the mean and the mode of the data?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Statistics%20Questions.md#:~:text=B%20are%20different.-,Q4%3A%20Given%20a%20left%2Dskewed%20distribution%20that%20has%20a%20median%20of%2060%2C%20what%20conclusions%20can%20we%20draw%20about%20the%20mean%20and%20the%20mode%20of%20the%20data%3F,-Footer)
 * [Q5: What is the meaning of selection bias and how to avoid it?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Statistics%20Questions.md#:~:text=Q5%3A%20What%20is%20the%20meaning%20of%20selection%20bias%20and%20how%20to%20avoid%20it%3F%23%23%23)
+* [Q6: Explain the long-tailed distributionand provide three examples of relevant phenomena that have long tails. Why are they important in classification and regression problems?]()
 
 ## Questions & Answers ##
 
@@ -88,3 +89,5 @@ The cause of sampling bias almost always owes to one of two conditions.
 
 The best way to avoid sampling bias is to stick to probability-based sampling methods. These include simple random sampling, systematic sampling, cluster sampling, and stratified sampling. In these methodologies, respondents are only chosen through processes of random selection—even if they are sometimes sorted into demographic groups along the way.
 ![Alt_text](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Figures/Sampling%20bias.png)
+
+### Q6: Q6: Explain the long-tailed distributionand provide three examples of relevant phenomena that have long tails. Why are they important in classification and regression problems? ###
