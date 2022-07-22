@@ -80,6 +80,39 @@ There are a total of (100 C 2) = 4950 ways to choose two cards at random from th
 
 ### Q6: What is the difference between the Bernoulli and Binomial distribution? ###
 Answer:
-The Bernoulli distribution is the discrete probability distribution of a random variable which takes a binary output: 1 with probability p, and 0 with probability (1-p). The idea is that, whenever we are running an experiment that might lead either to success or to a failure, we can associate with our success (labeled with 1) a probability p, while our failure (labeled with 0) will have probability (1-p).
 
-In the Binomial distribution we keep the same idea as before: we count probability of a success or failure outcome in an experiment, but this time is is repeated multiple times.
+Bernoulli and Binomial are both types of probability distributions.
+
+The function of Bernoulli is given by
+
+p(x) =p^x * q^(1-x) , x=[0,1] 
+
+Mean is p
+
+Variance p*(1-p)
+
+The function Binomial is given by:
+
+p(x) = nCx p^x q^(n-x) x=[0,1,2...n]
+
+Mean : np
+
+Variance :npq
+
+Where p and q are the probability of success and probability of failure respectively, n is the number of independent trials and x is the number of successes.
+
+As we can see sample space( x ) for Bernoulli distribution is Binary (2 outcomes), and just a single trial. 
+
+Eg: A loan sanction for a person can be either a success or a failure, with no other possibility. (Hence single trial).
+
+Whereas for Binomial the sample space(x) ranges from 0 -n.
+
+Eg. Tossing a coin 6 times, what is the probability of getting 2 or a few heads? 
+
+Here sample space is x=[0,1,2] and more than 1 trial and n=6(finite)
+
+In short, Bernoulli Distribution is a single trial version of Binomial Distribution.
+
+
+
+
