@@ -94,5 +94,14 @@ A tuple is a collection of objects which ordered and immutable. Tuples are seque
 
 ### Q7: Given an integer n and an integer K, output a list of all of the combination of k numbers chosen from 1 to n. For example, if n=3 and k=2, return [1,2],[1,3],[2,3] ### 
 
+Solution 1 
 ```
+from itertools import combinations
+def find_combintaion(k,n):
+    list_num = []
+    comb = combinations([x for x in range(1, n+1)],k)
+    for i in comb:
+        list_num.append(i)
+    print("(K:{},n:{}):".format(k,n))
+    print(list_num,"\n")
 ```
