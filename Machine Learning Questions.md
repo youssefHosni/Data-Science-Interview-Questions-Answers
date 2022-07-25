@@ -17,6 +17,7 @@
 * [Q14:Define and compare parametric and non-parametric models and give two examples for each of them?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Machine%20Learning%20Questions.md#:~:text=Q14%3A%20Define%20and%20compare%20parametric%20and%20non%2Dparametric%20models%20and%20give%20two%20examples%20for%20each%20of%20them%3F%23%23%23)
 * [Q15:Explain the kernel trick in SVM and why we use it and how to choose what kernel to use?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Machine%20Learning%20Questions.md#:~:text=Tree%2C%20Random%20Forest.-,Q15%3AExplain%20the%20kerenl%20trick%20in%20SVM%20and%20why%20we%20use%20it%20and%20how%20to%20choose%20what%20kernel%20to%20use%3F,-Answer%3A)
 * [Q16: Define the cross-validation process and the motivation behind using it?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Machine%20Learning%20Questions.md#:~:text=or%20Gaussian%20kernels.-,Q16%3A%20Define%20the%20cross%2Dvalidation%20process%20and%20the%20motivation%20behind%20using%20it%3F,-Footer)
+* [Q17: You are bulding a binary classifier and you found that the data is imabalanced, what should you do to handle this stuation?]()
 
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -196,3 +197,5 @@ Cross-validation is always good to be used for small datasets, and if used for l
 
 ![Alt_text](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Figures/cross%20validation.png)
 
+### Q17: You are bulding a binary classifier and you found that the data is imabalanced, what should you do to handle this stuation? ###
+Answer:
