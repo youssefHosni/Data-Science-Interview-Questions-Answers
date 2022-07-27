@@ -182,5 +182,6 @@ The number of these layers can increase depending on the complexity of the data 
 
 ![Alt_text](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Figures/CNN_architecture.png)
 
-Q9: What is the Vanishing Gradient Problem in Artificial Neural Networks and How to fix it?
+### Q9: What is the Vanishing Gradient Problem in Artificial Neural Networks and How to fix it? ###
 
+Answer:
