@@ -201,7 +201,7 @@ Cross-validation is always good to be used for small datasets, and if used for l
 Answer:
 If there is a data imbalance there are several measures we can take to train a fairer binary classifier:
 
-1. Pre-Processing:
+**1. Pre-Processing:**
 
 * Check whether you can get more data or not.
 
@@ -213,13 +213,13 @@ If there is a data imbalance there are several measures we can take to train a f
 
 * Re-Weighting: We can assign some weights to each training example to reduce the imbalance in the data.
 
-2. In-Processing:
+**2. In-Processing:**
 
 * Regularisation: We can add score terms that measure the data imbalance in the loss function and therefore minimizing the loss function will also minimize the degree of imbalance with respect to the score chosen which also indirectly minimizes other metrics which measure the degree of data imbalance.
 
 * Adversarial Debiasing: Here we use the adversarial notion to train the model where the discriminator tries to detect if there are signs of data imbalance in the predicted data by the generator and hence the generator learns to generate data that is less prone to imbalance.
 
-3. Post-Processing:
+**3. Post-Processing:**
 * Odds-Equalization: Here we try to equalize the odds for the classes wrt the data is imbalanced for correct imbalance in the trained model. Usually, the F1 score is a good choice, if both precision and recall scores are important
 
 * Choose appropriate performance metrics. For example, accuracy is not a correct metric to use when classes are imbalanced. Instead, use precision, recall, F1 score, and ROC curve.
