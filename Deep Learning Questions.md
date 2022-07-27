@@ -185,3 +185,19 @@ The number of these layers can increase depending on the complexity of the data 
 ### Q9: What is the Vanishing Gradient Problem in Artificial Neural Networks and How to fix it? ###
 
 Answer:
+
+The vanishing gradient problem is encountered in artificial neural networks with gradient-based learning methods and backpropagation.
+In these learning methods, each of the neural networks weights receives an update proportional to the partial derivative of the error function with respect to the current weight in each iteration of training. Sometimes when gradients become vanishingly small, this prevents the weight to change value.
+
+If the neural network has many hidden layers, the gradients in the earlier layers will become very low as we multiply the derivatives of each layer. As a result, learning in the earlier layers becomes very slow.
+This can cause the neural network to stop learning.
+This problem of vanishing gradient descent happens when training neural networks with many layers because the gradient diminishes dramatically as it propagates backwards through the network.
+Many fixes and workarounds have been proposed and investigated to fix the vanishing gradient problem, such as
+
+alternate weight initialization schemes,
+unsupervised pre-training,
+layer-wise training, and
+variations on gradient descent.
+Perhaps the most common change is the use of the rectified linear activation function that has become the new default, instead of the hyperbolic tangent activation function that was the default through the late 1990s and 2000s.
+
+
