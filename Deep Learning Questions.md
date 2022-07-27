@@ -9,6 +9,7 @@
 * [Q6: Can you name and explain a few hyperparameters used for training a neural network?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Deep%20Learning%20Questions.md#:~:text=layer%20during%20training.-,Q6%3A%20Can%20you%20name%20and%20explain%20a%20few%20hyperparameters%20used%20for%20training%20a%20neural%20network%3F,-Answer%3A)
 * [Q7: Can you explain the parameter sharing concept in deep learning?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Deep%20Learning%20Questions.md#:~:text=learning%20rate%20right.-,Q7%3A%20Can%20you%20explain%20the%20parameter%20sharing%20concept%20in%20deep%20learning%3F,-Answer%3A)
 * [Q8: Describe the architecture of a typical Convolutional Neural Network (CNN)?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Deep%20Learning%20Questions.md#:~:text=Locally%2DConnected%20Layer.-,Q8%3A%20Describe%20the%20architecture%20of%20a%20typical%20Convolutional%20Neural%20Network%20(CNN)%3F,-Footer)
+* [Q9: What is the Vanishing Gradient Problem in Artificial Neural Networks and How to fix it?]()
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Questions & Answers ##
@@ -181,4 +182,5 @@ The number of these layers can increase depending on the complexity of the data 
 
 ![Alt_text](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Figures/CNN_architecture.png)
 
+Q9: What is the Vanishing Gradient Problem in Artificial Neural Networks and How to fix it?
 
