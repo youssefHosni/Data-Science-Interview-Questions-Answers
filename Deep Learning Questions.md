@@ -186,18 +186,12 @@ The number of these layers can increase depending on the complexity of the data 
 
 Answer:
 
-The vanishing gradient problem is encountered in artificial neural networks with gradient-based learning methods and backpropagation.
-In these learning methods, each of the neural networks weights receives an update proportional to the partial derivative of the error function with respect to the current weight in each iteration of training. Sometimes when gradients become vanishingly small, this prevents the weight to change value.
+The vanishing gradient problem is encountered in artificial neural networks with gradient-based learning methods and backpropagation. In these learning methods, each of the weights of the neural network receives an update proportional to the partial derivative of the error function with respect to the current weight in each iteration of training. Sometimes when gradients become vanishingly small, this prevents the weight to change value.
 
-If the neural network has many hidden layers, the gradients in the earlier layers will become very low as we multiply the derivatives of each layer. As a result, learning in the earlier layers becomes very slow.
-This can cause the neural network to stop learning.
-This problem of vanishing gradient descent happens when training neural networks with many layers because the gradient diminishes dramatically as it propagates backwards through the network.
-Many fixes and workarounds have been proposed and investigated to fix the vanishing gradient problem, such as
+When the neural network has many hidden layers, the gradients in the earlier layers will become very low as we multiply the derivatives of each layer. As a result, learning in the earlier layers becomes very slow. 𝐓𝐡𝐢𝐬 𝐜𝐚𝐧 𝐜𝐚𝐮𝐬𝐞 𝐭𝐡𝐞 𝐧𝐞𝐮𝐫𝐚𝐥 𝐧𝐞𝐭𝐰𝐨𝐫𝐤 𝐭𝐨 𝐬𝐭𝐨𝐩 𝐥𝐞𝐚𝐫𝐧𝐢𝐧𝐠. This problem of vanishing gradient descent happens when training neural networks with many layers because the gradient diminishes dramatically as it propagates backward through the network.
 
-alternate weight initialization schemes,
-unsupervised pre-training,
-layer-wise training, and
-variations on gradient descent.
-Perhaps the most common change is the use of the rectified linear activation function that has become the new default, instead of the hyperbolic tangent activation function that was the default through the late 1990s and 2000s.
-
+Some ways to fix it are:
+1. Use skip/residual connections.
+2. Using ReLU or Leaky ReLU over sigmoid and tanh activation functions.
+3. Use models that help propagate gradients to earlier time steps like in GRUs and LSTMs.
 
