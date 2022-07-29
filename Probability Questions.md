@@ -113,6 +113,13 @@ Here sample space is x=[0,1,2] and more than 1 trial and n=6(finite)
 
 In short, Bernoulli Distribution is a single trial version of Binomial Distribution.
 
+### Q7: If there are 30 people in a room, what is the probability that everyone has different birthdays? ###
 
+The sample space is 365^30 and the number of events is 365p30 because we need to choose persons without replacement to get everyone to have a unique birthday therefore the Prob = 356p30 / 365^30 = 0.2936
 
+A theoretical explanation is provided in the figure below thanks to Fazil Mohammed.
 
+Interesting facts provided by Rishi Dey Chowdhury:
+1. With just 23 people there is over 50% chance of a birthday match and with 57 people the match probability exceeds 99%. One intuition to think of why with such a low number of people the probability of a match is so high. It's because for a match we require a pair of people and 23 choose 2 is 23*11 = 253 which is a relatively big number and ya 50% sounds like a decent probability of a match for this case.
+
+2. Another interesting fact is if the assumption of equal probability of birthday of a person on any day out of 365 is violated and there is a non-equal probability of birthday of a person among days of the year then, it is even more likely to have a birthday match.
