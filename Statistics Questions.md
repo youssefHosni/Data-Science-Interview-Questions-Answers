@@ -7,6 +7,7 @@
 * [Q4: Given a left-skewed distribution that has a median of 60, what conclusions can we draw about the mean and the mode of the data?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Statistics%20Questions.md#:~:text=B%20are%20different.-,Q4%3A%20Given%20a%20left%2Dskewed%20distribution%20that%20has%20a%20median%20of%2060%2C%20what%20conclusions%20can%20we%20draw%20about%20the%20mean%20and%20the%20mode%20of%20the%20data%3F,-Footer)
 * [Q5: What is the meaning of selection bias and how to avoid it?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Statistics%20Questions.md#:~:text=Q5%3A%20What%20is%20the%20meaning%20of%20selection%20bias%20and%20how%20to%20avoid%20it%3F%23%23%23)
 * [Q6: Explain the long-tailed distribution and provide three examples of relevant phenomena that have long tails. Why are they important in classification and regression problems?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Statistics%20Questions.md#:~:text=Q6%3A%20Q6%3A%20Explain%20the%20long%2Dtailed%20distribution%20and%20provide%20three%20examples%20of%20relevant%20phenomena%20that%20have%20long%20tails.%20Why%20are%20they%20important%20in%20classification%20and%20regression%20problems%3F)
+* [Q7: What is the meaning of KPI in statistics]()
 
 ## Questions & Answers ##
 
@@ -105,3 +106,6 @@ All of these follow something close to 80-20 rule: 80% of outcomes (or outputs) 
 
 It’s important to be mindful of long-tailed distributions in classification and regression problems because the least frequently occurring values make up the majority of the population. This can ultimately change the way that you deal with outliers, and it also conflicts with some machine learning techniques with the assumption that the data is normally distributed.
 ![Alt_text](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Figures/long-tailed%20distribution.jpg)
+
+### Q7: What is the meaning of KPI in statistics ###
+Answer:
