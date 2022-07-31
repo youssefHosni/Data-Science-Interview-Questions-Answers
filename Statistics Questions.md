@@ -109,3 +109,13 @@ It’s important to be mindful of long-tailed distributions in classification an
 
 ### Q7: What is the meaning of KPI in statistics ###
 Answer:
+
+**KPI** stands for key performance indicator, a quantifiable measure of performance over time for a specific objective. KPIs provide targets for teams to shoot for, milestones to gauge progress, and insights that help people across the organization make better decisions. From finance and HR to marketing and sales, key performance indicators help every area of the business move forward at the strategic level.
+
+#### The difference between KPI and Evaluation Metrics: ####
+
+While key performance indicators and metrics are related, they’re not the same. Here’s a quick explanation:
+
+* KPIs are the key targets you should track to make the most impact on your strategic business outcomes. KPIs support your strategy and help your teams focus on what’s important. An example of a key performance indicator is, “targeted new customers per month”.
+
+* Metrics measure the success of everyday business activities that support your KPIs. While they impact your outcomes, they’re not the most critical measures. Some examples include “monthly store visits” or “white paper downloads”.
