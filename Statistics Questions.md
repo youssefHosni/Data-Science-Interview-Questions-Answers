@@ -112,10 +112,17 @@ Answer:
 
 **KPI** stands for key performance indicator, a quantifiable measure of performance over time for a specific objective. KPIs provide targets for teams to shoot for, milestones to gauge progress, and insights that help people across the organization make better decisions. From finance and HR to marketing and sales, key performance indicators help every area of the business move forward at the strategic level.
 
-#### The difference between KPI and Evaluation Metrics: ####
+KPIs are an important way to ensure your teams are supporting the overall goals of the organization. Here are some of the biggest reasons why you need key performance indicators.
 
-While key performance indicators and metrics are related, they’re not the same. Here’s a quick explanation:
+* Keep your teams aligned: Whether measuring project success or employee performance, KPIs keep teams moving in the same direction.
+* Provide a health check: Key performance indicators give you a realistic look at the health of your organization, from risk factors to financial indicators.
+* Make adjustments: KPIs help you clearly see your successes and failures so you can do more of what’s working, and less of what’s not.
+* Hold your teams accountable: Make sure everyone provides value with key performance indicators that help employees track their progress and help managers move things along.
 
-* KPIs are the key targets you should track to make the most impact on your strategic business outcomes. KPIs support your strategy and help your teams focus on what’s important. An example of a key performance indicator is, “targeted new customers per month”.
+Types of KPIs
+Key performance indicators come in many flavors. While some are used to measure monthly progress against a goal, others have a longer-term focus. The one thing all KPIs have in common is that they’re tied to strategic goals. Here’s an overview of some of the most common types of KPIs.
 
-* Metrics measure the success of everyday business activities that support your KPIs. While they impact your outcomes, they’re not the most critical measures. Some examples include “monthly store visits” or “white paper downloads”.
+* Strategic: These big-picture key performance indicators monitor organizational goals. Executives typically look to one or two strategic KPIs to find out how the organization is doing at any given time. Examples include return on investment, revenue and market share.
+* Operational: These KPIs typically measure performance in a shorter time frame, and are focused on organizational processes and efficiencies. Some examples include sales by region, average monthly transportation costs and cost per acquisition (CPA).
+* Functional Unit: Many key performance indicators are tied to specific functions, such finance or IT. While IT might track time to resolution or average uptime, finance KPIs track gross profit margin or return on assets. These functional KPIs can also be classified as strategic or operational.
+* Leading vs Lagging: Regardless of the type of key performance indicator you define, you should know the difference between leading indicators and lagging indicators. While leading KPIs can help predict outcomes, lagging KPIs track what has already happened. Organizations use a mix of both to ensure they’re tracking what’s most important.
