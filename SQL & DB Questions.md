@@ -56,3 +56,20 @@ IN is mainly best for categorical variables(it can be used with Numerical as wel
 
 Answer: 
 
+
+```
+SELECT 
+    DATE_TRUNC('month', current_month.login_date) AS current_month,
+    COUNT(*) AS num_reactivated_users 
+FROM 
+    user_logins current_month
+WHERE
+    NOT EXISTS (
+      SELECT 
+        *
+      FROM 
+        user_logins last_month
+      WHERE
+        DATE_TRUNC('month', last_month.login_date) BETWEEN DATE_TRUNC('month', current_month.login_date) AND DATE_TRUNC('month', current_month.login_date) - INTERVAL '1 month'
+)
+```
