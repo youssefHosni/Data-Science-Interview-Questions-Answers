@@ -244,4 +244,4 @@ Dunn’s Index
 
 Dunn’s Index (DI) is another metric for evaluating a clustering algorithm. Dunn’s Index is equal to the minimum inter-cluster distance divided by the maximum cluster size. Note that large inter-cluster distances (better separation) and smaller cluster sizes (more compact clusters) lead to a higher DI value. A higher DI implies better clustering. It assumes that better clustering means that clusters are compact and well-separated from other clusters.
 
-![Alt_text]()
+![Alt_text](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Figures/Derivation-of-the-Overall-Silhouette-Coefficient-OverallSil.png)
