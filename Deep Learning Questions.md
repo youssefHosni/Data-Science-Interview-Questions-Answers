@@ -10,6 +10,7 @@
 * [Q7: Can you explain the parameter sharing concept in deep learning?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Deep%20Learning%20Questions.md#:~:text=learning%20rate%20right.-,Q7%3A%20Can%20you%20explain%20the%20parameter%20sharing%20concept%20in%20deep%20learning%3F,-Answer%3A)
 * [Q8: Describe the architecture of a typical Convolutional Neural Network (CNN)?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Deep%20Learning%20Questions.md#:~:text=Locally%2DConnected%20Layer.-,Q8%3A%20Describe%20the%20architecture%20of%20a%20typical%20Convolutional%20Neural%20Network%20(CNN)%3F,-Footer)
 * [Q9: What is the Vanishing Gradient Problem in Artificial Neural Networks and How to fix it?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Deep%20Learning%20Questions.md#:~:text=of%20the%20window.-,Q9%3A%20What%20is%20the%20Vanishing%20Gradient%20Problem%20in%20Artificial%20Neural%20Networks%20and%20How%20to%20fix%20it%3F,-Answer%3A)
+* [Q10: When it comes to training an artificial neural network, what could be the reason why the loss doesn't decrease in a few epochs?]()
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Questions & Answers ##
@@ -195,3 +196,6 @@ Some ways to fix it are:
 2. Using ReLU or Leaky ReLU over sigmoid and tanh activation functions.
 3. Use models that help propagate gradients to earlier time steps like in GRUs and LSTMs.
 
+### Q10:  When it comes to training an artificial neural network, what could be the reason why the loss doesn't decrease in a few epochs? ###
+
+Answer:
