@@ -229,6 +229,7 @@ If there is a data imbalance there are several measures we can take to train a f
 ### Q18: You are working on a clustering problem, what are different evaluation metrics that can be used, and how to choose between them? ###
 
 Answer:
+
 Clusters are evaluated based on some similarity or dissimilarity measure such as the distance between cluster points. If the clustering algorithm separates dissimilar observations apart and similar observations together, then it has performed well. The two most popular metrics evaluation metrics for clustering algorithms are the 𝐒𝐢𝐥𝐡𝐨𝐮𝐞𝐭𝐭𝐞 𝐜𝐨𝐞𝐟𝐟𝐢𝐜𝐢𝐞𝐧𝐭 and 𝐃𝐮𝐧𝐧’𝐬 𝐈𝐧𝐝𝐞𝐱.
 
 𝐒𝐢𝐥𝐡𝐨𝐮𝐞𝐭𝐭𝐞 𝐜𝐨𝐞𝐟𝐟𝐢𝐜𝐢𝐞𝐧𝐭
