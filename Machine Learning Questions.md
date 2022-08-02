@@ -229,4 +229,19 @@ If there is a data imbalance there are several measures we can take to train a f
 ### Q18: You are working on a clustering problem, what are different evaluation metrics that can be used, and how to choose between them? ###
 
 Answer:
+Clusters are evaluated based on some similarity or dissimilarity measure such as the distance between cluster points. If the clustering algorithm separates dissimilar observations apart and similar observations together, then it has performed well. The two most popular metrics evaluation metrics for clustering algorithms are the 𝐒𝐢𝐥𝐡𝐨𝐮𝐞𝐭𝐭𝐞 𝐜𝐨𝐞𝐟𝐟𝐢𝐜𝐢𝐞𝐧𝐭 and 𝐃𝐮𝐧𝐧’𝐬 𝐈𝐧𝐝𝐞𝐱.
 
+𝐒𝐢𝐥𝐡𝐨𝐮𝐞𝐭𝐭𝐞 𝐜𝐨𝐞𝐟𝐟𝐢𝐜𝐢𝐞𝐧𝐭
+The Silhouette Coefficient is defined for each sample and is composed of two scores:
+a: The mean distance between a sample and all other points in the same cluster.
+b: The mean distance between a sample and all other points in the next nearest cluster.
+
+S = (b-a) / max(a,b)
+
+The 𝐒𝐢𝐥𝐡𝐨𝐮𝐞𝐭𝐭𝐞 𝐜𝐨𝐞𝐟𝐟𝐢𝐜𝐢𝐞𝐧𝐭 for a set of samples is given as the mean of the Silhouette Coefficient for each sample. The score is bounded between -1 for incorrect clustering and +1 for highly dense clustering. Scores around zero indicate overlapping clusters. The score is higher when clusters are dense and well separated, which relates to a standard concept of a cluster.
+
+Dunn’s Index
+
+Dunn’s Index (DI) is another metric for evaluating a clustering algorithm. Dunn’s Index is equal to the minimum inter-cluster distance divided by the maximum cluster size. Note that large inter-cluster distances (better separation) and smaller cluster sizes (more compact clusters) lead to a higher DI value. A higher DI implies better clustering. It assumes that better clustering means that clusters are compact and well-separated from other clusters.
+
+![Alt_text]()
