@@ -18,7 +18,7 @@
 * [Q15:Explain the kernel trick in SVM and why we use it and how to choose what kernel to use?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Machine%20Learning%20Questions.md#:~:text=Tree%2C%20Random%20Forest.-,Q15%3AExplain%20the%20kerenl%20trick%20in%20SVM%20and%20why%20we%20use%20it%20and%20how%20to%20choose%20what%20kernel%20to%20use%3F,-Answer%3A)
 * [Q16: Define the cross-validation process and the motivation behind using it?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Machine%20Learning%20Questions.md#:~:text=or%20Gaussian%20kernels.-,Q16%3A%20Define%20the%20cross%2Dvalidation%20process%20and%20the%20motivation%20behind%20using%20it%3F,-Footer)
 * [Q17: You are building a binary classifier and you found that the data is imbalanced, what should you do to handle this situation?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Machine%20Learning%20Questions.md#:~:text=number%20of%20folds.-,Q17%3A%20You%20are%20bulding%20a%20binary%20classifier%20and%20you%20found%20that%20the%20data%20is%20imabalanced%2C%20what%20should%20you%20do%20to%20handle%20this%20stuation%3F,-Answer%3A)
-
+* [Q18: You are working on a clustering problem, what are different evaluation metrics that can be used, and how to choose between them?]()
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -225,3 +225,8 @@ If there is a data imbalance there are several measures we can take to train a f
 * Choose appropriate performance metrics. For example, accuracy is not a correct metric to use when classes are imbalanced. Instead, use precision, recall, F1 score, and ROC curve.
 
 ![Alt_text](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Figures/Oversampling.png)
+
+### Q18: You are working on a clustering problem, what are different evaluation metrics that can be used, and how to choose between them? ###
+
+Answer:
+
