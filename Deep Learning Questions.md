@@ -199,3 +199,4 @@ Some ways to fix it are:
 ### Q10:  When it comes to training an artificial neural network, what could be the reason why the loss doesn't decrease in a few epochs? ###
 
 Answer:
+
