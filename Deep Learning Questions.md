@@ -200,3 +200,14 @@ Some ways to fix it are:
 
 Answer:
 
+Some of the reasons why the loss doesn't decrease after a few Epochs are:
+
+a) The model is under-fitting the training data.
+
+b) The learning rate of the model is large.
+
+c) The initialization is not proper (like all the weights initialized with 0 doesn't make the network learn any function)
+
+d) The Regularisation hyper-parameter is quite large.
+
+e).  The classic case of vanishing gradients
