@@ -8,6 +8,7 @@
 * [Q5: Assume you have a deck of 100 cards with values ranging from 1 to 100 and you draw two cards randomly without replacement, what is the probability that the number of one of them is double the other?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Probability%20Questions.md#:~:text=the%20figure%20below%3A-,Q5%3A%20Assume%20you%20have%20a%20deck%20of%20100%20cards%20with%20values%20ranging%20from%201%20to%20100%20and%20you%20draw%20two%20cards%20randomly%20without%20replacement%2C%20what%20is%20the%20probability%20that%20the%20number%20of%20one%20of%20them%20is%20double%20the%20other%3F,-Footer)
 * [Q6: What is the difference between the Bernoulli and Binomial distribution?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Probability%20Questions.md#:~:text=is%2050/4950.-,Q6%3A%20What%20is%20the%20difference%20between%20the%20Bernoulli%20and%20Binomial%20distribution%3F,-Answer%3A)
 * [Q7: If there are 30 people in a room, what is the probability that everyone has different birthdays?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Probability%20Questions.md#:~:text=of%20Binomial%20Distribution.-,Q7%3A%20If%20there%20are%2030%20people%20in%20a%20room%2C%20what%20is%20the%20probability%20that%20everyone%20has%20different%20birthdays%3F,-The%20sample%20space)
+* [Q8: Assume two coins, one fair and the other is unfair. You pick one at random, flip it five times, and observe that it comes up as tails all five times. What is the probability that you are fliping the unfair coin? ]()
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Questions & Answers ##
 
@@ -125,3 +126,7 @@ Interesting facts provided by Rishi Dey Chowdhury:
 
 2. Another interesting fact is if the assumption of equal probability of birthday of a person on any day out of 365 is violated and there is a non-equal probability of birthday of a person among days of the year then, it is even more likely to have a birthday match.
 ![Alt_text](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Figures/Therotical%20Explanation%20Q%207%20Probability.jfif)
+
+### Q8: Assume two coins, one fair and the other is unfair. You pick one at random, flip it five times, and observe that it comes up as tails all five times. What is the probability that you are fliping the unfair coin? ###
+
+Answer:
