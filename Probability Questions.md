@@ -131,8 +131,10 @@ Interesting facts provided by Rishi Dey Chowdhury:
 
 Answer:
 
-Lets use Baye's theroem let U denote the case where you are flipping the unfair coin and F denote the case where you are flipping the fair coin. Since the coin is chosen randomly, we know that P(U)=P(F)=0.5. Let 5T denote the event of flipping 5 tails in row. Then, we are intersted in solving for P(U|5T) (the probability that you are flipping the unfair coin given that you obtained 5 tails). Since the unfair coin alawys results in tails, therfore P(5T|U) = 1 and also P(5T|F) =1/2^5 = 1/32 by the definition of a fair coin.
+Let's use Baye’s theorem let U denote the case where you are flipping the unfair coin and F denote the case where you are flipping the fair coin. Since the coin is chosen randomly, we know that P(U)=P(F)=0.5. Let 5T denote the event of flipping 5 tails in a row.
+
+Then, we are interested in solving for P(U|5T) (the probability that you are flipping the unfair coin given that you obtained 5 tails). Since the unfair coin always results in tails, therefore P(5T|U) = 1 and also P(5T|F) =1/2⁵ = 1/32 by the definition of a fair coin.
+
 Lets apply Bayes theorem where P(U|5T) = P(5T|U) * P(U) / P(5T|U)* P(U) + P(5T|F)* P(F) = 0.5 / 0.5 +0.5* 1/32 = 0.97
 
-Therfore the probability that you picked the unfair coin is 97%
-
+Therefore the probability that you picked the unfair coin is 97%
