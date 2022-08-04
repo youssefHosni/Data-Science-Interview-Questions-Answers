@@ -47,7 +47,7 @@ def max_three(arr):
     return max(a[2]*a[1]*a[0], b[1]*b[0]*a[0])
 ```
 
-### Q4: Q4: Given an integer array, find the sum of the largest contiguous subarray within the array. For example, given the array A = [0,-1,-5,-2,3,14] it should return 17 because of [3,14]. Note that if all the elements are negative it should return zero.
+### Q4: Given an integer array, find the sum of the largest contiguous subarray within the array. For example, given the array A = [0,-1,-5,-2,3,14] it should return 17 because of [3,14]. Note that if all the elements are negative it should return zero.
 
 ```
 def max_subarray(arr):
@@ -62,8 +62,6 @@ def max_subarray(arr):
   return max_sum    
       
 ```
-
-
 
 ### Q5: Define tuples and lists in Python What are the major differences between them?###
 Answer:
