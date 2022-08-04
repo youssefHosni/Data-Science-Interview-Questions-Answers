@@ -129,3 +129,8 @@ Key performance indicators come in many flavors. While some are used to measure 
 
 
 ![Alt_text](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Figures/KPI.png)
+
+### Q8: Say you flip a coin 10 times and observe only one head. What would be the null hypothesis and p-value for testing whether the coin is fair or not? ###
+
+Answer:
+
