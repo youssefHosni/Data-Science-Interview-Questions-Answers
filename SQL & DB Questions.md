@@ -6,6 +6,7 @@
 * [Q3: What is the difference between BETWEEN and IN operators in SQL?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/SQL%20&%20DB%20Questions.md#:~:text=one%20Unique%20key-,Q3%3A%20What%20is%20the%20difference%20between%20BETWEEN%20and%20IN%20operators%20in%20SQL%3F,-Footer)
 * [Q4: Assume you have the given table below which contains information on user logins. Write a query to obtain the number of reactivated users (Users who did not log in the previous month and then logged in the current month)](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/SQL%20&%20DB%20Questions.md#:~:text=for%20Numerical%20Variables-,Q4%3A%20Assume%20you%20have%20the%20given%20table%20below%20which%20contains%20information%20on%20user%20logins.%20Write%20a%20query%20to%20obtain%20the%20number%20of%20reactivated%20users%20(Users%20who%20did%20not%20log%20in%20the%20previous%20month%20and%20then%20logged%20in%20the%20current%20month),-Answer%3A)
 ![Alt_text](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Figures/Screenshot%202022-07-31%20201033.png)
+* [Q5:  Q5:Describe the advantages and disadvantages of relational database vs NoSQL databases ]()
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Questions & Answers ##
@@ -73,3 +74,4 @@ WHERE
         DATE_TRUNC('month', last_month.login_date) BETWEEN DATE_TRUNC('month', current_month.login_date) AND DATE_TRUNC('month', current_month.login_date) - INTERVAL '1 month'
 )
 ```
+### Q5:Describe the advantages and disadvantages of relational database vs NoSQL databases ###
