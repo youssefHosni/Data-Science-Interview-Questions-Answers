@@ -134,4 +134,5 @@ Key performance indicators come in many flavors. While some are used to measure 
 ### Q8: Say you flip a coin 10 times and observe only one head. What would be the null hypothesis and p-value for testing whether the coin is fair or not? ###
 
 Answer:
+
 The null hypothesis is that the coin is fair, and the alternative hypothesis is that the coin is biased. The p-value is the probability of observing the results obtained given that the null hypothesisis true. In total for 10 flips of a coin, there are 2^10 = 1024 possible outcomes and in only 10 of them are there 9 tails and one heads. Hence, the exact probability of the give result is the p-value, which is 10/1024 = 0.0098. Therfore, with a signifcance level set, for example, at 0.05, we can reject the null hypothesis. 
