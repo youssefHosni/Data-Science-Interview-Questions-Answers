@@ -8,6 +8,7 @@
 * [Q5: What is the meaning of selection bias and how to avoid it?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Statistics%20Questions.md#:~:text=Q5%3A%20What%20is%20the%20meaning%20of%20selection%20bias%20and%20how%20to%20avoid%20it%3F%23%23%23)
 * [Q6: Explain the long-tailed distribution and provide three examples of relevant phenomena that have long tails. Why are they important in classification and regression problems?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Statistics%20Questions.md#:~:text=Q6%3A%20Q6%3A%20Explain%20the%20long%2Dtailed%20distribution%20and%20provide%20three%20examples%20of%20relevant%20phenomena%20that%20have%20long%20tails.%20Why%20are%20they%20important%20in%20classification%20and%20regression%20problems%3F)
 * [Q7: What is the meaning of KPI in statistics]()
+* [Q8: Say you flip a coin 10 times and observe only one head. What would be the null hypothesis and p-value for testing whether the coin is fair or not?]()
 
 ## Questions & Answers ##
 
