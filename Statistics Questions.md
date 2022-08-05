@@ -135,4 +135,9 @@ Key performance indicators come in many flavors. While some are used to measure 
 
 Answer:
 
-The null hypothesis is that the coin is fair, and the alternative hypothesis is that the coin is biased. The p-value is the probability of observing the results obtained given that the null hypothesisis true. In total for 10 flips of a coin, there are 2^10 = 1024 possible outcomes and in only 10 of them are there 9 tails and one heads. Hence, the exact probability of the give result is the p-value, which is 10/1024 = 0.0098. Therfore, with a signifcance level set, for example, at 0.05, we can reject the null hypothesis. 
+The null hypothesis is that the coin is fair, and the alternative hypothesis is that the coin is biased. The p-value is the probability of observing the results obtained given that the null hypothesis is true, in this case, the coin is fair.
+
+In total for 10 flips of a coin, there are 2^10 = 1024 possible outcomes and in only 10 of them are there 9 tails and one head.
+
+Hence, the exact probability of the given result is the p-value, which is 10/1024 = 0.0098. Therefore, with a significance level set, for example, at 0.05, we can reject the null hypothesis.
+
