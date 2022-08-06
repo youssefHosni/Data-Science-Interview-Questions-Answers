@@ -108,6 +108,7 @@ def find_combintaion(k,n):
 ### Q8: Write a function to generate N samples from a normal distribution and plot them on the histogram ###
 
 Answer:
+Using bultin Libraries:
 ```
 import numpy as np
 import matplotlib.pyplot as plt
@@ -115,3 +116,5 @@ import matplotlib.pyplot as plt
 x = np.random.randn((N,))
 plt.hist(x)
 ```
+From scratch: 
+![Alt_text](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Figures/Python%20questions%208.png)
