@@ -19,6 +19,7 @@
 * [Q16: Define the cross-validation process and the motivation behind using it?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Machine%20Learning%20Questions.md#:~:text=or%20Gaussian%20kernels.-,Q16%3A%20Define%20the%20cross%2Dvalidation%20process%20and%20the%20motivation%20behind%20using%20it%3F,-Footer)
 * [Q17: You are building a binary classifier and you found that the data is imbalanced, what should you do to handle this situation?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Machine%20Learning%20Questions.md#:~:text=number%20of%20folds.-,Q17%3A%20You%20are%20bulding%20a%20binary%20classifier%20and%20you%20found%20that%20the%20data%20is%20imabalanced%2C%20what%20should%20you%20do%20to%20handle%20this%20stuation%3F,-Answer%3A)
 * [Q18: You are working on a clustering problem, what are different evaluation metrics that can be used, and how to choose between them?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Machine%20Learning%20Questions.md#:~:text=and%20ROC%20curve.-,Q18%3A%20You%20are%20working%20on%20a%20clustering%20problem%2C%20what%20are%20different%20evaluation%20metrics%20that%20can%20be%20used%2C%20and%20how%20to%20choose%20between%20them%3F,-Answer%3A)
+* [Q19: What is the ROC curve and when should you use it?]()
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -246,3 +247,9 @@ Dunn’s Index
 Dunn’s Index (DI) is another metric for evaluating a clustering algorithm. Dunn’s Index is equal to the minimum inter-cluster distance divided by the maximum cluster size. Note that large inter-cluster distances (better separation) and smaller cluster sizes (more compact clusters) lead to a higher DI value. A higher DI implies better clustering. It assumes that better clustering means that clusters are compact and well-separated from other clusters.
 
 ![Alt_text](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Figures/Derivation-of-the-Overall-Silhouette-Coefficient-OverallSil.png)
+
+### Q19: What is the ROC curve and when should you use it? ### 
+
+Answer:
+
+
