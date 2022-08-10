@@ -266,5 +266,5 @@ Here are some benefits of using the ROC Curve :
 
 * Can be used to compare different ML models by calculating the area under the ROC curve (AUC)
 
-![Alt_text]()
+![Alt_text](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Figures/Roc_curve.svg.png)
 
