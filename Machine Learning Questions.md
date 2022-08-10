@@ -252,4 +252,19 @@ Dunn’s Index (DI) is another metric for evaluating a clustering algorithm. Dun
 
 Answer:
 
+ROC curve, Receiver Operating Characteristic curve, is a graphical representation of the model's performance where we plot the True Positive Rate (TPR) against the False Positive Rate (FPR) for different threshold values, for hard classification, between 0 to 1 based on model output.
+
+This ROC curve is mainly used to compare two or more models as shown in the figure below. Now, it is easy to see that a reasonable model will always give FPR less (since it's an error) than TPR so, the curve hugs the upper left corner of the square box 0 to 1 on the TPR axis and 0 to 1 on the FPR axis.
+
+The more the AUC(area under the curve) for a model's ROC curve, the better the model in terms of prediction accuracy in terms of TPR and FPR.
+
+Here are some benefits of using the ROC Curve :
+
+* Can help prioritize either true positives or true negatives depending on your case study (Helps you visually choose the best hyperparameters for your case)
+
+* Can be very insightful when we have unbalanced datasets
+
+* Can be used to compare different ML models by calculating the area under the ROC curve (AUC)
+
+![Alt_text]()
 
