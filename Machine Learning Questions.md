@@ -272,3 +272,9 @@ Here are some benefits of using the ROC Curve :
 ### Q20: What is the difference between hard and soft voting classifiers in the context of ensemble learners? ###
 
 Answer:
+
+* Hard Voting: We take into account the class predictions for each classifier and then classify an input based on the maximum votes to a particular class.
+
+* Soft Voting: We take into account the probability predictions for each class by each classifier and then classify an input to the class with maximum probability based on the average probability (averaged over the classifier's probabilities) for that class.
+
+![Alt_text]()
