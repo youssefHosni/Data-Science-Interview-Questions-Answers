@@ -157,6 +157,7 @@ x+y > 1-a-b
 x+y > 1/2
 
 From the diagram below, there is only one triangle that matches all the above conditions out of 4 triangles. Therefore, the probability will be 1/4
+
 ![1660836577689](https://user-images.githubusercontent.com/72076328/185434931-9b73c7ea-00d9-4f3e-a381-3424aed1de92.jpg)
 
 
