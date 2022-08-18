@@ -9,6 +9,8 @@
 * [Q6: What is the difference between the Bernoulli and Binomial distribution?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Probability%20Questions.md#:~:text=is%2050/4950.-,Q6%3A%20What%20is%20the%20difference%20between%20the%20Bernoulli%20and%20Binomial%20distribution%3F,-Answer%3A)
 * [Q7: If there are 30 people in a room, what is the probability that everyone has different birthdays?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Probability%20Questions.md#:~:text=of%20Binomial%20Distribution.-,Q7%3A%20If%20there%20are%2030%20people%20in%20a%20room%2C%20what%20is%20the%20probability%20that%20everyone%20has%20different%20birthdays%3F,-The%20sample%20space)
 * [Q8: Assume two coins, one fair and the other is unfair. You pick one at random, flip it five times, and observe that it comes up as tails all five times. What is the probability that you are fliping the unfair coin? ]()
+* [Q9: Assume you take a stick of length 1 and you break it uniformly at random into three parts. What is the probability that the three pieces can be used to form a triangle?]()
+
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Questions & Answers ##
 
@@ -138,3 +140,23 @@ Then, we are interested in solving for P(U|5T) (the probability that you are fli
 Lets apply Bayes theorem where P(U|5T) = P(5T|U) * P(U) / P(5T|U)* P(U) + P(5T|F)* P(F) = 0.5 / 0.5 +0.5* 1/32 = 0.97
 
 Therefore the probability that you picked the unfair coin is 97%
+
+### Q9: Assume you take a stick of length 1 and you break it uniformly at random into three parts. What is the probability that the three pieces can be used to form a triangle? ###
+
+Answer:
+The right answer is 0.25
+
+Let's say, x and y are the lengths of the two parts, so the length of the third part will be 1-x-y
+
+As per the triangle inequality theorem, the sum of two sides should always be greater than the third side. Therefore, no two lengths can be more than 1/2.
+x<1/2
+y<1/2
+
+Based on the triangle inequality theorem:
+x+y > 1-a-b
+x+y > 1/2
+
+From the diagram below, there is only one triangle that matches all the above conditions out of 4 triangles. Therefore, the probability will be 1/4
+![1660836577689](https://user-images.githubusercontent.com/72076328/185434931-9b73c7ea-00d9-4f3e-a381-3424aed1de92.jpg)
+
+
