@@ -9,6 +9,7 @@
 * [Q6: Explain the long-tailed distribution and provide three examples of relevant phenomena that have long tails. Why are they important in classification and regression problems?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Statistics%20Questions.md#:~:text=Q6%3A%20Q6%3A%20Explain%20the%20long%2Dtailed%20distribution%20and%20provide%20three%20examples%20of%20relevant%20phenomena%20that%20have%20long%20tails.%20Why%20are%20they%20important%20in%20classification%20and%20regression%20problems%3F)
 * [Q7: What is the meaning of KPI in statistics](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Statistics%20Questions.md#:~:text=is%20normally%20distributed.-,Q7%3A%20What%20is%20the%20meaning%20of%20KPI%20in%20statistics,-Answer%3A)
 * [Q8: Say you flip a coin 10 times and observe only one head. What would be the null hypothesis and p-value for testing whether the coin is fair or not?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Statistics%20Questions.md#:~:text=what%E2%80%99s%20most%20important.-,Q8%3A%20Say%20you%20flip%20a%20coin%2010%20times%20and%20observe%20only%20one%20head.%20What%20would%20be%20the%20null%20hypothesis%20and%20p%2Dvalue%20for%20testing%20whether%20the%20coin%20is%20fair%20or%20not%3F,-Answer%3A)
+* [Q9: You are testing hundreds of hypotheses, each with a t-test. What considerations would you take into account when doing this?]()
 
 ## Questions & Answers ##
 
@@ -140,4 +141,8 @@ The null hypothesis is that the coin is fair, and the alternative hypothesis is 
 In total for 10 flips of a coin, there are 2^10 = 1024 possible outcomes and in only 10 of them are there 9 tails and one head.
 
 Hence, the exact probability of the given result is the p-value, which is 10/1024 = 0.0098. Therefore, with a significance level set, for example, at 0.05, we can reject the null hypothesis.
+
+### Q9: You are testing hundreds of hypotheses, each with a t-test. What considerations would you take into account when doing this? ###
+
+Answer:
 
