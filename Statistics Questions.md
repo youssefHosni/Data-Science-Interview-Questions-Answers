@@ -145,4 +145,7 @@ Hence, the exact probability of the given result is the p-value, which is 10/102
 ### Q9: You are testing hundreds of hypotheses, each with a t-test. What considerations would you take into account when doing this? ###
 
 Answer:
+The main consideration when we have a large number of tests is that probability of getting a significant test due to chance alone increases. This will increase the type 1 error (rejecting the null hypothesis when it's actually true).
+
+Therefore we need to consider the Bonferroni Effect which happens when we make many tests. Ex. If our significance level is 0.05 but we made a 100 test it means that the probability of getting a value inside the rejection rejoin is 0.0005, not 0.05 so here we need to use another significance level which's called alpha star = significance level /K Where K is the number of the tests.
 
