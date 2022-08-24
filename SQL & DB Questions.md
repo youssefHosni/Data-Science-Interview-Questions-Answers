@@ -7,6 +7,9 @@
 * [Q4: Assume you have the given table below which contains information on user logins. Write a query to obtain the number of reactivated users (Users who did not log in the previous month and then logged in the current month)](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/SQL%20&%20DB%20Questions.md#:~:text=for%20Numerical%20Variables-,Q4%3A%20Assume%20you%20have%20the%20given%20table%20below%20which%20contains%20information%20on%20user%20logins.%20Write%20a%20query%20to%20obtain%20the%20number%20of%20reactivated%20users%20(Users%20who%20did%20not%20log%20in%20the%20previous%20month%20and%20then%20logged%20in%20the%20current%20month),-Answer%3A)
 ![Alt_text](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Figures/Screenshot%202022-07-31%20201033.png)
 * [Q5: Describe the advantages and disadvantages of relational database vs NoSQL databases](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/SQL%20&%20DB%20Questions.md#:~:text=Q5%3ADescribe%20the%20advantages%20and%20disadvantages%20of%20relational%20database%20vs%20NoSQL%20databases)
+* [Q6: Assume you are given the table below on user transactions. Write a query to obtain the third transaction of every user]()
+![1661352126442](https://user-images.githubusercontent.com/72076328/186479577-da475779-b4de-45ef-b1ec-79ca5df0dad5.png)
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Questions & Answers ##
@@ -86,3 +89,15 @@ Answer:
 
 **Disadvantages of NoSQL Databases:** As outlined by the BASE framework, weaker guarantees of data correctness are made due to the soft-state and eventual consistency property.  Managing consistency can also be difficult due to the lack of a predefined schema that's strictly adhered to. Depending on the type of NoSQL database, it can be challenging for the database to handle its types of complex queries or access patterns.
 ![Alt_text](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Figures/ezgif.com-gif-maker.jpg)
+
+
+### Q6: Assume you are given the table below on user transactions. Write a query to obtain the third transaction of every user ###
+
+![1661352126442](https://user-images.githubusercontent.com/72076328/186479648-5dcbf0a3-46e3-46b4-99ab-94feeace3dca.png)
+
+Answer:
+First, we obtain the transaction numbers for each user. We can do this by using the ROW_NUMBER window function, where we PARTITION by the user_id and ORDER by the transaction_date fields, calling the resulting field a transaction number. From there, we can simply take all transactions having a transaction number equal to 3.
+![1661352088335](https://user-images.githubusercontent.com/72076328/186479695-5d2b7f36-5703-489d-87e3-6bad6ee1a9b7.jpg)
+
+
+
