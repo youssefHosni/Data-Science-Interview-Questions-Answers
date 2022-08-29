@@ -284,4 +284,13 @@ Answer:
 
 Answer:
 
+Boosting refers to any Ensemble method that can combine several weak learners into a strong learner. The general idea of most boosting methods is to train predictors sequentially, each trying to correct its predecessor.
+
+There are many boosting methods available, but by far the most popular are: 
+
+* Adaptive Boosting: One way for a new predictor to correct its predecessor is to pay a bit more attention to the training instances that the predecessor under-fitted. This results in new predictors focusing more and more on the hard cases.
+* Gradient Boosting:  Another very popular Boosting algorithm is Gradient Boosting. Just like AdaBoost, Gradient Boosting works by sequentially adding predictors to an ensemble, each one correcting its predecessor. However, instead of tweaking the instance weights at every iteration as AdaBoost does, this method tries to fit the new predictor to the residual errors made by the previous predictor.
+
+![1661788022018](https://user-images.githubusercontent.com/72076328/187241588-6cc3166f-a3e0-46b9-a0ce-e3d9ef9f0228.jpg)
+
 
