@@ -22,6 +22,7 @@
 * [Q19: What is the ROC curve and when should you use it?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Machine%20Learning%20Questions.md#:~:text=from%20other%20clusters.-,Q19%3A%20What%20is%20the%20ROC%20curve%20and%20when%20should%20you%20use%20it%3F,-Answer%3A)
 * [Q20: What is the difference between hard and soft voting classifiers in the context of ensemble learners?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Machine%20Learning%20Questions.md#:~:text=ROC%20curve%20(AUC)-,Q20%3A%20What%20is%20the%20difference%20between%20hard%20and%20soft%20voting%20classifiers%20in%20the%20context%20of%20ensemble%20learners%3F,-Answer%3A)
 * [Q21: What is boosting in the context of ensemble learners discuss two famous boosting methods](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Machine%20Learning%20Questions.md#:~:text=Q21%3AWhat%20is%20boosting%20in%20the%20context%20of%20ensemble%20learners%20discuss%20two%20famous%20boosting%20methods)
+* [Q22: How can you evaluate the performance of a dimensionality reduction algorithm on your dataset?]()
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -293,4 +294,7 @@ There are many boosting methods available, but by far the most popular are:
 
 ![1661788022018](https://user-images.githubusercontent.com/72076328/187241588-6cc3166f-a3e0-46b9-a0ce-e3d9ef9f0228.jpg)
 
+### Q22: How can you evaluate the performance of a dimensionality reduction algorithm on your dataset? ###
+
+Answer:
 
