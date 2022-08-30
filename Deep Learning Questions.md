@@ -1,4 +1,4 @@
-# Deep Learning Questions #
+# Deep Learning Interview Questions for Data Scien #
 
 ## Questions ##
 * [Q1: What are autoencoders? Explain the different layers of autoencoders and mention three practical usages of them?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Deep%20Learning%20Questions.md#:~:text=Questions%20%26%20Answers-,Q1%3A%20What%20are%20autoencoders%3F%20Explain%20the%20different%20layers%20of%20autoencoders%20and%20mention%20three%20practical%20usages%20of%20them%3F,-Answer%3A)
@@ -12,6 +12,7 @@
 * [Q9: What is the Vanishing Gradient Problem in Artificial Neural Networks and How to fix it?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Deep%20Learning%20Questions.md#:~:text=of%20the%20window.-,Q9%3A%20What%20is%20the%20Vanishing%20Gradient%20Problem%20in%20Artificial%20Neural%20Networks%20and%20How%20to%20fix%20it%3F,-Answer%3A)
 * [Q10: When it comes to training an artificial neural network, what could be the reason why the loss doesn't decrease in a few epochs?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Deep%20Learning%20Questions.md#:~:text=GRUs%20and%20LSTMs.-,Q10%3A%20When%20it%20comes%20to%20training%20an%20artificial%20neural%20network%2C%20what%20could%20be%20the%20reason%20why%20the%20loss%20doesn%27t%20decrease%20in%20a%20few%20epochs%3F,-Answer%3A)
 * [Q11: Why Sigmoid or Tanh is not preferred to be used as the activation function in the hidden layer of the neural network?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Deep%20Learning%20Questions.md#:~:text=of%20vanishing%20gradients-,Q11%3A%20Why%20Sigmoid%20or%20Tanh%20is%20not%20preferred%20to%20be%20used%20as%20the%20activation%20function%20in%20the%20hidden%20layer%20of%20the%20neural%20network%3F,-Answer%3A)
+* [Q12: Discuss in what context it is recommended to use transfer learning and when it is not.]()
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Questions & Answers ##
@@ -220,3 +221,7 @@ Answer:
 A common problem with Tanh or Sigmoid functions is that they saturate. Once saturated, the learning algorithms cannot adapt to the weights and enhance the performance of the model.
 Thus, Sigmoid or Tanh activation functions prevent the neural network from learning effectively leading to a vanishing gradient problem. The vanishing gradient problem can be addressed with the use of Rectified Linear Activation Function (ReLu) instead of sigmoid and Tanh.
 ![Alt_text](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Figures/Tanh-and-its-gradient-plot.png)
+
+### Q12: Discuss in what context it is recommended to use transfer learning and when it is not. ###
+
+Answer:
