@@ -225,3 +225,5 @@ Thus, Sigmoid or Tanh activation functions prevent the neural network from learn
 ### Q12: Discuss in what context it is recommended to use transfer learning and when it is not. ###
 
 Answer:
+
+* Transfer Learning:
