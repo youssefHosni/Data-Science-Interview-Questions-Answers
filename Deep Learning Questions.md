@@ -227,3 +227,4 @@ Thus, Sigmoid or Tanh activation functions prevent the neural network from learn
 Answer:
 
 * Transfer Learning:
+* Do not used transfer learning 
