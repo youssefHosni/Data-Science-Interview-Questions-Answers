@@ -226,5 +226,11 @@ Thus, Sigmoid or Tanh activation functions prevent the neural network from learn
 
 Answer:
 
-* Transfer Learning:
-* Do not used transfer learning 
+* Transfer Learning can be used in the following cases:
+- The downstream task has very small amount of data available, then we can try using a pretrained model weights by switching the last layer with new layers which we will train.
+- In some cases, like in vision related task, the initial layers have a common behavior of detecting edges, then little more complex but still abstract features and so on which is common in all vision tasks and hence a pretrained model's initial layers can be used directly. Same thing holds for Language Models too, for example a model trained in large Hindi corpus can be transferred and used for other Indo-Aryan Languages with low resources available.
+
+* Cases when transfer Learning should not be used:
+- The pretrained model has no relation with the downstream task.
+
+
