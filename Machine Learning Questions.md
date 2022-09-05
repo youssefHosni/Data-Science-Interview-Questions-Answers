@@ -23,7 +23,7 @@
 * [Q20: What is the difference between hard and soft voting classifiers in the context of ensemble learners?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Machine%20Learning%20Questions.md#:~:text=ROC%20curve%20(AUC)-,Q20%3A%20What%20is%20the%20difference%20between%20hard%20and%20soft%20voting%20classifiers%20in%20the%20context%20of%20ensemble%20learners%3F,-Answer%3A)
 * [Q21: What is boosting in the context of ensemble learners discuss two famous boosting methods](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Machine%20Learning%20Questions.md#:~:text=Q21%3AWhat%20is%20boosting%20in%20the%20context%20of%20ensemble%20learners%20discuss%20two%20famous%20boosting%20methods)
 * [Q22: How can you evaluate the performance of a dimensionality reduction algorithm on your dataset?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Machine%20Learning%20Questions.md#:~:text=the%20previous%20predictor.-,Q22%3A%20How%20can%20you%20evaluate%20the%20performance%20of%20a%20dimensionality%20reduction%20algorithm%20on%20your%20dataset%3F,-Answer%3A)
-* [Q23: Define the curse of dimensionality and how to solve it. ]()
+* [Q23: Define the curse of dimensionality and how to solve it. ](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Machine%20Learning%20Questions.md#:~:text=the%20original%20dataset.-,Q23%3A%20Define%20the%20curse%20of%20dimensionality%20and%20how%20to%20solve%20it.,-Answer%3A)
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 
