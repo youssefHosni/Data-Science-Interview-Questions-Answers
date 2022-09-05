@@ -235,7 +235,6 @@ Transfer learning is a machine learning method where a model developed for a tas
 * Cases when transfer Learning should not be used:
    * The first and most important is the "COST". So is it cost effective or we can have similar performance without using it.
    * The pretrained model has no relation with the downstream task.
-   * If we are not able to touch remarkable milestone with conventional methods, then its pretty obvious to use transfer learning.
    * If the latency is a big constraint (Mostly in NLP ) then transfer learning is not the best option. However Now with tensorFlow lite kind of platform and Model  Distillation ,Latency is not a problem anymore.
 
 
