@@ -226,18 +226,20 @@ Thus, Sigmoid or Tanh activation functions prevent the neural network from learn
 
 Answer:
 
-Transfer learning is a machine learning method where a model developed for a task is reused as the starting point for a model on a second task. It is a popular approach in deep learning where pre-trained models are used as the starting point on computer vision and natural language processing tasks given the vast compute and time resources required to develop neural network models on these problems and from the huge jumps in skill that they provide on related problems. Transfer learning is used for tasks where the data is too little to train a full-scale model from the beginning. In transfer learning, well-trained, well-constructed networks are used which have learned over large sets, and can be used to boost the performance of a dataset.
+Transfer learning is a machine learning method where a model developed for a task is reused as the starting point for a model on a second task. It is a popular approach in deep learning where pre-trained models are used as the starting point for computer vision and natural language processing tasks given the vast computing and time resources required to develop neural network models on these problems and from the huge jumps in a skill that they provide on related problems.
 
-* Transfer Learning can be used in the following cases:
-  * The downstream task has very small amount of data available, then we can try using a pretrained model weights by switching the last layer with new layers which we will train.
-  * In some cases, like in vision related task, the initial layers have a common behavior of detecting edges, then little more complex but still abstract features and so on which is common in all vision tasks and hence a pretrained model's initial layers can be used directly. Same thing holds for Language Models too, for example a model trained in large Hindi corpus can be transferred and used for other Indo-Aryan Languages with low resources available.
+Transfer learning is used for tasks where the data is too little to train a full-scale model from the beginning. In transfer learning, well-trained, well-constructed networks are used which have learned over large sets and can be used to boost the performance of a dataset.
 
-* Cases when transfer Learning should not be used:
-   * The first and most important is the "COST". So is it cost effective or we can have similar performance without using it.
-   * The pretrained model has no relation with the downstream task.
-   * If the latency is a big constraint (Mostly in NLP ) then transfer learning is not the best option. However Now with tensorFlow lite kind of platform and Model  Distillation ,Latency is not a problem anymore.
+𝐓𝐫𝐚𝐧𝐬𝐟𝐞𝐫 𝐋𝐞𝐚𝐫𝐧𝐢𝐧𝐠 𝐜𝐚𝐧 𝐛𝐞 𝐮𝐬𝐞𝐝 𝐢𝐧 𝐭𝐡𝐞 𝐟𝐨𝐥𝐥𝐨𝐰𝐢𝐧𝐠 𝐜𝐚𝐬𝐞𝐬:
+1. The downstream task has a very small amount of data available, then we can try using pre-trained model weights by switching the last layer with new layers which we will train.
+
+2. In some cases, like in vision-related tasks, the initial layers have a common behavior of detecting edges, then a little more complex but still abstract features and so on which is common in all vision tasks, and hence a pre-trained model's initial layers can be used directly. The same thing holds for Language Models too, for example, a model trained in a large Hindi corpus can be transferred and used for other Indo-Aryan Languages with low resources available.
 
 
+𝐂𝐚𝐬𝐞𝐬 𝐰𝐡𝐞𝐧 𝐭𝐫𝐚𝐧𝐬𝐟𝐞𝐫 𝐋𝐞𝐚𝐫𝐧𝐢𝐧𝐠 𝐬𝐡𝐨𝐮𝐥𝐝 𝐧𝐨𝐭 𝐛𝐞 𝐮𝐬𝐞𝐝:
 
+1. The first and most important is the "COST". So is it cost-effective or we can have a similar performance without using it.
 
+2. The pre-trained model has no relation to the downstream task.
 
+3. If the latency is a big constraint (Mostly in NLP ) then transfer learning is not the best option. However Now with the TensorFlow lite kind of platform and Model Distillation, Latency is not a problem anymore.
