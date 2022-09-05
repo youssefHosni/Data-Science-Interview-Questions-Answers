@@ -23,7 +23,7 @@
 * [Q20: What is the difference between hard and soft voting classifiers in the context of ensemble learners?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Machine%20Learning%20Questions.md#:~:text=ROC%20curve%20(AUC)-,Q20%3A%20What%20is%20the%20difference%20between%20hard%20and%20soft%20voting%20classifiers%20in%20the%20context%20of%20ensemble%20learners%3F,-Answer%3A)
 * [Q21: What is boosting in the context of ensemble learners discuss two famous boosting methods](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Machine%20Learning%20Questions.md#:~:text=Q21%3AWhat%20is%20boosting%20in%20the%20context%20of%20ensemble%20learners%20discuss%20two%20famous%20boosting%20methods)
 * [Q22: How can you evaluate the performance of a dimensionality reduction algorithm on your dataset?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Machine%20Learning%20Questions.md#:~:text=the%20previous%20predictor.-,Q22%3A%20How%20can%20you%20evaluate%20the%20performance%20of%20a%20dimensionality%20reduction%20algorithm%20on%20your%20dataset%3F,-Answer%3A)
-* [Q23: What is the curse of dimensinality? ]()
+* [Q23: Define the curse of dimensionality and how to solve it. ]()
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -303,3 +303,6 @@ Intuitively, a dimensionality reduction algorithm performs well if it eliminates
 
 Alternatively, if you are using dimensionality reduction as a preprocessing step before another Machine Learning algorithm (e.g., a Random Forest classifier), then you can simply measure the performance of that second algorithm; if dimensionality reduction did not lose too much information, then the algorithm should perform just as well as when using the original dataset.
 
+### Q23: Define the curse of dimensionality and how to solve it. ###
+
+Answer:
