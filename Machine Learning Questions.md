@@ -317,3 +317,7 @@ Remove irrelevant features not discriminating classes correlated or features not
 
 * Feature selection(select the most important ones).
 * Feature extraction(transform current feature dimensionality into a lower dimension preserving the most possible amount of information like PCA ).
+
+![Curse of dim'](https://user-images.githubusercontent.com/72076328/188653089-8999ea59-9511-4d52-baff-15a652e117a9.png)
+
+
