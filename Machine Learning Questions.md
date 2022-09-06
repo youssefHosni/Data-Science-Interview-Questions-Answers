@@ -306,3 +306,14 @@ Alternatively, if you are using dimensionality reduction as a preprocessing step
 ### Q23: Define the curse of dimensionality and how to solve it. ###
 
 Answer:
+
+Q68: Define the curse of dimensionality and how to solve it.
+
+Answer:
+Curse of dimensionality represents the situation when the amount of data is too few to be represented in a high-dimensional space, as it will be highly scattered in that high-dimensional space and it becomes more probable that we overfit this data. If we increase the number of features, we are implicitly increasing model complexity and if we increase model complexity we need more data. 
+
+Possible solutions are:
+Remove irrelevant features not discriminating classes correlated or features not resulting in much improvement, we can use:
+
+* Feature selection(select the most important ones).
+* Feature extraction(transform current feature dimensionality into a lower dimension preserving the most possible amount of information like PCA ).
