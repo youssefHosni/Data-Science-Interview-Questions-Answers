@@ -10,6 +10,7 @@
 * [Q7: If there are 30 people in a room, what is the probability that everyone has different birthdays?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Probability%20Questions.md#:~:text=of%20Binomial%20Distribution.-,Q7%3A%20If%20there%20are%2030%20people%20in%20a%20room%2C%20what%20is%20the%20probability%20that%20everyone%20has%20different%20birthdays%3F,-The%20sample%20space)
 * [Q8: Assume two coins, one fair and the other is unfair. You pick one at random, flip it five times, and observe that it comes up as tails all five times. What is the probability that you are fliping the unfair coin? ](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Probability%20Questions.md#:~:text=a%20birthday%20match.-,Q8%3A%20Assume%20two%20coins%2C%20one%20fair%20and%20the%20other%20is%20unfair.%20You%20pick%20one%20at%20random%2C%20flip%20it%20five%20times%2C%20and%20observe%20that%20it%20comes%20up%20as%20tails%20all%20five%20times.%20What%20is%20the%20probability%20that%20you%20are%20fliping%20the%20unfair%20coin%3F,-Answer%3A)
 * [Q9: Assume you take a stick of length 1 and you break it uniformly at random into three parts. What is the probability that the three pieces can be used to form a triangle?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Probability%20Questions.md#:~:text=coin%20is%2097%25-,Q9%3A%20Assume%20you%20take%20a%20stick%20of%20length%201%20and%20you%20break%20it%20uniformly%20at%20random%20into%20three%20parts.%20What%20is%20the%20probability%20that%20the%20three%20pieces%20can%20be%20used%20to%20form%20a%20triangle%3F,-Answer%3A%20The%20right)
+* [Q10: Say you draw a circle and choose two chords at random. What is the probability that those chords will intersect?]()
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Questions & Answers ##
@@ -159,5 +160,9 @@ x+y > 1/2
 From the diagram below, there is only one triangle that matches all the above conditions out of 4 triangles. Therefore, the probability will be 1/4
 
 ![1660836577689](https://user-images.githubusercontent.com/72076328/185434931-9b73c7ea-00d9-4f3e-a381-3424aed1de92.jpg)
+
+### Q10: Say you draw a circle and choose two chords at random. What is the probability that those chords will intersect? ###
+
+Answer:
 
 
