@@ -1,4 +1,4 @@
-# Statistics Inyerview Questions For Data Scientist # 
+# Statistics Interview Questions for Data Scientists # 
 
 ## Questions ##
 * [Q1: Explain the central limit theorem and give examples of when you can use it in a real-world problem?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Statistics%20Questions.md#:~:text=Questions%20%26%20Answers-,Q1%3A%20Explain%20the%20central%20limit%20theorem%20and%20give%20examples%20of%20when%20you%20can%20use%20it%20in%20a%20real%2Dworld%20problem%3F,-Answers%3A)
@@ -10,6 +10,8 @@
 * [Q7: What is the meaning of KPI in statistics](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Statistics%20Questions.md#:~:text=is%20normally%20distributed.-,Q7%3A%20What%20is%20the%20meaning%20of%20KPI%20in%20statistics,-Answer%3A)
 * [Q8: Say you flip a coin 10 times and observe only one head. What would be the null hypothesis and p-value for testing whether the coin is fair or not?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Statistics%20Questions.md#:~:text=what%E2%80%99s%20most%20important.-,Q8%3A%20Say%20you%20flip%20a%20coin%2010%20times%20and%20observe%20only%20one%20head.%20What%20would%20be%20the%20null%20hypothesis%20and%20p%2Dvalue%20for%20testing%20whether%20the%20coin%20is%20fair%20or%20not%3F,-Answer%3A)
 * [Q9: You are testing hundreds of hypotheses, each with a t-test. What considerations would you take into account when doing this?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Statistics%20Questions.md#:~:text=the%20null%20hypothesis.-,Q9%3A%20You%20are%20testing%20hundreds%20of%20hypotheses%2C%20each%20with%20a%20t%2Dtest.%20What%20considerations%20would%20you%20take%20into%20account%20when%20doing%20this%3F,-Answer%3A)
+* [Q10: What general conditions must be satisfied for the central limit theorem to hold?]()
+
 
 ## Questions & Answers ##
 
@@ -149,3 +151,7 @@ The main consideration when we have a large number of tests is that probability 
 
 Therefore we need to consider the Bonferroni Effect which happens when we make many tests. Ex. If our significance level is 0.05 but we made a 100 test it means that the probability of getting a value inside the rejection rejoin is 0.0005, not 0.05 so here we need to use another significance level which's called alpha star = significance level /K Where K is the number of the tests.
 
+
+### Q10: What general conditions must be satisfied for the central limit theorem to hold? ###
+
+Answer:
