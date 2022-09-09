@@ -12,6 +12,7 @@
 * [Q9: Assume you take a stick of length 1 and you break it uniformly at random into three parts. What is the probability that the three pieces can be used to form a triangle?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Probability%20Questions.md#:~:text=coin%20is%2097%25-,Q9%3A%20Assume%20you%20take%20a%20stick%20of%20length%201%20and%20you%20break%20it%20uniformly%20at%20random%20into%20three%20parts.%20What%20is%20the%20probability%20that%20the%20three%20pieces%20can%20be%20used%20to%20form%20a%20triangle%3F,-Answer%3A%20The%20right)
 * [Q10: Say you draw a circle and choose two chords at random. What is the probability that those chords will intersect?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Probability%20Questions.md#:~:text=be%201/4-,Q10%3A%20Say%20you%20draw%20a%20circle%20and%20choose%20two%20chords%20at%20random.%20What%20is%20the%20probability%20that%20those%20chords%20will%20intersect%3F,-Answer%3A)
 
+
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Questions & Answers ##
 
@@ -164,5 +165,9 @@ From the diagram below, there is only one triangle that matches all the above co
 ### Q10: Say you draw a circle and choose two chords at random. What is the probability that those chords will intersect? ###
 
 Answer:
+For making 2 chords, 4 points are necessary and from 4 points there are 3 different combinations of pairs of chords can be made. From the 3 combinations, there is only one combination in which the two chords intersect hence answer is 1/3.
+Let's assume that P1, P2, P3, and P4 are four points then 3 different combinations are possible for pairs of chords: (P1 P2) (P3 P4) or (P1 P3) (P4 P2) or (P1 P4) (P2 P3) there the 3rd one will only intersect.
+
+![Probability question 70](https://user-images.githubusercontent.com/72076328/189387820-1a4fb356-d8a9-4054-9475-09e3ad5bc872.png)
 
 
