@@ -155,3 +155,14 @@ Therefore we need to consider the Bonferroni Effect which happens when we make m
 ### Q10: What general conditions must be satisfied for the central limit theorem to hold? ###
 
 Answer:
+
+In order to apply the central limit theorem, there are four conditions that must be met:
+
+1.** Randomization:** The data must be sampled randomly such that every member in a population has an equal probability of being selected to be in the sample.
+
+2. **Independence:** The sample values must be independent of each other.
+
+3. **The 10% Condition:** When the sample is drawn without replacement, the sample size should be no larger than 10% of the population.
+
+4. **Large Sample Condition:** The sample size needs to be sufficiently large.
+
