@@ -133,5 +133,18 @@ Both the methods only accept callables as arguments but what sets them apart is 
 
 Answer:
 ```
+input_string = "pythoninterviewquestion"
+
+def first_recurring(input_str):
+  
+  a_str = ""
+  for letter in input_str:
+    a_str = a_str + letter
+    if a_str.count(letter) > 1:
+      return letter
+  return None
+
+first_recurring(input_string)
+
 ```
 
