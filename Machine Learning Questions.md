@@ -307,10 +307,6 @@ Alternatively, if you are using dimensionality reduction as a preprocessing step
 ### Q23: Define the curse of dimensionality and how to solve it. ###
 
 Answer:
-
-Q68: Define the curse of dimensionality and how to solve it.
-
-Answer:
 Curse of dimensionality represents the situation when the amount of data is too few to be represented in a high-dimensional space, as it will be highly scattered in that high-dimensional space and it becomes more probable that we overfit this data. If we increase the number of features, we are implicitly increasing model complexity and if we increase model complexity we need more data. 
 
 Possible solutions are:
@@ -324,4 +320,6 @@ Remove irrelevant features not discriminating classes correlated or features not
 ### Q24: In what cases would you use vanilla PCA, Incremental PCA, Randomized PCA, or Kernel PCA? ### 
 
 Answer:
+Regular PCA is the default, but it works only if the dataset fits in memory. Incremental PCA is useful for large datasets that don't fit in memory, but it is slower than regular PCA, so if the dataset fits in memory you should prefer regular PCA. Incremental PCA is also useful for online tasks when you need to apply PCA on the fly, every time a new instance arrives. Randomized PCA is useful when you want to considerably reduce dimensionality and the dataset fits in memory; in this case, it is much faster than regular PCA. Finally, Kernel PCA is useful for nonlinear datasets.
+
 
