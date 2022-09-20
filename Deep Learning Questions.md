@@ -253,3 +253,22 @@ Answer:
 In Sequence to Sequence models such as RNNs, the input sentences might have long-term dependencies for example we might say "The boy who was wearing a red t-shirt, blue jeans, black shoes, and a white cap and who lives at ... and is 10 years old ...... etc, is genius" here the verb (is) in the sentence depends on the (boy) i.e if we say (The boys, ......, are genius". When training an RNN we do backward propagation both through layers and backward through time. Without focusing too much on mathematics, during backward propagation we tend to multiply gradients that are either > 1 or < 1, if the gradients are < 1 and we have about 100 steps backward in time then multiplying 100 numbers that are < 1 will result in a very very tiny gradient causing no change in the weights as we go backward in time (0.1 * 0.1 * 0.1 * .... a 100 times = 10^(-100)) such that in our previous example the word "is" doesn't affect its main dependency the word "boy" during learning the meanings of the word due to the long description in between.
 
 Models like the Gated Recurrent Units (GRUs) and the Long short-term memory (LSTMs) were proposed, the main idea of these models is to use gates to help the network determine which information to keep and which information to discard during learning. Then Transformers were proposed depending on the self-attention mechanism to catch the dependencies between words in the sequence.
+
+### Q14: What are the main gates in LSTM and what are their tasks? ###
+
+Answer:
+There are 3 main types of gates in a LSTM Model, as follows:
+- Forget Gate
+- Input/Update Gate
+- Output Gate
+1) Forget Gate:- It helps in deciding which data to keep or thrown out
+2) Input Gate:- it helps in determining whether new data should be added in long term memory cell given by previous hidden state and new input data 
+3) Output Gate:- this gate gives out the new hidden state
+
+Common things for all these gates are they all take take inputs as the current temporal state/input/word/observation and the previous hidden state output and sigmoid activation is mostly used in all of these.
+
+
+
+
+![The-LSTM-unit-contain-a-forget-gate-output-gate-and-input-gate-The-yellow-circle_W640](https://user-images.githubusercontent.com/72076328/191361816-70d9469e-ce48-44df-8992-6a48bff736ab.jpg)
+
