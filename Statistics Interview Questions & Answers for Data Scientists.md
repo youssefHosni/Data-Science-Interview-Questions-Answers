@@ -1,4 +1,4 @@
-# Statistics Interview Questions for Data Scientists # 
+# Statistics Interview Questions & Answers for Data Scientists # 
 
 ## Questions ##
 * [Q1: Explain the central limit theorem and give examples of when you can use it in a real-world problem?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Statistics%20Questions.md#:~:text=Questions%20%26%20Answers-,Q1%3A%20Explain%20the%20central%20limit%20theorem%20and%20give%20examples%20of%20when%20you%20can%20use%20it%20in%20a%20real%2Dworld%20problem%3F,-Answers%3A)
