@@ -1,4 +1,4 @@
-# Machine Learning Interview Questions #
+# Machine Learning Interview Questions & Answers for Data Scientists #
 
 ## Questions ##
 * [Q1: Mention three ways to make your model robust to outliers?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Machine%20Learning%20Questions.md#:~:text=Questions%20%26%20Answers-,Q1%3A%20Mention%20three%20ways%20to%20make%20your%20model%20robust%20to%20outliers%3F,-Investigating%20the%20outliers)
