@@ -1,4 +1,4 @@
-# SQL & DB Questions # 
+# SQL & DB Interview Questions & Answers for Data Scientists # 
 
 ## Questions ##
 * [Q1: What are joins in SQL and discuss its types?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/SQL%20&%20DB%20Questions.md#:~:text=Questions%20%26%20Answers-,Q1%3A%20What%20are%20joins%20in%20SQL%20and%20discuss%20its%20types%3F,-A%20JOIN%20clause)
