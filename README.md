@@ -9,10 +9,10 @@ The main goal of this intuitive is to revise the basics of data science, be prep
 
 The questions are divided into seven categories:
 
-* [Machine Learning Questions](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Machine%20Learning%20Questions.md)
-* [Deep Learning Questions](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Deep%20Learning%20Questions.md) 
-* [Statistics Questions](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Statistics%20Questions.md) 
-* [Probability Questions](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Probability%20Questions.md) 
-* [Python Questions](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Python%20Questions.md)
-* [SQL & DB Questions](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/SQL%20&%20DB%20Questions.md)
+* [Machine Learning Interview Questions & Answers for Data Scientists](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Machine%20Learning%20Questions.md)
+* [Deep Learning Interview Questions & Answers for Data Scientists](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Deep%20Learning%20Questions.md) 
+* [Statistics Interview Questions & Answers for Data Scientists](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Statistics%20Questions.md) 
+* [Probability Interview Questions & Answers for Data Scientists](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Probability%20Questions.md) 
+* [Python Interview Questions & Answers for Data Scientists](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Python%20Questions.md)
+* [SQL & DB Interview Questions & Answers for Data Scientists](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/SQL%20&%20DB%20Questions.md)
 * [Resume Based Questions](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Resume%20Based%20Questions.md)
