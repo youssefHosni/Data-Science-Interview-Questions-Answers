@@ -11,6 +11,7 @@
 * [Q8: Say you flip a coin 10 times and observe only one head. What would be the null hypothesis and p-value for testing whether the coin is fair or not?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Statistics%20Questions.md#:~:text=what%E2%80%99s%20most%20important.-,Q8%3A%20Say%20you%20flip%20a%20coin%2010%20times%20and%20observe%20only%20one%20head.%20What%20would%20be%20the%20null%20hypothesis%20and%20p%2Dvalue%20for%20testing%20whether%20the%20coin%20is%20fair%20or%20not%3F,-Answer%3A)
 * [Q9: You are testing hundreds of hypotheses, each with a t-test. What considerations would you take into account when doing this?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Statistics%20Questions.md#:~:text=the%20null%20hypothesis.-,Q9%3A%20You%20are%20testing%20hundreds%20of%20hypotheses%2C%20each%20with%20a%20t%2Dtest.%20What%20considerations%20would%20you%20take%20into%20account%20when%20doing%20this%3F,-Answer%3A)
 * [Q10: What general conditions must be satisfied for the central limit theorem to hold?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Statistics%20Questions.md#:~:text=of%20the%20tests.-,Q10%3A%20What%20general%20conditions%20must%20be%20satisfied%20for%20the%20central%20limit%20theorem%20to%20hold%3F,-Answer%3A)
+* [Q11: What is skewness discuss two methods to measure it?]()
 
 
 ## Questions & Answers ##
@@ -165,4 +166,18 @@ In order to apply the central limit theorem, there are four conditions that must
 3. **The 10% Condition:** When the sample is drawn without replacement, the sample size should be no larger than 10% of the population.
 
 4. **Large Sample Condition:** The sample size needs to be sufficiently large.
+
+### Q11: What is skewness discuss two methods to measure it? ###
+
+Answer: 
+
+Skewness refers to a distortion or asymmetry that deviates from the symmetrical bell curve, or normal distribution, in a set of data. If the curve is shifted to the left or to the right, it is said to be skewed.Skewness can be quantified as a representation of the extent to which a given distribution varies from a normal distribution. 
+There are two main types of skewness negative skew which refers to a longer or fatter tail on the left side of the distribution, while positive skew refers to a longer or fatter tail on the right. These two skews refer to the direction or weight of the distribution.
+
+The mean of positively skewed data will be greater than the median. In a negatively skewed distribution, the exact opposite is the case: the mean of negatively skewed data will be less than the median. If the data graphs symmetrically, the distribution has zero skewness, regardless of how long or fat the tails are.
+
+There are several ways to measure skewness. Pearson’s first and second coefficients of skewness are two common methods. Pearson’s first coefficient of skewness, or Pearson mode skewness, subtracts the mode from the mean and divides the difference by the standard deviation. Pearson’s second coefficient of skewness, or Pearson median skewness, subtracts the median from the mean, multiplies the difference by three, and divides the product by the standard deviation.
+
+![1663943424873](https://user-images.githubusercontent.com/72076328/191984720-5b267ab0-9ed3-4315-8443-62d662822796.jpg)
+
 
