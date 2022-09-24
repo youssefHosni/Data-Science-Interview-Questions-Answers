@@ -25,7 +25,8 @@
 * [Q22: How can you evaluate the performance of a dimensionality reduction algorithm on your dataset?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Machine%20Learning%20Questions.md#:~:text=the%20previous%20predictor.-,Q22%3A%20How%20can%20you%20evaluate%20the%20performance%20of%20a%20dimensionality%20reduction%20algorithm%20on%20your%20dataset%3F,-Answer%3A)
 * [Q23: Define the curse of dimensionality and how to solve it. ](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Machine%20Learning%20Questions.md#:~:text=the%20original%20dataset.-,Q23%3A%20Define%20the%20curse%20of%20dimensionality%20and%20how%20to%20solve%20it.,-Answer%3A)
 * [Q24: In what cases would you use vanilla PCA, Incremental PCA, Randomized PCA, or Kernel PCA?]()
-* [Q25: What is the importance of batch in machine learning and explain some batch depend gradient descent algorithm?]()
+* [Q25: Discuss two clustering algorithms that can scale to large datasets]()
+* [Q26: What is the importance of batch in machine learning and explain some batch depend gradient descent algorithm?]()
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Questions & Answers ##
@@ -322,7 +323,22 @@ Remove irrelevant features not discriminating classes correlated or features not
 Answer:
 Regular PCA is the default, but it works only if the dataset fits in memory. Incremental PCA is useful for large datasets that don't fit in memory, but it is slower than regular PCA, so if the dataset fits in memory you should prefer regular PCA. Incremental PCA is also useful for online tasks when you need to apply PCA on the fly, every time a new instance arrives. Randomized PCA is useful when you want to considerably reduce dimensionality and the dataset fits in memory; in this case, it is much faster than regular PCA. Finally, Kernel PCA is useful for nonlinear datasets.
 
-### Q25: What is the importance of batch in machine learning and explain some batch depend gradient descent algorithm? ### 
+
+### Q25: Discuss two clustering algorithms that can scale to large datasets ###
+
+Answer:
+
+**Minibatch Kmeans:**  Instead of using the full dataset at each iteration, the algorithm
+is capable of using mini-batches, moving the centroids just slightly at each iteration.
+This speeds up the algorithm typically by a factor of 3 or 4 and makes it
+possible to cluster huge datasets that do not fit in memory. Scikit-Learn implements
+this algorithm in the MiniBatchKMeans class.
+
+**Balanced Iterative Reducing and Clustering using Hierarchies (BIRCH)** 
+is a clustering algorithm that can cluster large datasets by first generating a small and compact summary of the large dataset that retains as much information as possible. This smaller summary is then clustered instead of clustering the larger dataset.
+
+
+### Q26: What is the importance of batch in machine learning and explain some batch depend gradient descent algorithm? ### 
 
 Answer:
 In the memory, dataset can load either completely at once or in a form of set. If we have huge size of dataset, then load the whole data into memory will reduce the training speed, hence batch term introduce.
