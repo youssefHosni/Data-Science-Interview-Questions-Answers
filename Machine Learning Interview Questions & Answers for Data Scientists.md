@@ -27,7 +27,7 @@
 * [Q24: In what cases would you use vanilla PCA, Incremental PCA, Randomized PCA, or Kernel PCA?]()
 * [Q25: Discuss two clustering algorithms that can scale to large datasets]()
 * [Q26: Do you need to scale your data if you will be using the SVM classifier and discus your answer]()
-* [Q27: What is the importance of batch in machine learning and explain some batch depend gradient descent algorithm?]()
+* [Q27: What is the importance of batch in machine learning and explain some batch depend gradient descent algorithm?](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Machine%20Learning%20Interview%20Questions%20&%20Answers%20for%20Data%20Scientists.md#:~:text=Answer%3A-,Q27%3A%20What%20is%20the%20importance%20of%20batch%20in%20machine%20learning%20and%20explain%20some%20batch%20depend%20gradient%20descent%20algorithm%3F,-Answer%3A%20In%20the)
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Questions & Answers ##
