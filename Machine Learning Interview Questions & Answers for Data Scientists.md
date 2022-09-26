@@ -26,7 +26,7 @@
 * [Q23: Define the curse of dimensionality and how to solve it. ](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Machine%20Learning%20Questions.md#:~:text=the%20original%20dataset.-,Q23%3A%20Define%20the%20curse%20of%20dimensionality%20and%20how%20to%20solve%20it.,-Answer%3A)
 * [Q24: In what cases would you use vanilla PCA, Incremental PCA, Randomized PCA, or Kernel PCA?]()
 * [Q25: Discuss two clustering algorithms that can scale to large datasets]()
-* [Q26: Do you need to scale your data if you will be using the SVM classifier and discus your answer]()
+* [Q26: Do you need to scale your data if you will be using the SVM classifier and discus your answer](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Machine%20Learning%20Interview%20Questions%20&%20Answers%20for%20Data%20Scientists.md#:~:text=the%20larger%20dataset.-,Q26%3A%20Do%20you%20need%20to%20scale%20your%20data%20if%20you%20will%20be%20using%20the%20SVM%20classifier%20and%20discus%20your%20answer,-Answer%3A)
 * [Q27: What is the importance of batch in machine learning and explain some batch depend gradient descent algorithm?](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Machine%20Learning%20Interview%20Questions%20&%20Answers%20for%20Data%20Scientists.md#:~:text=Answer%3A-,Q27%3A%20What%20is%20the%20importance%20of%20batch%20in%20machine%20learning%20and%20explain%20some%20batch%20depend%20gradient%20descent%20algorithm%3F,-Answer%3A%20In%20the)
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 
