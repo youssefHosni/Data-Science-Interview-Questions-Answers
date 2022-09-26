@@ -26,7 +26,7 @@
 * [Q23: Define the curse of dimensionality and how to solve it. ](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Machine%20Learning%20Questions.md#:~:text=the%20original%20dataset.-,Q23%3A%20Define%20the%20curse%20of%20dimensionality%20and%20how%20to%20solve%20it.,-Answer%3A)
 * [Q24: In what cases would you use vanilla PCA, Incremental PCA, Randomized PCA, or Kernel PCA?]()
 * [Q25: Discuss two clustering algorithms that can scale to large datasets]()
-* [Q26: What is the importance of batch in machine learning and explain some batch depend gradient descent algorithm?]()
+* [Q26: Do you need to scale your data if you will be using the SVM classifier and discus your answer]()
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Questions & Answers ##
@@ -337,23 +337,8 @@ this algorithm in the MiniBatchKMeans class.
 **Balanced Iterative Reducing and Clustering using Hierarchies (BIRCH)** 
 is a clustering algorithm that can cluster large datasets by first generating a small and compact summary of the large dataset that retains as much information as possible. This smaller summary is then clustered instead of clustering the larger dataset.
 
-
-### Q26: What is the importance of batch in machine learning and explain some batch depend gradient descent algorithm? ### 
-
+### Q26: Do you need to scale your data if you will be using the SVM classifier and discus your answer ###
 Answer:
-In the memory, dataset can load either completely at once or in a form of set. If we have huge size of dataset, then load the whole data into memory will reduce the training speed, hence batch term introduce.
 
-Example : a image data contains 1,00,000 images, we can load this into 3125 batches where 1 batch = 32 images. So instaed of loading whole 1,00,000 images ones in memory, we can load 32 images for 3125 times which requires less memory.
 
-In summary, batch is important in two way :
-(1) Effecient memory consumption.
-(2) Improve training speed.
 
-There are 3 types of gradient descent algorithm based on batch size:
-(1) Stochastic gradient descent
-(2) Batch gradient descent 
-(3) Mini Batch gradient descent
-
-If whole data in single batch, it is called batch gradient descent.
-If the single data points equal to one batch i.e. number of batches = number of data instances , it is called stochastic gradient descent.
-If the number of batches less than number of data points or greater than 1, its known as mini batch gradient descent.
