@@ -15,7 +15,7 @@
 * [Q12: Discuss in what context it is recommended to use transfer learning and when it is not.](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Deep%20Learning%20Questions.md#:~:text=sigmoid%20and%20Tanh.-,Q12%3A%20Discuss%20in%20what%20context%20it%20is%20recommended%20to%20use%20transfer%20learning%20and%20when%20it%20is%20not.,-Answer%3A)
 * [Q13: Discuss the vanishing gradient in RNN and How they can be solved.](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Deep%20Learning%20Questions.md#:~:text=a%20problem%20anymore.-,Q13%3A%20Discuss%20the%20vanishing%20gradient%20in%20RNN%20and%20How%20they%20can%20be%20solved.,-Answer%3A)
 * [Q14: What are the main gates in LSTM and what are their tasks?]()
-* [Q15: ]()
+* [Q15:Is it a good idea to use CNN to classify 1D signal? ]()
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Questions & Answers ##
@@ -270,4 +270,8 @@ Common things for all these gates are they all take take inputs as the current t
 
 
 ![The-LSTM-unit-contain-a-forget-gate-output-gate-and-input-gate-The-yellow-circle_W640](https://user-images.githubusercontent.com/72076328/191361816-70d9469e-ce48-44df-8992-6a48bff736ab.jpg)
+
+### Q15: Is it a good idea to use CNN to classify 1D signal? ###
+
+Answer:
 
