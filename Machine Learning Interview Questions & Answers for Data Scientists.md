@@ -340,6 +340,13 @@ is a clustering algorithm that can cluster large datasets by first generating a 
 
 ### Q26: Do you need to scale your data if you will be using the SVM classifier and discus your answer ###
 Answer:
+Yes, feature scaling is required for SVM and all margin-based classifiers since the optimal hyperplane (the decision boundary) is dependent on the scale of the input features. In other words, the distance between two observations will differ for scaled and non-scaled cases, leading to different models being generated. 
+
+This can be seen in the figure below, when the features have different scales, we can see that the decision boundary and the support vectors are only classifying the X1 features without taking into consideration the X0 feature, however after scaling the data to the same scale the decision boundaries and support vectors are looking much better and the model is taking into account both features.
+
+To scale the data, normalization and standardization are the most popular approaches.
+![SVM scaled Vs non scaled](https://user-images.githubusercontent.com/72076328/192571498-4a939472-7bb1-4bf2-963f-a6e6394802ba.png)
+
 
 ### Q27: What is the importance of batch in machine learning and explain some batch depend gradient descent algorithm? ###
 
