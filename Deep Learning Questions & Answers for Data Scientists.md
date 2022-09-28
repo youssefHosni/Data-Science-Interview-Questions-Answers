@@ -15,7 +15,7 @@
 * [Q12: Discuss in what context it is recommended to use transfer learning and when it is not.](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Deep%20Learning%20Questions.md#:~:text=sigmoid%20and%20Tanh.-,Q12%3A%20Discuss%20in%20what%20context%20it%20is%20recommended%20to%20use%20transfer%20learning%20and%20when%20it%20is%20not.,-Answer%3A)
 * [Q13: Discuss the vanishing gradient in RNN and How they can be solved.](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Deep%20Learning%20Questions.md#:~:text=a%20problem%20anymore.-,Q13%3A%20Discuss%20the%20vanishing%20gradient%20in%20RNN%20and%20How%20they%20can%20be%20solved.,-Answer%3A)
 * [Q14: What are the main gates in LSTM and what are their tasks?](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Deep%20Learning%20Questions%20&%20Answers%20for%20Data%20Scientists.md#:~:text=in%20the%20sequence.-,Q14%3A%20What%20are%20the%20main%20gates%20in%20LSTM%20and%20what%20are%20their%20tasks%3F,-Answer%3A%20There%20are)
-* [Q15:Is it a good idea to use CNN to classify 1D signal? ](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Deep%20Learning%20Questions%20&%20Answers%20for%20Data%20Scientists.md#:~:text=Q15%3A%20Is%20it%20a%20good%20idea%20to%20use%20CNN%20to%20classify%C2%A01D%C2%A0signal%3F)
+* [Q15: Is it a good idea to use CNN to classify 1D signal? ](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Deep%20Learning%20Questions%20&%20Answers%20for%20Data%20Scientists.md#:~:text=Q15%3A%20Is%20it%20a%20good%20idea%20to%20use%20CNN%20to%20classify%C2%A01D%C2%A0signal%3F)
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Questions & Answers ##
@@ -274,4 +274,11 @@ Common things for all these gates are they all take take inputs as the current t
 ### Q15: Is it a good idea to use CNN to classify 1D signal? ###
 
 Answer:
+For time-series data, where we assume temporal dependence between the values, then convolutional neural networks (CNN) are one of the possible approaches. However the most popular approach to such data is to use recurrent neural networks (RNN), but you can alternatively use CNNs, or a hybrid approach (quasi-recurrent neural networks, QRNN).
+
+With **CNN**, you would use sliding windows of some width, that would look at certain (learned) patterns in the data, and stack such windows on top of each other, so that higher-level windows would look for patterns within the lower-level patterns. Using such sliding windows may be helpful for finding things such as repeating patterns within the data. One drawback is that it doesn't take into account the temporal or sequential aspect of the 1D signals, which can be very important for prediction.
+
+With **RNN**, you would use a cell that takes as input the previous hidden state and current input value, to return output and another hidden form, so the information flows via the hidden states and takes into account the temporal dependencies.
+
+**QRNN** layers mix both approaches.
 
