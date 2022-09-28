@@ -12,7 +12,7 @@ The questions are divided into seven categories:
 * [Machine Learning Interview Questions & Answers for Data Scientists](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Machine%20Learning%20Interview%20Questions%20%26%20Answers%20for%20Data%20Scientists.md)
 * [Deep Learning Interview Questions & Answers for Data Scientists](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Deep%20Learning%20Questions%20&%20Answers%20for%20Data%20Scientists.md) 
 * [Statistics Interview Questions & Answers for Data Scientists](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Statistics%20Interview%20Questions%20%26%20Answers%20for%20Data%20Scientists.md) 
-* [Probability Interview Questions & Answers for Data Scientists](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Probability%20Questions.md) 
+* [Probability Interview Questions & Answers for Data Scientists](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Probability%20Interview%20Questions%20%26%20Answers%20for%20Data%20Scientists.md) 
 * [Python Interview Questions & Answers for Data Scientists](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Python%20Interview%20Questions%20%26%20Answers%20for%20Data%20Scientists.md)
 * [SQL & DB Interview Questions & Answers for Data Scientists](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/SQL%20%26%20DB%20Interview%20Questions%20%26%20Answers%20for%20Data%20Scientists.md)
 * [Resume Based Questions](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Resume%20Based%20Questions.md)
