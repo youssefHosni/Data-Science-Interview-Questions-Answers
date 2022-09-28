@@ -10,7 +10,7 @@ The main goal of this intuitive is to revise the basics of data science, be prep
 The questions are divided into seven categories:
 
 * [Machine Learning Interview Questions & Answers for Data Scientists](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Machine%20Learning%20Questions.md)
-* [Deep Learning Interview Questions & Answers for Data Scientists](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Deep%20Learning%20Questions.md) 
+* [Deep Learning Interview Questions & Answers for Data Scientists](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Deep%20Learning%20Questions%20&%20Answers%20for%20Data%20Scientists.md) 
 * [Statistics Interview Questions & Answers for Data Scientists](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Statistics%20Questions.md) 
 * [Probability Interview Questions & Answers for Data Scientists](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Probability%20Questions.md) 
 * [Python Interview Questions & Answers for Data Scientists](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Python%20Questions.md)
