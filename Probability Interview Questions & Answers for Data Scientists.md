@@ -11,8 +11,7 @@
 * [Q8: Assume two coins, one fair and the other is unfair. You pick one at random, flip it five times, and observe that it comes up as tails all five times. What is the probability that you are fliping the unfair coin? ](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Probability%20Questions.md#:~:text=a%20birthday%20match.-,Q8%3A%20Assume%20two%20coins%2C%20one%20fair%20and%20the%20other%20is%20unfair.%20You%20pick%20one%20at%20random%2C%20flip%20it%20five%20times%2C%20and%20observe%20that%20it%20comes%20up%20as%20tails%20all%20five%20times.%20What%20is%20the%20probability%20that%20you%20are%20fliping%20the%20unfair%20coin%3F,-Answer%3A)
 * [Q9: Assume you take a stick of length 1 and you break it uniformly at random into three parts. What is the probability that the three pieces can be used to form a triangle?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Probability%20Questions.md#:~:text=coin%20is%2097%25-,Q9%3A%20Assume%20you%20take%20a%20stick%20of%20length%201%20and%20you%20break%20it%20uniformly%20at%20random%20into%20three%20parts.%20What%20is%20the%20probability%20that%20the%20three%20pieces%20can%20be%20used%20to%20form%20a%20triangle%3F,-Answer%3A%20The%20right)
 * [Q10: Say you draw a circle and choose two chords at random. What is the probability that those chords will intersect?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Probability%20Questions.md#:~:text=be%201/4-,Q10%3A%20Say%20you%20draw%20a%20circle%20and%20choose%20two%20chords%20at%20random.%20What%20is%20the%20probability%20that%20those%20chords%20will%20intersect%3F,-Answer%3A)
-
-* [Q11:  If there are 30 people in a room, what is the probability that everyone has different birthdays?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Probability%20Questions.md#:~:text=will%20only%20intersect.-,Q11%3A%20If%20there%20are%2030%20people%20in%20a%20room%2C%20what%20is%20the%20probability%20that%20everyone%20has%20different%20birthdays%3F,-Footer)
+* [Q11:If there’s a 15% probability that you might see at least one airplane in a five-minute interval, what is the probability that you might see at least one airplane in a period of half an hour?]()
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Questions & Answers ##
 
@@ -171,4 +170,7 @@ Let's assume that P1, P2, P3, and P4 are four points then 3 different combinatio
 ![Probability question 70](https://user-images.githubusercontent.com/72076328/189387820-1a4fb356-d8a9-4054-9475-09e3ad5bc872.png)
 
 
-### Q11:  If there are 30 people in a room, what is the probability that everyone has different birthdays? ###
+### Q12: If there’s a 15% probability that you might see at least one airplane in a five-minute interval, what is the probability that you might see at least one airplane in a period of half an hour? ###
+
+Answer:
+
