@@ -174,3 +174,8 @@ Let's assume that P1, P2, P3, and P4 are four points then 3 different combinatio
 
 Answer:
 
+Probability of at least one plane in 5 mins interval=0.15
+Probability of no plane in 5 mins interval=0.85
+Probability of seeing at least one plane in 30 mins=1 - Probability of not seeing any plane in 30 minutes
+=1-(0.85)^6 = 0.6228
+
