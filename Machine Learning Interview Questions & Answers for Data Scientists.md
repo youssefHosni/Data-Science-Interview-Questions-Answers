@@ -27,7 +27,8 @@
 * [Q24: In what cases would you use vanilla PCA, Incremental PCA, Randomized PCA, or Kernel PCA?]()
 * [Q25: Discuss two clustering algorithms that can scale to large datasets](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Machine%20Learning%20Interview%20Questions%20&%20Answers%20for%20Data%20Scientists.md#:~:text=for%20nonlinear%20datasets.-,Q25%3A%20Discuss%20two%20clustering%20algorithms%20that%20can%20scale%20to%20large%20datasets,-Answer%3A)
 * [Q26: Do you need to scale your data if you will be using the SVM classifier and discus your answer](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Machine%20Learning%20Interview%20Questions%20&%20Answers%20for%20Data%20Scientists.md#:~:text=the%20larger%20dataset.-,Q26%3A%20Do%20you%20need%20to%20scale%20your%20data%20if%20you%20will%20be%20using%20the%20SVM%20classifier%20and%20discus%20your%20answer,-Answer%3A)
-* [Q27: What is the importance of batch in machine learning and explain some batch depend gradient descent algorithm?](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Machine%20Learning%20Interview%20Questions%20&%20Answers%20for%20Data%20Scientists.md#:~:text=Answer%3A-,Q27%3A%20What%20is%20the%20importance%20of%20batch%20in%20machine%20learning%20and%20explain%20some%20batch%20depend%20gradient%20descent%20algorithm%3F,-Answer%3A%20In%20the)
+* [Q27: What are Loss Functions and Cost Functions? Explain the key Difference Between them.]()
+* [Q28: What is the importance of batch in machine learning and explain some batch depend gradient descent algorithm?](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Machine%20Learning%20Interview%20Questions%20&%20Answers%20for%20Data%20Scientists.md#:~:text=Answer%3A-,Q27%3A%20What%20is%20the%20importance%20of%20batch%20in%20machine%20learning%20and%20explain%20some%20batch%20depend%20gradient%20descent%20algorithm%3F,-Answer%3A%20In%20the)
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Questions & Answers ##
@@ -349,8 +350,9 @@ This can be seen in the figure below, when the features have different scales, w
 To scale the data, normalization and standardization are the most popular approaches.
 ![SVM scaled Vs non scaled](https://user-images.githubusercontent.com/72076328/192571498-4a939472-7bb1-4bf2-963f-a6e6394802ba.png)
 
+### Q27: What are Loss Functions and Cost Functions? Explain the key Difference Between them. ###
 
-### Q27: What is the importance of batch in machine learning and explain some batch depend gradient descent algorithm? ###
+### Q28: What is the importance of batch in machine learning and explain some batch depend gradient descent algorithm? ###
 
 Answer:
 In the memory, dataset can load either completely at once or in a form of set. If we have huge size of dataset, then load the whole data into memory will reduce the training speed, hence batch term introduce.
