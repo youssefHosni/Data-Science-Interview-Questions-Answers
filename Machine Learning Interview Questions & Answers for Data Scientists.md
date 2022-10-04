@@ -352,6 +352,13 @@ To scale the data, normalization and standardization are the most popular approa
 
 ### Q27: What are Loss Functions and Cost Functions? Explain the key Difference Between them. ###
 
+Answer:
+The loss function is the measure of performance of the model on a single training example, whereas the cost function is the average loss function over all training examples or across the batch in the case of mini-batch gradient descent.
+
+Some examples of loss functions are Mean Squared Error, Binary Cross Entropy, etc.
+
+Whereas, the cost function is the average of the above loss functions over training examples.
+
 ### Q28: What is the importance of batch in machine learning and explain some batch depend gradient descent algorithm? ###
 
 Answer:
