@@ -16,6 +16,8 @@
 * [Q13: Discuss the vanishing gradient in RNN and How they can be solved.](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Deep%20Learning%20Questions.md#:~:text=a%20problem%20anymore.-,Q13%3A%20Discuss%20the%20vanishing%20gradient%20in%20RNN%20and%20How%20they%20can%20be%20solved.,-Answer%3A)
 * [Q14: What are the main gates in LSTM and what are their tasks?](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Deep%20Learning%20Questions%20&%20Answers%20for%20Data%20Scientists.md#:~:text=in%20the%20sequence.-,Q14%3A%20What%20are%20the%20main%20gates%20in%20LSTM%20and%20what%20are%20their%20tasks%3F,-Answer%3A%20There%20are)
 * [Q15: Is it a good idea to use CNN to classify 1D signal? ](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Deep%20Learning%20Questions%20&%20Answers%20for%20Data%20Scientists.md#:~:text=Q15%3A%20Is%20it%20a%20good%20idea%20to%20use%20CNN%20to%20classify%C2%A01D%C2%A0signal%3F)
+* [Q16: How does L1/L2 regularization affect a neural network?]()
+
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Questions & Answers ##
@@ -281,4 +283,8 @@ With **CNN**, you would use sliding windows of some width, that would look at ce
 With **RNN**, you would use a cell that takes as input the previous hidden state and current input value, to return output and another hidden form, so the information flows via the hidden states and takes into account the temporal dependencies.
 
 **QRNN** layers mix both approaches.
+
+### Q16: How does L1/L2 regularization affect a neural network? ###
+
+Answer:
 
