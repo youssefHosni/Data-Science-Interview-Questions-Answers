@@ -26,10 +26,10 @@ set(X).intersect (set(Y))
 Answer:
 ```
 set1=set()
-res=[]
+res=set()
 for i in list:
   if i in set1:
-    res.append(i)
+    res.add(i)
   else:
     set1.add(i)
 print(res)
