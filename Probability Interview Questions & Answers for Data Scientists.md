@@ -12,6 +12,7 @@
 * [Q9: Assume you take a stick of length 1 and you break it uniformly at random into three parts. What is the probability that the three pieces can be used to form a triangle?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Probability%20Questions.md#:~:text=coin%20is%2097%25-,Q9%3A%20Assume%20you%20take%20a%20stick%20of%20length%201%20and%20you%20break%20it%20uniformly%20at%20random%20into%20three%20parts.%20What%20is%20the%20probability%20that%20the%20three%20pieces%20can%20be%20used%20to%20form%20a%20triangle%3F,-Answer%3A%20The%20right)
 * [Q10: Say you draw a circle and choose two chords at random. What is the probability that those chords will intersect?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Probability%20Questions.md#:~:text=be%201/4-,Q10%3A%20Say%20you%20draw%20a%20circle%20and%20choose%20two%20chords%20at%20random.%20What%20is%20the%20probability%20that%20those%20chords%20will%20intersect%3F,-Answer%3A)
 * [Q11:If there’s a 15% probability that you might see at least one airplane in a five-minute interval, what is the probability that you might see at least one airplane in a period of half an hour?](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Probability%20Interview%20Questions%20&%20Answers%20for%20Data%20Scientists.md#q12-if-theres-a-15-probability-that-you-might-see-at-least-one-airplane-in-a-five-minute-interval-what-is-the-probability-that-you-might-see-at-least-one-airplane-in-a-period-of-half-an-hour:~:text=Q12%3A%20If%20there%E2%80%99s%20a%2015%25%20probability%20that%20you%20might%20see%20at%20least%20one%20airplane%20in%20a%20five%2Dminute%20interval%2C%20what%20is%20the%20probability%20that%20you%20might%20see%20at%20least%20one%20airplane%20in%20a%20period%20of%20half%20an%20hour%3F)
+* [Q12: Say you are given an unfair coin, with an unknown bias towards heads or tails. How can you generate fair odds using this coin?]()
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Questions & Answers ##
 
@@ -170,7 +171,7 @@ Let's assume that P1, P2, P3, and P4 are four points then 3 different combinatio
 ![Probability question 70](https://user-images.githubusercontent.com/72076328/189387820-1a4fb356-d8a9-4054-9475-09e3ad5bc872.png)
 
 
-### Q12: If there’s a 15% probability that you might see at least one airplane in a five-minute interval, what is the probability that you might see at least one airplane in a period of half an hour? ###
+### Q11: If there’s a 15% probability that you might see at least one airplane in a five-minute interval, what is the probability that you might see at least one airplane in a period of half an hour? ###
 
 Answer:
 
@@ -178,4 +179,9 @@ Probability of at least one plane in 5 mins interval=0.15
 Probability of no plane in 5 mins interval=0.85
 Probability of seeing at least one plane in 30 mins=1 - Probability of not seeing any plane in 30 minutes
 =1-(0.85)^6 = 0.6228
+
+### Q12: Say you are given an unfair coin, with an unknown bias towards heads or tails. How can you generate fair odds using this coin? ###
+
+Answer:
+
 
