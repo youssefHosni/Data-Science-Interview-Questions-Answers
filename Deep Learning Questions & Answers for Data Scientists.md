@@ -292,3 +292,11 @@ Overfitting occurs in more complex neural network models (many layers, many neur
 L1 regularization forces the weight parameters to become zero. L2 regularization forces the weight parameters towards zero (but never exactly zero)
 
 Smaller weight parameters make some neurons neglectable therfore neural network becomes less complex and less overfitting.
+
+Regularisation has the following benefits: 
+- Reducing the variance of the model over unseen data.
+- Makes it feasible to fit much more complicated models without overfitting.
+- Reduces the magnitude of weights and biases.
+- L1 learns sparse models that is many weights turn out to be 0.
+
+
