@@ -184,4 +184,5 @@ Probability of seeing at least one plane in 30 mins=1 - Probability of not seein
 
 Answer:
 
+![propability_83](https://user-images.githubusercontent.com/72076328/194715951-800d2018-28dc-482c-adf8-34a93ce9b8a1.jpg)
 
