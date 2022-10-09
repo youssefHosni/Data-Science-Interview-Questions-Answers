@@ -12,6 +12,7 @@
 * [Q9: You are testing hundreds of hypotheses, each with a t-test. What considerations would you take into account when doing this?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Statistics%20Questions.md#:~:text=the%20null%20hypothesis.-,Q9%3A%20You%20are%20testing%20hundreds%20of%20hypotheses%2C%20each%20with%20a%20t%2Dtest.%20What%20considerations%20would%20you%20take%20into%20account%20when%20doing%20this%3F,-Answer%3A)
 * [Q10: What general conditions must be satisfied for the central limit theorem to hold?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Statistics%20Questions.md#:~:text=of%20the%20tests.-,Q10%3A%20What%20general%20conditions%20must%20be%20satisfied%20for%20the%20central%20limit%20theorem%20to%20hold%3F,-Answer%3A)
 * [Q11: What is skewness discuss two methods to measure it?]()
+* [Q12: You sample from a uniform distribution [0, d] n times. What is your best estimate of d?]()
 
 
 ## Questions & Answers ##
@@ -180,4 +181,7 @@ There are several ways to measure skewness. Pearson’s first and second coeffic
 
 ![1663943424873](https://user-images.githubusercontent.com/72076328/191984720-5b267ab0-9ed3-4315-8443-62d662822796.jpg)
 
+### Q12: You sample from a uniform distribution [0, d] n times. What is your best estimate of d? ###
+
+Answer:
 
