@@ -12,7 +12,7 @@
 * [Q9: You are testing hundreds of hypotheses, each with a t-test. What considerations would you take into account when doing this?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Statistics%20Questions.md#:~:text=the%20null%20hypothesis.-,Q9%3A%20You%20are%20testing%20hundreds%20of%20hypotheses%2C%20each%20with%20a%20t%2Dtest.%20What%20considerations%20would%20you%20take%20into%20account%20when%20doing%20this%3F,-Answer%3A)
 * [Q10: What general conditions must be satisfied for the central limit theorem to hold?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Statistics%20Questions.md#:~:text=of%20the%20tests.-,Q10%3A%20What%20general%20conditions%20must%20be%20satisfied%20for%20the%20central%20limit%20theorem%20to%20hold%3F,-Answer%3A)
 * [Q11: What is skewness discuss two methods to measure it?](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Statistics%20Interview%20Questions%20&%20Answers%20for%20Data%20Scientists.md#:~:text=be%20sufficiently%20large.-,Q11%3A%20What%20is%20skewness%20discuss%20two%20methods%20to%20measure%20it%3F,-Answer%3A)
-* [Q12: You sample from a uniform distribution [0, d] n times. What is your best estimate of d?]()
+* [Q12: You sample from a uniform distribution [0, d] n times. What is your best estimate of d?](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Statistics%20Interview%20Questions%20&%20Answers%20for%20Data%20Scientists.md#:~:text=the%20standard%20deviation.-,Q12%3A%20You%20sample%20from%20a%20uniform%20distribution%20%5B0%2C%20d%5D%20n%20times.%20What%20is%20your%20best%20estimate%20of%20d%3F,-Answer%3A)
 
 
 ## Questions & Answers ##
