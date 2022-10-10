@@ -185,3 +185,8 @@ There are several ways to measure skewness. Pearson’s first and second coeffic
 
 Answer:
 
+Intuitively it is the maximum of the sample points. Here's the mathematical proof is in the figure below:
+
+![1665416540418](https://user-images.githubusercontent.com/72076328/194904988-e35754a7-6331-4989-9523-e122edb2a065.jpg)
+
+
