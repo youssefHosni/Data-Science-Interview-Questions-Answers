@@ -10,6 +10,7 @@
 * [Q8: Write a function to generate N samples from a normal distribution and plot them on the histogram](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Python%20Questions.md#:~:text=print(list_num%2C%22%5Cn%22)-,Q8%3A%20Write%20a%20function%20to%20generate%20N%20samples%20from%20a%20normal%20distribution%20and%20plot%20them%20on%20the%20histogram,-Answer%3A)
 * [Q9: What is the difference between apply and applymap function in pandas? ](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Python%20Questions.md#:~:text=From%20scratch%3A-,Q9%3A%20What%20is%20the%20difference%20between%20apply%20and%20applymap%20function%20in%20pandas%3F,-Answer%3A)
 * [Q10 Given a string, return the first recurring character in it, or “None” if there is no recurring character. Example: input = "pythoninterviewquestion" , output = "n"](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Python%20Questions.md#:~:text=Q10%3A%20Given%20a%20string%2C%20return%20the%20first%20recurring%20character%20in%20it%2C%20or%20%E2%80%9CNone%E2%80%9D%20if%20there%20is%20no%20recurring%20character.%20Example%3A%20input%20%3D%20%22pythoninterviewquestion%22%20%2C%20output%20%3D%20%22n%22)
+* [Q11:Given a positive integer X return an integer that is a factorial of X. If a negative integer is provided, return -1. Implement the solution by using a recursive function.]()
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Questions & Answers: ##
@@ -148,3 +149,6 @@ first_recurring(input_string)
 
 ```
 
+### Q11: Given a positive integer X return an integer that is a factorial of X. If a negative integer is provided, return -1. Implement the solution by using a recursive function.###
+
+Answer:
