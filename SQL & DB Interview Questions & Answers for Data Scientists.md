@@ -9,7 +9,7 @@
 * [Q5: Describe the advantages and disadvantages of relational database vs NoSQL databases](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/SQL%20&%20DB%20Questions.md#:~:text=Q5%3ADescribe%20the%20advantages%20and%20disadvantages%20of%20relational%20database%20vs%20NoSQL%20databases)
 * [Q6: Assume you are given the table below on user transactions. Write a query to obtain the third transaction of every user]()
 ![1661352126442](https://user-images.githubusercontent.com/72076328/186479577-da475779-b4de-45ef-b1ec-79ca5df0dad5.png)
-
+* [Q7: What do you understand by Self Join? Explain using an example]()
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Questions & Answers ##
@@ -100,6 +100,10 @@ Answer:
 Answer:
 First, we obtain the transaction numbers for each user. We can do this by using the ROW_NUMBER window function, where we PARTITION by the user_id and ORDER by the transaction_date fields, calling the resulting field a transaction number. From there, we can simply take all transactions having a transaction number equal to 3.
 ![1661352088335](https://user-images.githubusercontent.com/72076328/186479695-5d2b7f36-5703-489d-87e3-6bad6ee1a9b7.jpg)
+
+### Q7: What do you understand by Self Join? Explain using an example ###
+
+Answer:
 
 
 
