@@ -152,3 +152,16 @@ first_recurring(input_string)
 ### Q11: Given a positive integer X return an integer that is a factorial of X. If a negative integer is provided, return -1. Implement the solution by using a recursive function.###
 
 Answer:
+```
+def factorial(x):
+    # Edge cases
+    if x < 0: return -1
+    if x == 0: return 1
+    
+    # Exit condition - x = 1
+    if x == 1:
+        return x
+    else:
+        # Recursive part
+        return x * factorial(x - 1)
+```
