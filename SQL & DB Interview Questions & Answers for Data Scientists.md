@@ -105,5 +105,19 @@ First, we obtain the transaction numbers for each user. We can do this by using 
 
 Answer:
 
+Self-join is as its name implies, joining a table to itself on a database, this process may come in handy in a number of cases, such as:
 
+1- comparing the table's rows to themselves:
+
+It's like we have two copies of the same table and join them together on a given condition to reach the required output query.
+
+Ex. If we have a store database with a client's data table holding a bunch of demographics, we could self-join the client's table to get clients who are located in the same city/made a purchase on the same day/etc.
+
+2- querying a table that has hierarchical data:
+
+Meaning, the table has a primary key that has a one-to-many relationship with another foreign key inside the same table, in other words, the table has data that refers to the same table. We could use self-join in order to have a clear look at the data by matching its keys.
+
+Ex. The organizational structure of a company may contain an employee table that has an employee id and his manager id (who is also an employee, hence has an employee id too) in the same table. Using self-join on this table would allow us to reference every employee directly to his manager.
+
+P.S. we would need to take care of duplicates that may occur and consider them in the conditions.
 
