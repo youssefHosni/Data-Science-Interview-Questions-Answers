@@ -362,21 +362,12 @@ Whereas, the cost function is the average of the above loss functions over train
 ### Q28: What is the importance of batch in machine learning and explain some batch depend gradient descent algorithm? ###
 
 Answer:
-In the memory, dataset can load either completely at once or in a form of set. If we have huge size of dataset, then load the whole data into memory will reduce the training speed, hence batch term introduce.
+In the memory, the dataset can load either completely at once or in a form of a set. If we have a huge size of the dataset, then loading the whole data into memory will reduce the training speed, hence batch term introduce.
 
-Example : a image data contains 1,00,000 images, we can load this into 3125 batches where 1 batch = 32 images. So instaed of loading whole 1,00,000 images ones in memory, we can load 32 images for 3125 times which requires less memory.
+Example: image data contains 1,00,000 images, we can load this into 3125 batches where 1 batch = 32 images. So instead of loading the whole 1,00,000 images in memory, we can load 32 images 3125 times which requires less memory.
 
-In summary, batch is important in two way :
-(1) Effecient memory consumption.
-(2) Improve training speed.
+In summary, a batch is important in two ways: (1) Efficient memory consumption. (2) Improve training speed.
 
-There are 3 types of gradient descent algorithm based on batch size:
-(1) Stochastic gradient descent
-(2) Batch gradient descent 
-(3) Mini Batch gradient descent
+There are 3 types of gradient descent algorithms based on batch size: (1) Stochastic gradient descent (2) Batch gradient descent (3) Mini Batch gradient descent
 
-If whole data in single batch, it is called batch gradient descent.
-If the single data points equal to one batch i.e. number of batches = number of data instances , it is called stochastic gradient descent.
-If the number of batches less than number of data points or greater than 1, its known as mini batch gradient descent.
-
-
+If the whole data is in a single batch, it is called batch gradient descent. If the single data points are equal to one batch i.e. number of batches = number of data instances, it is called stochastic gradient descent. If the number of batches is less than the number of data points or greater than 1, it is known as mini-batch gradient descent.
