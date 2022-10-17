@@ -17,7 +17,7 @@
 * [Q14: What are the main gates in LSTM and what are their tasks?](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Deep%20Learning%20Questions%20&%20Answers%20for%20Data%20Scientists.md#:~:text=in%20the%20sequence.-,Q14%3A%20What%20are%20the%20main%20gates%20in%20LSTM%20and%20what%20are%20their%20tasks%3F,-Answer%3A%20There%20are)
 * [Q15: Is it a good idea to use CNN to classify 1D signal? ](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Deep%20Learning%20Questions%20&%20Answers%20for%20Data%20Scientists.md#:~:text=Q15%3A%20Is%20it%20a%20good%20idea%20to%20use%20CNN%20to%20classify%C2%A01D%C2%A0signal%3F)
 * [Q16: How does L1/L2 regularization affect a neural network?](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Deep%20Learning%20Questions%20&%20Answers%20for%20Data%20Scientists.md#:~:text=mix%20both%20approaches.-,Q16%3A%20How%20does%20L1/L2%20regularization%20affect%20a%20neural%20network%3F,-Answer%3A)
-
+* [Q17: 𝐇𝐨𝐰 𝐰𝐨𝐮𝐥𝐝 𝐲𝐨𝐮 𝐜𝐡𝐚𝐧𝐠𝐞 𝐚 𝐩𝐫𝐞-𝐭𝐫𝐚𝐢𝐧𝐞𝐝 𝐧𝐞𝐮𝐫𝐚𝐥 𝐧𝐞𝐭𝐰𝐨𝐫𝐤 𝐟𝐫𝐨𝐦 𝐜𝐥𝐚𝐬𝐬𝐢𝐟𝐢𝐜𝐚𝐭𝐢𝐨𝐧 𝐭𝐨 𝐫𝐞𝐠𝐫𝐞𝐬𝐬𝐢𝐨𝐧?]() 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Questions & Answers ##
@@ -298,5 +298,12 @@ Regularisation has the following benefits:
 - Makes it feasible to fit much more complicated models without overfitting.
 - Reduces the magnitude of weights and biases.
 - L1 learns sparse models that is many weights turn out to be 0.
+
+### Q17: 𝐇𝐨𝐰 𝐰𝐨𝐮𝐥𝐝 𝐲𝐨𝐮 𝐜𝐡𝐚𝐧𝐠𝐞 𝐚 𝐩𝐫𝐞-𝐭𝐫𝐚𝐢𝐧𝐞𝐝 𝐧𝐞𝐮𝐫𝐚𝐥 𝐧𝐞𝐭𝐰𝐨𝐫𝐤 𝐟𝐫𝐨𝐦 𝐜𝐥𝐚𝐬𝐬𝐢𝐟𝐢𝐜𝐚𝐭𝐢𝐨𝐧 𝐭𝐨 𝐫𝐞𝐠𝐫𝐞𝐬𝐬𝐢𝐨𝐧? ###
+
+Answer:
+Using transfer learning where we can use our knowledge about one task to do another. First set of layers of a neural network are usually feature extraction layers and will be useful for all tasks with the same input distribution. So, we should replace the last fully connected layer and Softmax responsible for classification with one neuron for regression-or fully connected-layer for correction then one neuron for regression.
+
+We can optionally freeze the first set of layers if we have few data or to converge fast. Then we can train the network with the data we have and using the suitable loss for the regression problem, making use of the robust feature extraction -first set of layers- of a pre-trained model on huge data.
 
 
