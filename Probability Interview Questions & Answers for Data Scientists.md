@@ -13,6 +13,7 @@
 * [Q10: Say you draw a circle and choose two chords at random. What is the probability that those chords will intersect?](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Probability%20Questions.md#:~:text=be%201/4-,Q10%3A%20Say%20you%20draw%20a%20circle%20and%20choose%20two%20chords%20at%20random.%20What%20is%20the%20probability%20that%20those%20chords%20will%20intersect%3F,-Answer%3A)
 * [Q11:If there’s a 15% probability that you might see at least one airplane in a five-minute interval, what is the probability that you might see at least one airplane in a period of half an hour?](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Probability%20Interview%20Questions%20&%20Answers%20for%20Data%20Scientists.md#q12-if-theres-a-15-probability-that-you-might-see-at-least-one-airplane-in-a-five-minute-interval-what-is-the-probability-that-you-might-see-at-least-one-airplane-in-a-period-of-half-an-hour:~:text=Q12%3A%20If%20there%E2%80%99s%20a%2015%25%20probability%20that%20you%20might%20see%20at%20least%20one%20airplane%20in%20a%20five%2Dminute%20interval%2C%20what%20is%20the%20probability%20that%20you%20might%20see%20at%20least%20one%20airplane%20in%20a%20period%20of%20half%20an%20hour%3F)
 * [Q12: Say you are given an unfair coin, with an unknown bias towards heads or tails. How can you generate fair odds using this coin?]()
+* [Q13: According to hospital records, 75% of patients suffering from a disease die from that disease. Find out the probability that 4 out of the 6 randomly selected patients survive.]()
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Questions & Answers ##
 
@@ -184,6 +185,11 @@ Probability of seeing at least one plane in 30 mins=1 - Probability of not seein
 
 Answer:
 
-
 ![propability_83](https://user-images.githubusercontent.com/72076328/194715951-800d2018-28dc-482c-adf8-34a93ce9b8a1.jpg)
 
+### Q13: According to hospital records, 75% of patients suffering from a disease die from that disease. Find out the probability that 4 out of the 6 randomly selected patients survive.###
+
+Answer:
+This has to be a binomial there are only 2 outcomes – death or life. Here n =6, and x=4. p=0.25(probability if life) q = 0.75(probability of death)
+P(X) =
+nCx*p*q*(n-x) = 6C4* (0.25)*4*(0.75)*2 = 0.03295
