@@ -189,4 +189,29 @@ Intuitively it is the maximum of the sample points. Here's the mathematical proo
 
 ![1665416540418](https://user-images.githubusercontent.com/72076328/194904988-e35754a7-6331-4989-9523-e122edb2a065.jpg)
 
+### Q13: Discuss the Chi-square, ANOVA, and t-test ###
+
+Answer:
+
+Chi-square test
+A statistical method is used to find the difference or correlation between the observed and expected categorical variables in the dataset.
+
+Example: A food delivery company wants to find the relationship between gender, location and food choices of people in India.
+
+It is used to determine whether the difference between 2 categorical variables is:
+
+* Due to chance or
+* Due to relationship
+
+
+Analysis of Variance (ANOVA) is a statistical formula used to compare variances across the means (or average) of different groups. A range of scenarios uses it to determine if there is any difference between the means of different groups.
+
+
+t_test is a statistical method for the comparison of the mean of the two groups of the normally distributed sample(s).
+
+It is used when:
+
+* pulation parameter (mean and standard deviation) is not known
+* mple size (number of observations) < 30
+
 
