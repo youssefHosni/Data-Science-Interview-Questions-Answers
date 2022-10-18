@@ -190,6 +190,17 @@ Answer:
 ### Q13: According to hospital records, 75% of patients suffering from a disease die from that disease. Find out the probability that 4 out of the 6 randomly selected patients survive.###
 
 Answer:
-This has to be a binomial there are only 2 outcomes – death or life. Here n =6, and x=4. p=0.25(probability if life) q = 0.75(probability of death)
-P(X) =
-nCx*p*q*(n-x) = 6C4* (0.25)*4*(0.75)*2 = 0.03295
+This has to be a binomial since there are only 2 outcomes – death or life. 
+
+Here n =6, and x=4. 
+
+p=0.25 (probability if life) q = 0.75(probability of death)
+
+Using probability mass function equation:
+
+P(X) = nCx *p *q*(n-x)  
+
+
+Then:
+
+P(4) = 6C4* (0.25)*4*(0.75)*2 = 0.032
