@@ -12,12 +12,12 @@
 * [Q10 Given a string, return the first recurring character in it, or “None” if there is no recurring character. Example: input = "pythoninterviewquestion" , output = "n"](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Python%20Questions.md#:~:text=Q10%3A%20Given%20a%20string%2C%20return%20the%20first%20recurring%20character%20in%20it%2C%20or%20%E2%80%9CNone%E2%80%9D%20if%20there%20is%20no%20recurring%20character.%20Example%3A%20input%20%3D%20%22pythoninterviewquestion%22%20%2C%20output%20%3D%20%22n%22)
 * [Q11:Given a positive integer X return an integer that is a factorial of X. If a negative integer is provided, return -1. Implement the solution by using a recursive function.](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Python%20Interview%20Questions%20&%20Answers%20for%20Data%20Scientists.md#:~:text=Q11%3A%20Given%20a%20positive%20integer%C2%A0X%20return%20an%20integer%20that%20is%20a%20factorial%20of%C2%A0X.%20If%20a%20negative%20integer%20is%20provided%2C%20return%20%2D1.%20Implement%20the%20solution%20by%20using%20a%20recursive%20function.%23%23%23)
 * [Q12: Given an m-by-n matrix with positive integers, determine the length of the longest path of increasing within the matrix. For example, consider the input matrix:
+
         [ 1 2 3 ]
         
         [ 4 5 6 ]
         
-        [ 7 8 9 ]        
-The answer should be 5 since the longest path would be 1-2-5-6-9]()
+        [ 7 8 9 ]        The answer should be 5 since the longest path would be 1-2-5-6-9]()
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Questions & Answers: ##
 
