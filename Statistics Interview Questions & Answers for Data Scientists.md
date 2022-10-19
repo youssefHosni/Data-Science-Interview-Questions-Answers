@@ -194,25 +194,30 @@ Intuitively it is the maximum of the sample points. Here's the mathematical proo
 
 Answer:
 
-Chi-square test
-A statistical method is used to find the difference or correlation between the observed and expected categorical variables in the dataset.
+Chi-square test A statistical method is used to find the difference or correlation between the observed and expected categorical variables in the dataset.
 
-Example: A food delivery company wants to find the relationship between gender, location and food choices of people in India.
+Example: A food delivery company wants to find the relationship between gender, location, and food choices of people.
 
 It is used to determine whether the difference between 2 categorical variables is:
 
 * Due to chance or
-* Due to relationship
 
+* Due to relationship
 
 Analysis of Variance (ANOVA) is a statistical formula used to compare variances across the means (or average) of different groups. A range of scenarios uses it to determine if there is any difference between the means of different groups.
 
-
 t_test is a statistical method for the comparison of the mean of the two groups of the normally distributed sample(s).
 
-It is used when:
+It comes in various types such as:
 
-* pulation parameter (mean and standard deviation) is not known
-* mple size (number of observations) < 30
+1. One sample t-test:
 
+Used to compare the mean of a sample and the population.
 
+2. Two sample t-tests:
+
+Used to compare the mean of two independent samples and whether their population is statistically different.
+
+3. Paired t-test:
+
+Used to compare means of different samples from the same group.
