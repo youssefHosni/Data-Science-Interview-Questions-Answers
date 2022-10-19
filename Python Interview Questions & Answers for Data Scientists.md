@@ -13,7 +13,9 @@
 * [Q11:Given a positive integer X return an integer that is a factorial of X. If a negative integer is provided, return -1. Implement the solution by using a recursive function.](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Python%20Interview%20Questions%20&%20Answers%20for%20Data%20Scientists.md#:~:text=Q11%3A%20Given%20a%20positive%20integer%C2%A0X%20return%20an%20integer%20that%20is%20a%20factorial%20of%C2%A0X.%20If%20a%20negative%20integer%20is%20provided%2C%20return%20%2D1.%20Implement%20the%20solution%20by%20using%20a%20recursive%20function.%23%23%23)
 * [Q12: Given an m-by-n matrix with positive integers, determine the length of the longest path of increasing within the matrix. For example, consider the input matrix:
         [ 1 2 3 ]
-    A = [ 4 5 6 ]    
+        
+        [ 4 5 6 ]
+        
         [ 7 8 9 ]        
 The answer should be 5 since the longest path would be 1-2-5-6-9]()
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
