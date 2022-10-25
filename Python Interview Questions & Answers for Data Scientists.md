@@ -11,7 +11,7 @@
 * [Q9: What is the difference between apply and applymap function in pandas? ](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Python%20Questions.md#:~:text=From%20scratch%3A-,Q9%3A%20What%20is%20the%20difference%20between%20apply%20and%20applymap%20function%20in%20pandas%3F,-Answer%3A)
 * [Q10 Given a string, return the first recurring character in it, or “None” if there is no recurring character. Example: input = "pythoninterviewquestion" , output = "n"](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Python%20Questions.md#:~:text=Q10%3A%20Given%20a%20string%2C%20return%20the%20first%20recurring%20character%20in%20it%2C%20or%20%E2%80%9CNone%E2%80%9D%20if%20there%20is%20no%20recurring%20character.%20Example%3A%20input%20%3D%20%22pythoninterviewquestion%22%20%2C%20output%20%3D%20%22n%22)
 * [Q11:Given a positive integer X return an integer that is a factorial of X. If a negative integer is provided, return -1. Implement the solution by using a recursive function.](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Python%20Interview%20Questions%20&%20Answers%20for%20Data%20Scientists.md#:~:text=Q11%3A%20Given%20a%20positive%20integer%C2%A0X%20return%20an%20integer%20that%20is%20a%20factorial%20of%C2%A0X.%20If%20a%20negative%20integer%20is%20provided%2C%20return%20%2D1.%20Implement%20the%20solution%20by%20using%20a%20recursive%20function.%23%23%23)
-* [Q12: Given an m-by-n matrix with positive integers, determine the length of the longest path of increasing within the matrix. For example, consider the input matrix:
+* Q12: Given an m-by-n matrix with positive integers, determine the length of the longest path of increasing within the matrix. For example, consider the input matrix:
 
         [ 1 2 3 ]
         
@@ -175,3 +175,52 @@ def factorial(x):
         # Recursive part
         return x * factorial(x - 1)
 ```
+
+### Q12: Given an m-by-n matrix with positive integers, determine the length of the longest path of increasing within the matrix. For example, consider the input matrix:
+
+        [ 1 2 3 ]
+        
+        [ 4 5 6 ]
+        
+        [ 7 8 9 ]        
+        
+        The answer should be 5 since the longest path would be 1-2-5-6-9 
+
+
+```
+MAX = 10
+
+def Longest_Increasing_Path(dp, mat, n, m, x, y):
+     
+    # If value not calculated yet.
+    if (dp[x][y] < 0):
+        result = 0
+         
+        #  // If reach bottom right cell, return 1
+        if (x == n - 1 and y == m - 1):
+            dp[x][y] = 1
+            return dp[x][y]
+ 
+        # If reach the corner
+        # of the matrix.
+        if (x == n - 1 or y == m - 1):
+            result = 1
+ 
+        # If value greater than below cell.
+        if (x + 1 < n and mat[x][y] < mat[x + 1][y]):
+            result = 1 + LIP(dp, mat, n,
+                            m, x + 1, y)
+ 
+        # If value greater than left cell.
+        if (y + 1 < m and mat[x][y] < mat[x][y + 1]):
+            result = max(result, 1 + LIP(dp, mat, n,
+                                        m, x, y + 1))
+        dp[x][y] = result
+    return dp[x][y]
+ 
+# Wrapper function
+def wrapper(mat, n, m):
+    dp = [[-1 for i in range(MAX)]
+            for i in range(MAX)]
+    return Longest_Increasing_Path(dp, mat, n, m, 0, 0)
+```    
