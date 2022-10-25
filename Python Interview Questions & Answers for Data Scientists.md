@@ -187,6 +187,8 @@ def factorial(x):
         The answer should be 5 since the longest path would be 1-2-5-6-9 
 
 
+Answer:
+
 ```
 MAX = 10
 
