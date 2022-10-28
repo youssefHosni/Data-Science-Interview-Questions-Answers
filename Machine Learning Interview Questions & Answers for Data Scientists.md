@@ -29,6 +29,7 @@
 * [Q26: Do you need to scale your data if you will be using the SVM classifier and discus your answer](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Machine%20Learning%20Interview%20Questions%20&%20Answers%20for%20Data%20Scientists.md#:~:text=the%20larger%20dataset.-,Q26%3A%20Do%20you%20need%20to%20scale%20your%20data%20if%20you%20will%20be%20using%20the%20SVM%20classifier%20and%20discus%20your%20answer,-Answer%3A)
 * [Q27: What are Loss Functions and Cost Functions? Explain the key Difference Between them.](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Machine%20Learning%20Interview%20Questions%20&%20Answers%20for%20Data%20Scientists.md#:~:text=most%20popular%20approaches.-,Q27%3A%20What%20are%20Loss%20Functions%20and%20Cost%20Functions%3F%20Explain%20the%20key%20Difference%20Between%20them.,-Q28%3A%20What%20is)
 * [Q28: What is the importance of batch in machine learning and explain some batch depend gradient descent algorithm?](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Machine%20Learning%20Interview%20Questions%20&%20Answers%20for%20Data%20Scientists.md#:~:text=over%20training%20examples.-,Q28%3A%20What%20is%20the%20importance%20of%20batch%20in%20machine%20learning%20and%20explain%20some%20batch%20depend%20gradient%20descent%20algorithm%3F,-Answer%3A%20In%20the)
+* [Q29: What are the different methods to split a tree in a decision tree algorithm?]()
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Questions & Answers ##
@@ -371,3 +372,9 @@ In summary, a batch is important in two ways: (1) Efficient memory consumption. 
 There are 3 types of gradient descent algorithms based on batch size: (1) Stochastic gradient descent (2) Batch gradient descent (3) Mini Batch gradient descent
 
 If the whole data is in a single batch, it is called batch gradient descent. If the single data points are equal to one batch i.e. number of batches = number of data instances, it is called stochastic gradient descent. If the number of batches is less than the number of data points or greater than 1, it is known as mini-batch gradient descent.
+
+### Q29: What are the different methods to split a tree in a decision tree algorithm? ###
+
+Answer:
+
+
