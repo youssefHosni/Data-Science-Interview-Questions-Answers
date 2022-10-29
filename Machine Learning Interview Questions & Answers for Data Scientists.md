@@ -377,4 +377,14 @@ If the whole data is in a single batch, it is called batch gradient descent. If 
 
 Answer:
 
+Decision trees can be of two types regression and classification.
+For classification, classification accuracy created a lot of instability. So the following loss functions are used:
+- Gini's Index
+Gini impurity is used to predict the likelihood of a randomly chosen example being incorrectly classified by a particular node. It’s referred to as an “impurity” measure because it demonstrates how the model departs from a simple division.
+
+- Cross-Entropy or Information Gain
+Information gain refers to the process of identifying the most important features/attributes that convey the most information about a class. The entropy principle is followed with the goal of reducing entropy from the root node to the leaf nodes. Information gain is the difference in entropy before and after splitting, which describes the impurity of in-class items.
+
+
+For regression, the good old mean squared error serves as a good loss function which is minimized by splits of the input features and predicting the mean value of the target feature on the subspaces resulting from the split. But finding the split that results in the minimum possible residual sum of squares is computationally infeasible, so a greedy top-down approach is taken i.e. the splits are made at a level from top to down which results in maximum reduction of RSS. We continue this until some max depth or number of leaves is attained.
 
