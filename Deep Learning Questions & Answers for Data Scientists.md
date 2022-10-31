@@ -18,7 +18,7 @@
 * [Q15: Is it a good idea to use CNN to classify 1D signal? ](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Deep%20Learning%20Questions%20&%20Answers%20for%20Data%20Scientists.md#:~:text=Q15%3A%20Is%20it%20a%20good%20idea%20to%20use%20CNN%20to%20classify%C2%A01D%C2%A0signal%3F)
 * [Q16: How does L1/L2 regularization affect a neural network?](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Deep%20Learning%20Questions%20&%20Answers%20for%20Data%20Scientists.md#:~:text=mix%20both%20approaches.-,Q16%3A%20How%20does%20L1/L2%20regularization%20affect%20a%20neural%20network%3F,-Answer%3A)
 * [Q17: 𝐇𝐨𝐰 𝐰𝐨𝐮𝐥𝐝 𝐲𝐨𝐮 𝐜𝐡𝐚𝐧𝐠𝐞 𝐚 𝐩𝐫𝐞-𝐭𝐫𝐚𝐢𝐧𝐞𝐝 𝐧𝐞𝐮𝐫𝐚𝐥 𝐧𝐞𝐭𝐰𝐨𝐫𝐤 𝐟𝐫𝐨𝐦 𝐜𝐥𝐚𝐬𝐬𝐢𝐟𝐢𝐜𝐚𝐭𝐢𝐨𝐧 𝐭𝐨 𝐫𝐞𝐠𝐫𝐞𝐬𝐬𝐢𝐨𝐧?]() 
-* [Q18: What might happen if you set the momentum hyperparameter too close to 1 (e.g., 0.9999) when using an SGD optimizer?]()
+* [Q18: What might happen if you set the momentum hyperparameter too close to 1 (e.g., 0.9999) when using an SGD optimizer?](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Deep%20Learning%20Questions%20&%20Answers%20for%20Data%20Scientists.md#:~:text=on%20huge%20data.-,Q18%3A%20What%20might%20happen%20if%20you%20set%20the%20momentum%20hyperparameter%20too%20close%20to%201%20(e.g.%2C%200.9999)%20when%20using%20an%20SGD%20optimizer%3F,-Answer%3A)
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Questions & Answers ##
