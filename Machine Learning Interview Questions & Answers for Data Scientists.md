@@ -30,6 +30,7 @@
 * [Q27: What are Loss Functions and Cost Functions? Explain the key Difference Between them.](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Machine%20Learning%20Interview%20Questions%20&%20Answers%20for%20Data%20Scientists.md#:~:text=most%20popular%20approaches.-,Q27%3A%20What%20are%20Loss%20Functions%20and%20Cost%20Functions%3F%20Explain%20the%20key%20Difference%20Between%20them.,-Q28%3A%20What%20is)
 * [Q28: What is the importance of batch in machine learning and explain some batch depend gradient descent algorithm?](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Machine%20Learning%20Interview%20Questions%20&%20Answers%20for%20Data%20Scientists.md#:~:text=over%20training%20examples.-,Q28%3A%20What%20is%20the%20importance%20of%20batch%20in%20machine%20learning%20and%20explain%20some%20batch%20depend%20gradient%20descent%20algorithm%3F,-Answer%3A%20In%20the)
 * [Q29: What are the different methods to split a tree in a decision tree algorithm?](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Machine%20Learning%20Interview%20Questions%20&%20Answers%20for%20Data%20Scientists.md#:~:text=batch%20gradient%20descent.-,Q29%3A%20What%20are%20the%20different%20methods%20to%20split%20a%20tree%20in%20a%20decision%20tree%20algorithm%3F,-Answer%3A)
+* [Q30: Why boosting is a more stable algorithm as compared to other ensemble algorithms? ]()
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Questions & Answers ##
@@ -388,3 +389,6 @@ Information gain refers to the process of identifying the most important feature
 
 For regression, the good old mean squared error serves as a good loss function which is minimized by splits of the input features and predicting the mean value of the target feature on the subspaces resulting from the split. But finding the split that results in the minimum possible residual sum of squares is computationally infeasible, so a greedy top-down approach is taken i.e. the splits are made at a level from top to down which results in maximum reduction of RSS. We continue this until some max depth or number of leaves is attained.
 
+### Q30: Why boosting is a more stable algorithm as compared to other ensemble algorithms? ###
+
+Answer:
