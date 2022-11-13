@@ -21,7 +21,7 @@
         
         The answer should be 5 since the longest path would be 1-2-5-6-9]()
 
-
+* [Q13: 𝐄𝐱𝐩𝐥𝐚𝐢𝐧 𝐰𝐡𝐚𝐭 𝐅𝐥𝐚𝐬𝐤 𝐢𝐬 𝐚𝐧𝐝 𝐢𝐭𝐬 𝐛𝐞𝐧𝐞𝐟𝐢𝐭𝐬]
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Questions & Answers: ##
 
@@ -226,3 +226,22 @@ def wrapper(mat, n, m):
             for i in range(MAX)]
     return Longest_Increasing_Path(dp, mat, n, m, 0, 0)
 ```    
+
+### Q13: 𝐄𝐱𝐩𝐥𝐚𝐢𝐧 𝐰𝐡𝐚𝐭 𝐅𝐥𝐚𝐬𝐤 𝐢𝐬 𝐚𝐧𝐝 𝐢𝐭𝐬 𝐛𝐞𝐧𝐞𝐟𝐢𝐭𝐬 ###
+
+Answer:
+
+Flask is a web framework. This means flask provides you with tools, libraries, and technologies that allow you to build a web application. This web application can be some web pages, a blog, a wiki, or go as big as a web-based calendar application or a commercial website.
+
+Benefits of Flask:
+1. Scalable
+Flask’s status as a microframework means that it can be used to grow a tech project such as a web app very quickly. 
+
+2. Flexible
+It allows the project to be rearranged and moved around. Also makes sure that the project structure does not collapse when a part is altered.
+
+3. Easy to negotiate
+At its core, the microframework is easy to understand for web developers also giving them more control over their code and what is possible.
+
+4. Lightweight
+Certain parts of a design of a tool/framework might need assembling and reassembling and do not rely on a large number of extensions to function which gives web developers a certain level of control. Further, Flask also supports modular programming, which is where its functionality can be split into several interchangeable modules and each module acts as an independent entity and executes a part of the functionality.
