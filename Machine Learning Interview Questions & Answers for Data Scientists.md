@@ -392,3 +392,6 @@ For regression, the good old mean squared error serves as a good loss function w
 ### Q30: Why boosting is a more stable algorithm as compared to other ensemble algorithms? ###
 
 Answer:
+
+Since Boosting algorithms focus on errors found in previous iterations until they become obsolete. Whereas in bagging there is no corrective loop. That’s why boosting is a more stable algorithm compared to other ensemble algorithms.
+
