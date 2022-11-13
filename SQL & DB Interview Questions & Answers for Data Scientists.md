@@ -10,6 +10,7 @@
 * [Q6: Assume you are given the table below on user transactions. Write a query to obtain the third transaction of every user]()
 ![1661352126442](https://user-images.githubusercontent.com/72076328/186479577-da475779-b4de-45ef-b1ec-79ca5df0dad5.png)
 * [Q7: What do you understand by Self Join? Explain using an example](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/SQL%20&%20DB%20Interview%20Questions%20&%20Answers%20for%20Data%20Scientists.md#:~:text=equal%20to%203.-,Q7%3A%20What%20do%20you%20understand%20by%20Self%20Join%3F%20Explain%20using%20an%20example,-Answer%3A)
+* [Q8: Write an SQL query to join 3 tables]()
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Questions & Answers ##
@@ -120,4 +121,9 @@ Meaning, the table has a primary key that has a one-to-many relationship with an
 Ex. The organizational structure of a company may contain an employee table that has an employee id and his manager id (who is also an employee, hence has an employee id too) in the same table. Using self-join on this table would allow us to reference every employee directly to his manager.
 
 P.S. we would need to take care of duplicates that may occur and consider them in the conditions.
+
+### Q8: Write an SQL query to join 3 tables ###
+![1668274347333](https://user-images.githubusercontent.com/72076328/201538710-264494b8-62e7-4e36-8487-be449c1b441a.jpg)
+
+
 
