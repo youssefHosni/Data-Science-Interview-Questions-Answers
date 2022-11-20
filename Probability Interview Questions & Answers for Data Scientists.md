@@ -15,6 +15,7 @@
 * [Q12: Say you are given an unfair coin, with an unknown bias towards heads or tails. How can you generate fair odds using this coin? ](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Probability%20Interview%20Questions%20&%20Answers%20for%20Data%20Scientists.md#:~:text=0.85)%5E6%20%3D%200.6228-,Q12%3A%20Say%20you%20are%20given%20an%20unfair%20coin%2C%20with%20an%20unknown%20bias%20towards%20heads%20or%20tails.%20How%20can%20you%20generate%20fair%20odds%20using%20this%20coin%3F,-Answer%3A)
 * [Q13: According to hospital records, 75% of patients suffering from a disease die from that disease. Find out the probability that 4 out of the 6 randomly selected patients survive.](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Probability%20Interview%20Questions%20&%20Answers%20for%20Data%20Scientists.md#:~:text=Q13%3A%20According%20to%20hospital%20records%2C%2075%25%20of%20patients%20suffering%20from%20a%20disease%20die%20from%20that%20disease.%20Find%20out%20the%20probability%20that%204%20out%20of%20the%206%20randomly%20selected%20patients%20survive.%23%23%23)
 * [Q14: Discuss some methods you will use to estimate the Parameters of a Probability Distribution](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Probability%20Interview%20Questions%20&%20Answers%20for%20Data%20Scientists.md#:~:text=0.75)*2%20%3D%200.032-,Q14%3A%20Discuss%20some%20methods%20you%20will%20use%20to%20estimate%20the%20Parameters%20of%20a%20Probability%20Distribution,-Answer%3A)
+* [Q15: You have 40 cards in four colors, 10 reds, 10 greens, 10 blues, and ten yellows. Each color has a number from 1 to 10. When you pick two cards without replacement, what is the probability that the two cards are not in the same color and not in the same number?]()
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Questions & Answers ##
 
@@ -209,3 +210,16 @@ P(4) = 6C4* (0.25)*4*(0.75)*2 = 0.032
 ### Q14: Discuss some methods you will use to estimate the Parameters of a Probability Distribution ###
 
 Answer:
+
+
+### Q15: You have 40 cards in four colors, 10 reds, 10 greens, 10 blues, and ten yellows. Each color has a number from 1 to 10. When you pick two cards without replacement, what is the probability that the two cards are not in the same color and not in the same number? ###
+
+Answer:
+
+Since it doesn't matter how you choose the first card, so, choose one card at random.
+Now, all we have to care about is the restriction on the second card. It can't be the same number (i.e. 3 cards from the other colors can't be chosen in favorable cases) and also can't be the same color (i.e. 9 cards from the same color can't be chosen keep in mind we have already picked one).
+
+So, the number of favorable choices for the 2nd card is (39-12)/39 = 27/39 = 9/13
+
+![1668961881451](https://user-images.githubusercontent.com/72076328/202913961-f94f17b1-dc41-45b2-ba51-389583431d7b.jpg)
+
