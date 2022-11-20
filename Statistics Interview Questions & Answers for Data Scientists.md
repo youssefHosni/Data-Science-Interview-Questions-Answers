@@ -15,6 +15,7 @@
 * [Q12: You sample from a uniform distribution [0, d] n times. What is your best estimate of d?](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Statistics%20Interview%20Questions%20&%20Answers%20for%20Data%20Scientists.md#:~:text=the%20standard%20deviation.-,Q12%3A%20You%20sample%20from%20a%20uniform%20distribution%20%5B0%2C%20d%5D%20n%20times.%20What%20is%20your%20best%20estimate%20of%20d%3F,-Answer%3A)
 * [Q13: Discuss the Chi-square, ANOVA, and t-test](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Statistics%20Interview%20Questions%20&%20Answers%20for%20Data%20Scientists.md#:~:text=the%20figure%20below%3A-,Q13%3A%20Discuss%20the%20Chi%2Dsquare%2C%20ANOVA%2C%20and%20t%2Dtest,-Answer%3A)
 * [Q14: Say you have two subsets of a dataset for which you know their means and standard deviations. How do you calculate the blended mean and standard deviation of the total dataset? Can you extend it to K subsets?]()
+* [Q15: What is the relationship between the significance level and the confidence level in Statistics?]()
 
 
 ## Questions & Answers ##
@@ -227,4 +228,8 @@ Used to compare means of different samples from the same group.
 
 Answer:
 
+
+### Q15: What is the relationship between the significance level and the confidence level in Statistics?###
+
+Answer:
 
