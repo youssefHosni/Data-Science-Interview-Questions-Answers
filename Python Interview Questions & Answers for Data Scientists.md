@@ -22,6 +22,7 @@
         The answer should be 5 since the longest path would be 1-2-5-6-9]()
 
 * [Q13: 𝐄𝐱𝐩𝐥𝐚𝐢𝐧 𝐰𝐡𝐚𝐭 𝐅𝐥𝐚𝐬𝐤 𝐢𝐬 𝐚𝐧𝐝 𝐢𝐭𝐬 𝐛𝐞𝐧𝐞𝐟𝐢𝐭𝐬]()
+* [Q14: 𝐖𝐡𝐚𝐭 𝐢𝐬 𝐭𝐡𝐞 𝐝𝐢𝐟𝐟𝐞𝐫𝐞𝐧𝐜𝐞 𝐛𝐞𝐭𝐰𝐞𝐞𝐧 𝐥𝐢𝐬𝐭𝐬, 𝐚𝐫𝐫𝐚𝐲𝐬, 𝐚𝐧𝐝 𝐬𝐞𝐭𝐬 𝐢𝐧 𝐏𝐲𝐭𝐡𝐨𝐧, 𝐚𝐧𝐝 𝐰𝐡𝐞𝐧 𝐲𝐨𝐮 𝐬𝐡𝐨𝐮𝐥𝐝 𝐮𝐬𝐞 𝐞𝐚𝐜𝐡 𝐨𝐟 𝐭𝐡𝐞𝐦?]()
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Questions & Answers: ##
 
@@ -245,3 +246,9 @@ At its core, the microframework is easy to understand for web developers also gi
 
 4. Lightweight
 Certain parts of a design of a tool/framework might need assembling and reassembling and do not rely on a large number of extensions to function which gives web developers a certain level of control. Further, Flask also supports modular programming, which is where its functionality can be split into several interchangeable modules and each module acts as an independent entity and executes a part of the functionality.
+
+### Q14: 𝐖𝐡𝐚𝐭 𝐢𝐬 𝐭𝐡𝐞 𝐝𝐢𝐟𝐟𝐞𝐫𝐞𝐧𝐜𝐞 𝐛𝐞𝐭𝐰𝐞𝐞𝐧 𝐥𝐢𝐬𝐭𝐬, 𝐚𝐫𝐫𝐚𝐲𝐬, 𝐚𝐧𝐝 𝐬𝐞𝐭𝐬 𝐢𝐧 𝐏𝐲𝐭𝐡𝐨𝐧, 𝐚𝐧𝐝 𝐰𝐡𝐞𝐧 𝐲𝐨𝐮 𝐬𝐡𝐨𝐮𝐥𝐝 𝐮𝐬𝐞 𝐞𝐚𝐜𝐡 𝐨𝐟 𝐭𝐡𝐞𝐦? ####
+
+Answer:
+
+
