@@ -232,4 +232,11 @@ Answer:
 ### Q15: What is the relationship between the significance level and the confidence level in Statistics?###
 
 Answer:
+Confidence level = 1 - significance level.
+
+It's closely related to hypothesis testing and confidence intervals.
+
+⏺ Significance Level according to the hypothesis testing literature means the probability of Type-I error one is willing to tolerate.
+
+⏺ Confidence Level according to the confidence interval literature means the probability in terms of the true parameter value lying inside the confidence interval. They are usually written in percentages.
 
