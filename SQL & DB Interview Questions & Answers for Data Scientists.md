@@ -10,7 +10,7 @@
 * [Q6: Assume you are given the table below on user transactions. Write a query to obtain the third transaction of every user]()
 ![1661352126442](https://user-images.githubusercontent.com/72076328/186479577-da475779-b4de-45ef-b1ec-79ca5df0dad5.png)
 * [Q7: What do you understand by Self Join? Explain using an example](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/SQL%20&%20DB%20Interview%20Questions%20&%20Answers%20for%20Data%20Scientists.md#:~:text=equal%20to%203.-,Q7%3A%20What%20do%20you%20understand%20by%20Self%20Join%3F%20Explain%20using%20an%20example,-Answer%3A)
-* [Q8: Write an SQL query to join 3 tables]()
+* [Q8: Write an SQL query to join 3 tables](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/SQL%20&%20DB%20Interview%20Questions%20&%20Answers%20for%20Data%20Scientists.md#:~:text=in%20the%20conditions.-,Q8%3A%20Write%20an%20SQL%20query%20to%20join%203%20tables,-Q9%3A%20Write%20a)
 * [Q9: Write a SQL query to get the third-highest salary of an employee from employee_table and arrange them in descending order.](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/SQL%20&%20DB%20Interview%20Questions%20&%20Answers%20for%20Data%20Scientists.md#:~:text=join%203%20tables-,Q9%3A%20Write%20a%20SQL%20query%20to%20get%20the%20third%2Dhighest%20salary%20of%20an%20employee%20from%20employee_table%20and%20arrange%20them%20in%20descending%20order.,-Answer%3A)
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
