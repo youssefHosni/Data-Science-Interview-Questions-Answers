@@ -11,6 +11,7 @@
 ![1661352126442](https://user-images.githubusercontent.com/72076328/186479577-da475779-b4de-45ef-b1ec-79ca5df0dad5.png)
 * [Q7: What do you understand by Self Join? Explain using an example](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/SQL%20&%20DB%20Interview%20Questions%20&%20Answers%20for%20Data%20Scientists.md#:~:text=equal%20to%203.-,Q7%3A%20What%20do%20you%20understand%20by%20Self%20Join%3F%20Explain%20using%20an%20example,-Answer%3A)
 * [Q8: Write an SQL query to join 3 tables]()
+* [Q9: Write a SQL query to get the third-highest salary of an employee from employee_table and arrange them in descending order.]()
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Questions & Answers ##
@@ -124,6 +125,11 @@ P.S. we would need to take care of duplicates that may occur and consider them i
 
 ### Q8: Write an SQL query to join 3 tables ###
 ![1668274347333](https://user-images.githubusercontent.com/72076328/201538710-264494b8-62e7-4e36-8487-be449c1b441a.jpg)
+
+
+### Q9: Write a SQL query to get the third-highest salary of an employee from employee_table and arrange them in descending order. ###
+
+Answer:
 
 
 
