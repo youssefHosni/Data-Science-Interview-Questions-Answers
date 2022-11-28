@@ -88,7 +88,7 @@ To reduce overfitting in a deep neural network changes can be made in three plac
 * Overfitting could be due to model complexity. Question each component:
   * can fully connect layers be replaced with convolutional + pooling layers?
   * what is the justification for the number of layers and number of neurons chosen? Given how hard it is to tune these, can a pre-trained model be used?
-  * Add regularization - ridge (l1), lasso (l2), elastic net (both)
+  * Add regularization - lasso (l1), ridge (l2), elastic net (both)
 * Add dropouts
 * Add batch normalization
 
