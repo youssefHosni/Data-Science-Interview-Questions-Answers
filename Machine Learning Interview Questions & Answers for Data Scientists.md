@@ -31,6 +31,7 @@
 * [Q28: What is the importance of batch in machine learning and explain some batch depend gradient descent algorithm?](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Machine%20Learning%20Interview%20Questions%20&%20Answers%20for%20Data%20Scientists.md#:~:text=over%20training%20examples.-,Q28%3A%20What%20is%20the%20importance%20of%20batch%20in%20machine%20learning%20and%20explain%20some%20batch%20depend%20gradient%20descent%20algorithm%3F,-Answer%3A%20In%20the)
 * [Q29: What are the different methods to split a tree in a decision tree algorithm?](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Machine%20Learning%20Interview%20Questions%20&%20Answers%20for%20Data%20Scientists.md#:~:text=batch%20gradient%20descent.-,Q29%3A%20What%20are%20the%20different%20methods%20to%20split%20a%20tree%20in%20a%20decision%20tree%20algorithm%3F,-Answer%3A)
 * [Q30: Why boosting is a more stable algorithm as compared to other ensemble algorithms? ](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Machine%20Learning%20Interview%20Questions%20&%20Answers%20for%20Data%20Scientists.md#:~:text=leaves%20is%20attained.-,Q30%3A%20Why%20boosting%20is%20a%20more%20stable%20algorithm%20as%20compared%20to%20other%20ensemble%20algorithms%3F,-Answer%3A)
+* [Q31: What is active learning and discuss one strategy of it?]()
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Questions & Answers ##
@@ -395,3 +396,6 @@ Answer:
 
 Since Boosting algorithms focus on errors found in previous iterations until they become obsolete. Whereas in bagging there is no corrective loop. That’s why boosting is a more stable algorithm compared to other ensemble algorithms.
 
+### Q31: What is active learning and discuss one strategy of it? ###
+
+Answer:
