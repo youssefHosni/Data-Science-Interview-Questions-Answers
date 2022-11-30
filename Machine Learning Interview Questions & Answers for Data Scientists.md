@@ -406,5 +406,6 @@ In stream-based selective sampling, unlabelled data is continuously fed to an ac
 
 2. Pool-based sampling
 In this case, the data samples are chosen from a pool of unlabelled data based on the informative value scores and sent for manual labeling. Unlike stream-based sampling, oftentimes, the entire unlabelled dataset is scrutinized for the selection of the best instances.
+
 ![1669836673164](https://user-images.githubusercontent.com/72076328/204896144-43b2181a-d9ce-471b-95d0-44c0f7bb3025.jpg)
 
