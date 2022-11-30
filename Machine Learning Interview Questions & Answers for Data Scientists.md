@@ -399,3 +399,12 @@ Since Boosting algorithms focus on errors found in previous iterations until the
 ### Q31: What is active learning and discuss one strategy of it? ###
 
 Answer:
+Active learning is a special case of machine learning in which a learning algorithm can interactively query a user (or some other information source) to label new data points with the desired outputs. In statistics literature, it is sometimes referred to as optimal experimental design.
+
+1. Stream-based sampling 
+In stream-based selective sampling, unlabelled data is continuously fed to an active learning system, where the learner decides whether to send the same to a human oracle or not based on a predefined learning strategy. This method is apt in scenarios where the model is in production and the data sources/distributions vary over time. 
+
+2. Pool-based sampling
+In this case, the data samples are chosen from a pool of unlabelled data based on the informative value scores and sent for manual labeling. Unlike stream-based sampling, oftentimes, the entire unlabelled dataset is scrutinized for the selection of the best instances.
+![1669836673164](https://user-images.githubusercontent.com/72076328/204896144-43b2181a-d9ce-471b-95d0-44c0f7bb3025.jpg)
+
