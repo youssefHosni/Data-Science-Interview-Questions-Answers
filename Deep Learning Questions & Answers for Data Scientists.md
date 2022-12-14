@@ -19,6 +19,7 @@
 * [Q16: How does L1/L2 regularization affect a neural network?](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Deep%20Learning%20Questions%20&%20Answers%20for%20Data%20Scientists.md#:~:text=mix%20both%20approaches.-,Q16%3A%20How%20does%20L1/L2%20regularization%20affect%20a%20neural%20network%3F,-Answer%3A)
 * [Q17: 𝐇𝐨𝐰 𝐰𝐨𝐮𝐥𝐝 𝐲𝐨𝐮 𝐜𝐡𝐚𝐧𝐠𝐞 𝐚 𝐩𝐫𝐞-𝐭𝐫𝐚𝐢𝐧𝐞𝐝 𝐧𝐞𝐮𝐫𝐚𝐥 𝐧𝐞𝐭𝐰𝐨𝐫𝐤 𝐟𝐫𝐨𝐦 𝐜𝐥𝐚𝐬𝐬𝐢𝐟𝐢𝐜𝐚𝐭𝐢𝐨𝐧 𝐭𝐨 𝐫𝐞𝐠𝐫𝐞𝐬𝐬𝐢𝐨𝐧?](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Deep%20Learning%20Questions%20&%20Answers%20for%20Data%20Scientists.md#:~:text=to%20be%200.-,Q17%3A%20%F0%9D%90%87%F0%9D%90%A8%F0%9D%90%B0%20%F0%9D%90%B0%F0%9D%90%A8%F0%9D%90%AE%F0%9D%90%A5%F0%9D%90%9D%20%F0%9D%90%B2%F0%9D%90%A8%F0%9D%90%AE%20%F0%9D%90%9C%F0%9D%90%A1%F0%9D%90%9A%F0%9D%90%A7%F0%9D%90%A0%F0%9D%90%9E%20%F0%9D%90%9A%20%F0%9D%90%A9%F0%9D%90%AB%F0%9D%90%9E%2D%F0%9D%90%AD%F0%9D%90%AB%F0%9D%90%9A%F0%9D%90%A2%F0%9D%90%A7%F0%9D%90%9E%F0%9D%90%9D%20%F0%9D%90%A7%F0%9D%90%9E%F0%9D%90%AE%F0%9D%90%AB%F0%9D%90%9A%F0%9D%90%A5%20%F0%9D%90%A7%F0%9D%90%9E%F0%9D%90%AD%F0%9D%90%B0%F0%9D%90%A8%F0%9D%90%AB%F0%9D%90%A4%20%F0%9D%90%9F%F0%9D%90%AB%F0%9D%90%A8%F0%9D%90%A6%20%F0%9D%90%9C%F0%9D%90%A5%F0%9D%90%9A%F0%9D%90%AC%F0%9D%90%AC%F0%9D%90%A2%F0%9D%90%9F%F0%9D%90%A2%F0%9D%90%9C%F0%9D%90%9A%F0%9D%90%AD%F0%9D%90%A2%F0%9D%90%A8%F0%9D%90%A7%20%F0%9D%90%AD%F0%9D%90%A8%20%F0%9D%90%AB%F0%9D%90%9E%F0%9D%90%A0%F0%9D%90%AB%F0%9D%90%9E%F0%9D%90%AC%F0%9D%90%AC%F0%9D%90%A2%F0%9D%90%A8%F0%9D%90%A7%3F,-Answer%3A%20Using%20transfer) 
 * [Q18: What might happen if you set the momentum hyperparameter too close to 1 (e.g., 0.9999) when using an SGD optimizer?](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Deep%20Learning%20Questions%20&%20Answers%20for%20Data%20Scientists.md#:~:text=on%20huge%20data.-,Q18%3A%20What%20might%20happen%20if%20you%20set%20the%20momentum%20hyperparameter%20too%20close%20to%201%20(e.g.%2C%200.9999)%20when%20using%20an%20SGD%20optimizer%3F,-Answer%3A)
+* [Q19: What are the hyperparameters that can be optimized for the batch normalization layer?]()
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Questions & Answers ##
@@ -317,4 +318,9 @@ Then it will slow down and come back, accelerate again, overshoot again, and so 
 
 Also since the momentum is used to update the weights based on an "exponential moving average" of all the previous gradients instead of the current gradient only, this in some sense, combats the instability of the gradients that comes with stochastic gradient descent, the higher the momentum term, the stronger the influence of previous gradients to the current optimization step (with the more recent gradients having even stronger influence), setting a momentum term close to 1, will result in a gradient that is almost a sum of all the previous gradients basically, which might result in an exploding gradient scenario.
 ![1667318817187](https://user-images.githubusercontent.com/72076328/199281009-a2051070-bf73-4478-9616-c5688d7eceb0.jpg)
+
+### Q19: What are the hyperparameters that can be optimized for the batch normalization layer? ###
+
+Answer:
+
 
