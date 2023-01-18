@@ -32,6 +32,7 @@
 * [Q29: What are the different methods to split a tree in a decision tree algorithm?](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Machine%20Learning%20Interview%20Questions%20%26%20Answers%20for%20Data%20Scientists.md#q29-what-are-the-different-methods-to-split-a-tree-in-a-decision-tree-algorithm)
 * [Q30: Why boosting is a more stable algorithm as compared to other ensemble algorithms? ](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Machine%20Learning%20Interview%20Questions%20%26%20Answers%20for%20Data%20Scientists.md#q30-why-boosting-is-a-more-stable-algorithm-as-compared-to-other-ensemble-algorithms)
 * [Q31: What is active learning and discuss one strategy of it?](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Machine%20Learning%20Interview%20Questions%20%26%20Answers%20for%20Data%20Scientists.md#q31-what-is-active-learning-and-discuss-one-strategy-of-it)
+* [Q32: What are the different approaches to implementing recommendation systems?]()
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Questions & Answers ##
@@ -409,3 +410,5 @@ In this case, the data samples are chosen from a pool of unlabelled data based o
 
 ![1669836673164](https://user-images.githubusercontent.com/72076328/204896144-43b2181a-d9ce-471b-95d0-44c0f7bb3025.jpg)
 
+### Q32: What are the different approaches to implementing recommendation systems? ###
+Answer:
