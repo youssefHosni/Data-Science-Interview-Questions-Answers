@@ -412,3 +412,22 @@ In this case, the data samples are chosen from a pool of unlabelled data based o
 
 ### Q32: What are the different approaches to implementing recommendation systems? ###
 Answer:
+1. 𝐂𝐨𝐧𝐭𝐞𝐧𝐭-𝐁𝐚𝐬𝐞𝐝 𝐅𝐢𝐥𝐭𝐞𝐫𝐢𝐧𝐠: Content-Based Filtering depends on similarities of items and users' past activities on the website to recommend any product or service.
+
+This filter helps in avoiding a cold start for any new products as it doesn't rely on other users' feedback, it can recommend products based on similarity factors. However, content-based filtering needs a lot of domain knowledge so that the recommendations made are 100 percent accurate.
+
+2. 𝐂𝐨𝐥𝐥𝐚𝐛𝐨𝐫𝐚𝐭𝐢𝐯𝐞-𝐁𝐚𝐬𝐞𝐝 𝐅𝐢𝐥𝐭𝐞𝐫𝐢𝐧𝐠: The primary job of a collaborative filtering system is to overcome the shortcomings of content-based filtering.
+
+So, instead of focusing on just one user, the collaborative filtering system focuses on all the users and clusters them according to their interests.
+
+Basically, it recommends a product 'x' to user 'a' based on the interest of user 'b'; users 'a' and 'b' must have had similar interests in the past, which is why they are clustered together.
+
+The domain knowledge that is required for collaborative filtering is less, recommendations made are more accurate and it can adapt to the changing tastes of users over time. However, collaborative filtering faces the problem of a cold start as it heavily relies on feedback or activity from other users.
+
+3. 𝐇𝐲𝐛𝐫𝐢𝐝 𝐟𝐢𝐥𝐭𝐞𝐫𝐢𝐧𝐠:  A mixture of content and collaborative methods. Uses descriptors and interactions.
+
+More modern approaches typically fall into the hybrid filtering category and tend to work in two stages:
+
+1). A candidate generation phase where we coarsely generate candidates from a corpus of hundreds of thousands, millions, or billions of items down to a few hundred or thousand
+
+2) A ranking phase where we re-rank the candidates into a final top-n set to be shown to the user. Some systems employ multiple candidate generation methods and rankers.
