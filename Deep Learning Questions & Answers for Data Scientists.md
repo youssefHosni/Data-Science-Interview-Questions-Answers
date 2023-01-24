@@ -20,6 +20,7 @@
 * [Q17: 𝐇𝐨𝐰 𝐰𝐨𝐮𝐥𝐝 𝐲𝐨𝐮 𝐜𝐡𝐚𝐧𝐠𝐞 𝐚 𝐩𝐫𝐞-𝐭𝐫𝐚𝐢𝐧𝐞𝐝 𝐧𝐞𝐮𝐫𝐚𝐥 𝐧𝐞𝐭𝐰𝐨𝐫𝐤 𝐟𝐫𝐨𝐦 𝐜𝐥𝐚𝐬𝐬𝐢𝐟𝐢𝐜𝐚𝐭𝐢𝐨𝐧 𝐭𝐨 𝐫𝐞𝐠𝐫𝐞𝐬𝐬𝐢𝐨𝐧?](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Machine%20Learning%20Interview%20Questions%20%26%20Answers%20for%20Data%20Scientists.md#q17-you-are-building-a-binary-classifier-and-you-found-that-the-data-is-imbalanced-what-should-you-do-to-handle-this-situation)
 * [Q18: What might happen if you set the momentum hyperparameter too close to 1 (e.g., 0.9999) when using an SGD optimizer?](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Machine%20Learning%20Interview%20Questions%20%26%20Answers%20for%20Data%20Scientists.md#q18-you-are-working-on-a-clustering-problem-what-are-different-evaluation-metrics-that-can-be-used-and-how-to-choose-between-them)
 * [Q19: What are the hyperparameters that can be optimized for the batch normalization layer?](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Machine%20Learning%20Interview%20Questions%20%26%20Answers%20for%20Data%20Scientists.md#q19-what-is-the-roc-curve-and-when-should-you-use-it)
+* [Q20: What is the effect of dropout on the training and prediction speed of your deep learning model?]()
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Questions & Answers ##
@@ -320,6 +321,11 @@ Also since the momentum is used to update the weights based on an "exponential m
 ![1667318817187](https://user-images.githubusercontent.com/72076328/199281009-a2051070-bf73-4478-9616-c5688d7eceb0.jpg)
 
 ### Q19: What are the hyperparameters that can be optimized for the batch normalization layer? ###
+
+Answer:
+
+
+### Q20: What is the effect of dropout on the training and prediction speed of your deep learning model? ###
 
 Answer:
 
