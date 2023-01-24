@@ -20,6 +20,8 @@
 * [Q17: 𝐇𝐨𝐰 𝐰𝐨𝐮𝐥𝐝 𝐲𝐨𝐮 𝐜𝐡𝐚𝐧𝐠𝐞 𝐚 𝐩𝐫𝐞-𝐭𝐫𝐚𝐢𝐧𝐞𝐝 𝐧𝐞𝐮𝐫𝐚𝐥 𝐧𝐞𝐭𝐰𝐨𝐫𝐤 𝐟𝐫𝐨𝐦 𝐜𝐥𝐚𝐬𝐬𝐢𝐟𝐢𝐜𝐚𝐭𝐢𝐨𝐧 𝐭𝐨 𝐫𝐞𝐠𝐫𝐞𝐬𝐬𝐢𝐨𝐧?](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Machine%20Learning%20Interview%20Questions%20%26%20Answers%20for%20Data%20Scientists.md#q17-you-are-building-a-binary-classifier-and-you-found-that-the-data-is-imbalanced-what-should-you-do-to-handle-this-situation)
 * [Q18: What might happen if you set the momentum hyperparameter too close to 1 (e.g., 0.9999) when using an SGD optimizer?](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Machine%20Learning%20Interview%20Questions%20%26%20Answers%20for%20Data%20Scientists.md#q18-you-are-working-on-a-clustering-problem-what-are-different-evaluation-metrics-that-can-be-used-and-how-to-choose-between-them)
 * [Q19: What are the hyperparameters that can be optimized for the batch normalization layer?](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Machine%20Learning%20Interview%20Questions%20%26%20Answers%20for%20Data%20Scientists.md#q19-what-is-the-roc-curve-and-when-should-you-use-it)
+* Q20: What is the advantage of deep learning over traditional machine learning?
+* Q21: What is a depthwise Separable layer and what are its advantages?
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Questions & Answers ##
@@ -323,4 +325,47 @@ Also since the momentum is used to update the weights based on an "exponential m
 
 Answer:
 
+### Q20: What is the advantage of deep learning over traditional machine learning?
 
+Answer: 
+
+Deep Learning algorithms can handle larger and more complex datasets than traditional machine learning algorithms.
+
+### Q21: What is a depthwise Separable layer and what are its advantages?
+
+Answer: 
+
+Standard neural network Convolution layers involve a lot of multiplications that make them unsuitable for deployment. 
+
+![image](https://user-images.githubusercontent.com/16001446/214198300-f9b1edcf-7b5f-4fd0-a574-edd1b6feefc2.png)
+
+In this above scenario, we have an input image of 12x12x3 pixels and we apply a 5x5 convolution(no padding, stride = 1). We stack 256 such kernels
+so that we get an output of dimensions 8x8x256.
+
+Here, there are 256 5x5x3 kernels that move 8x8 times which leads to 256x3x5x5x8x8 = 1,28,800 multiplications.
+
+Depthwise separable convolution separates this process into two parts: a depthwise convolution and a pointwise convolution.
+
+In depthwise convolution, we apply a kernel parallelly to each channel of the image.
+
+![image](https://user-images.githubusercontent.com/16001446/214199199-63fc7784-b9de-4ca8-ade7-1d4b522ee3b2.png)
+
+We end up getting 3 different outputs (representing 3 channels of the image) to get an 8x8x1 image. These are stacked together to form a 8x8x3 image.
+
+Pointwise Convolution now converts this 8x8x3 image input from the depthwise convolution back to an 8x8x1 output.
+
+![image](https://user-images.githubusercontent.com/16001446/214199695-afdf7c3c-0c9d-4ed5-916f-b7afb5eada8f.png)
+
+Stacking 256 1x1x3 kernels give us the final output as the standard convolution.
+
+![image](https://user-images.githubusercontent.com/16001446/214199795-bacbdb57-59bd-4b36-ba71-7d65fffcfa8b.png)
+
+Total Number of multiplications:
+
+For Depthwise convolution, we have 3 5x5x1 kernels moving 8x8 times, totalling 3x5x5x8x8=4800 multiplications.
+
+In Pointwise convolution, we have 256 1x1x3 kernels moving 8x8 times, which is a total of 256x1x1x3x8x8=49152 multiplications.
+
+Total number of multiplications = 4800 + 49152 = 53952 multiplications which is way lower than the standard convolution case.
+
+Reference: https://towardsdatascience.com/a-basic-introduction-to-separable-convolutions-b99ec3102728
