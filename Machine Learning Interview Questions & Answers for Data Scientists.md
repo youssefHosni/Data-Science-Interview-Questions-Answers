@@ -33,6 +33,7 @@
 * [Q30: Why boosting is a more stable algorithm as compared to other ensemble algorithms? ](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Machine%20Learning%20Interview%20Questions%20%26%20Answers%20for%20Data%20Scientists.md#q30-why-boosting-is-a-more-stable-algorithm-as-compared-to-other-ensemble-algorithms)
 * [Q31: What is active learning and discuss one strategy of it?](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Machine%20Learning%20Interview%20Questions%20%26%20Answers%20for%20Data%20Scientists.md#q31-what-is-active-learning-and-discuss-one-strategy-of-it)
 * [Q32: What are the different approaches to implementing recommendation systems?]()
+* [Q33: What is the difference between concept and data drift and how to overcome each of them?]()
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Questions & Answers ##
@@ -431,3 +432,7 @@ More modern approaches typically fall into the hybrid filtering category and ten
 1). A candidate generation phase where we coarsely generate candidates from a corpus of hundreds of thousands, millions, or billions of items down to a few hundred or thousand
 
 2) A ranking phase where we re-rank the candidates into a final top-n set to be shown to the user. Some systems employ multiple candidate generation methods and rankers.
+
+### Q33: What is the difference between concept and data drift and how to overcome each of them? ###
+
+Answer:
