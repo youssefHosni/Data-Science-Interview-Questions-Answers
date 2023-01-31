@@ -16,6 +16,7 @@
 * [Q13: Discuss the Chi-square, ANOVA, and t-test](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Statistics%20Interview%20Questions%20%26%20Answers%20for%20Data%20Scientists.md#q13-discuss-the-chi-square-anova-and-t-test)
 * [Q14: Say you have two subsets of a dataset for which you know their means and standard deviations. How do you calculate the blended mean and standard deviation of the total dataset? Can you extend it to K subsets?](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Statistics%20Interview%20Questions%20%26%20Answers%20for%20Data%20Scientists.md#q14-say-you-have-two-subsets-of-a-dataset-for-which-you-know-their-means-and-standard-deviations-how-do-you-calculate-the-blended-mean-and-standard-deviation-of-the-total-dataset-can-you-extend-it-to-k-subsets)
 * [Q15: What is the relationship between the significance level and the confidence level in Statistics?](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Statistics%20Interview%20Questions%20%26%20Answers%20for%20Data%20Scientists.md#q15-what-is-the-relationship-between-the-significance-level-and-the-confidence-level-in-statistics)
+* [Q16: What is the Law of Large Numbers in statistics and how it can be used in data science ?]()
 
 
 ## Questions & Answers ##
@@ -239,4 +240,9 @@ It's closely related to hypothesis testing and confidence intervals.
 ⏺ Significance Level according to the hypothesis testing literature means the probability of Type-I error one is willing to tolerate.
 
 ⏺ Confidence Level according to the confidence interval literature means the probability in terms of the true parameter value lying inside the confidence interval. They are usually written in percentages.
+
+### Q16: What is the Law of Large Numbers in statistics and how it can be used in data science ? ###
+
+Answer:
+
 
