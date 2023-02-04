@@ -16,6 +16,7 @@
 * [Q13: According to hospital records, 75% of patients suffering from a disease die from that disease. Find out the probability that 4 out of the 6 randomly selected patients survive.](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Probability%20Interview%20Questions%20%26%20Answers%20for%20Data%20Scientists.md#q13-according-to-hospital-records-75-of-patients-suffering-from-a-disease-die-from-that-disease-find-out-the-probability-that-4-out-of-the-6-randomly-selected-patients-survive)
 * [Q14: Discuss some methods you will use to estimate the Parameters of a Probability Distribution](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Probability%20Interview%20Questions%20%26%20Answers%20for%20Data%20Scientists.md#q14-discuss-some-methods-you-will-use-to-estimate-the-parameters-of-a-probability-distribution)
 * [Q15: You have 40 cards in four colors, 10 reds, 10 greens, 10 blues, and ten yellows. Each color has a number from 1 to 10. When you pick two cards without replacement, what is the probability that the two cards are not in the same color and not in the same number?](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Probability%20Interview%20Questions%20%26%20Answers%20for%20Data%20Scientists.md#q15-you-have-40-cards-in-four-colors-10-reds-10-greens-10-blues-and-ten-yellows-each-color-has-a-number-from-1-to-10-when-you-pick-two-cards-without-replacement-what-is-the-probability-that-the-two-cards-are-not-in-the-same-color-and-not-in-the-same-number)
+* [Q16: Can you explain the difference between frequentist and Bayesian probability approaches?]()
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Questions & Answers ##
 
@@ -222,4 +223,11 @@ Now, all we have to care about is the restriction on the second card. It can't b
 So, the number of favorable choices for the 2nd card is (39-12)/39 = 27/39 = 9/13
 
 ![1668961881451](https://user-images.githubusercontent.com/72076328/202913961-f94f17b1-dc41-45b2-ba51-389583431d7b.jpg)
+
+
+### Q16: Can you explain the difference between frequentist and Bayesian probability approaches? ###
+
+Answer:
+
+
 
