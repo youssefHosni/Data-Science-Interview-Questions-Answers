@@ -229,5 +229,15 @@ So, the number of favorable choices for the 2nd card is (39-12)/39 = 27/39 = 9/1
 
 Answer:
 
+The frequentist approach to probability defines probability as the long-run relative frequency of an event in an infinite number of trials. It views probabilities as fixed and objective, determined by the data at hand. In this approach, the parameters of a model are treated as fixed and unknown and estimated using methods like maximum likelihood estimation.
+
+
+
+On the other hand, Bayesian probability defines probability as a degree of belief, or the degree of confidence, in an event. It views probabilities as subjective and personal, representing an individual's beliefs. In this approach, the parameters of a model are treated as random variables with prior beliefs, which are updated as new data becomes available to form a posterior belief.
+
+
+
+In summary, the frequentist approach deals with fixed and objective probabilities and uses methods like estimation, while the Bayesian approach deals with subjective and personal probabilities and uses methods like updating prior beliefs with new data.
+
 
 
