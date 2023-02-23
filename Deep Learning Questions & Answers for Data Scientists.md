@@ -327,6 +327,4 @@ Answer:
 
 ### Q20: What is the effect of dropout on the training and prediction speed of your deep learning model? ###
 
-Answer:
-
-
+Answer: Dropout is a regularization technique, which zeroes down some weights and scales up the rest of the weights by a factor of 1/(1-p). Let's say if Dropout layer is initialized with p=0.5, that means half of the weights will zeroed down, and rest will be scaled by a factor of 2. This layer is only enabled during training and is disabled during validation and testing. Hence validation and testing is faster. The reason why it works only during training is, we want to reduce the complexity of the model so that model doesn't overfit. Once the model is trained, it doesn't make sense to keep that layer enabled.
