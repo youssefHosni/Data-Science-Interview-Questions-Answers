@@ -34,7 +34,7 @@
 * [Q31: What is active learning and discuss one strategy of it?](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Machine%20Learning%20Interview%20Questions%20%26%20Answers%20for%20Data%20Scientists.md#q31-what-is-active-learning-and-discuss-one-strategy-of-it)
 * [Q32: What are the different approaches to implementing recommendation systems?]()
 * [Q33: What are the evaluation metrics that can be used for multi-label classification?](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Machine%20Learning%20Interview%20Questions%20&%20Answers%20for%20Data%20Scientists.md#:~:text=Q33%3A%20What%20are%20the%20evaluation%20metrics%20that%20can%20be%20used%20for%20multi%2Dlabel%20classification%3F)
-* [Q34: What is the difference between concept and data drift and how to overcome each of them?]()
+* [Q34: What is the difference between concept and data drift and how to overcome each of them?](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Machine%20Learning%20Interview%20Questions%20&%20Answers%20for%20Data%20Scientists.md#:~:text=at%20k%20(MAP%40k)-,Q34%3A%20What%20is%20the%20difference%20between%20concept%20and%20data%20drift%20and%20how%20to%20overcome%20each%20of%20them%3F,-Answer%3A)
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Questions & Answers ##
