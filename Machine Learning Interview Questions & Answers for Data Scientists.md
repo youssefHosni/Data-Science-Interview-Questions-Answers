@@ -460,3 +460,17 @@ There are other metrics that can be used such as:
 ### Q34: What is the difference between concept and data drift and how to overcome each of them? ###
 
 Answer:
+
+Concept drift and data drift are two different types of problems that can occur in machine learning systems.
+
+Concept drift refers to changes in the underlying relationships between the input data and the target variable over time. This means that the distribution of the data that the model was trained on no longer matches the distribution of the data it is being tested on. For example, a spam filter model that was trained on emails from several years ago may not be as effective at identifying spam emails from today because the language and tactics used in spam emails may have changed.
+
+Data drift, on the other hand, refers to changes in the input data itself over time. This means that the values of the input feature that the model was trained on no longer match the values of the input features in the data it is being tested on. For example, a model that was trained on data from a particular geographical region may not be as effective at predicting outcomes for data from a different region.
+
+To overcome concept drift, one approach is to use online learning methods that allow the model to adapt to new data as it arrives. This involves continually training the model on the most recent data while using historical data to maintain context. Another approach is to periodically retrain the model using a representative sample of the most recent data.
+
+To overcome data drift, one approach is to monitor the input data for changes and retrain the model when significant changes are detected. This may involve setting up a monitoring system that alerts the user when the data distribution changes beyond a certain threshold.
+
+Another approach is to preprocess the input data to remove or mitigate the effects of the features changing over time so that the model can continue learning from the remaining features.
+![ezgif com-webp-to-jpg (7)](https://user-images.githubusercontent.com/72076328/221916192-7a9fcf21-8e5f-4ddc-bd90-ef1bdabf1d3f.jpg)
+
