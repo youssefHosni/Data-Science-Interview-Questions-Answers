@@ -21,6 +21,8 @@
 * [Q18: What might happen if you set the momentum hyperparameter too close to 1 (e.g., 0.9999) when using an SGD optimizer?](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Machine%20Learning%20Interview%20Questions%20%26%20Answers%20for%20Data%20Scientists.md#q18-you-are-working-on-a-clustering-problem-what-are-different-evaluation-metrics-that-can-be-used-and-how-to-choose-between-them)
 * [Q19: What are the hyperparameters that can be optimized for the batch normalization layer?](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Machine%20Learning%20Interview%20Questions%20%26%20Answers%20for%20Data%20Scientists.md#q19-what-is-the-roc-curve-and-when-should-you-use-it)
 * [Q20: What is the effect of dropout on the training and prediction speed of your deep learning model?](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Deep%20Learning%20Questions%20%26%20Answers%20for%20Data%20Scientists.md#:~:text=Answer%3A-,Q20%3A%20What%20is%20the%20effect%20of%20dropout%20on%20the%20training%20and%20prediction%20speed%20of%20your%20deep%20learning%20model%3F,-Answer%3A)
+* [Q21: What is the advantage of deep learning over traditional machine learning?]()
+* [Q22: What is a depthwise Separable layer and what are its advantages?]()
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Questions & Answers ##
