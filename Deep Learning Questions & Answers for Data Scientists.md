@@ -336,7 +336,21 @@ Answer: Dropout is a regularization technique, which zeroes down some weights an
 
 Answer: 
 
-Deep Learning algorithms can handle larger and more complex datasets than traditional machine learning algorithms.
+Deep learning offers several advantages over traditional machine learning approaches, including:
+
+1. Ability to process large amounts of data: Deep learning models can analyze and process massive amounts of data quickly and accurately, making it ideal for tasks such as image recognition or natural language processing.
+
+2. Automated feature extraction: In traditional machine learning, feature engineering is a crucial step in the model building process. Deep learning models, on the other hand, can automatically learn and extract features from the raw data, reducing the need for human intervention.
+
+3. Better accuracy: Deep learning models have shown to achieve higher accuracy levels in complex tasks such as speech recognition and image classification when compared to traditional machine learning models.
+
+4. Adaptability to new data: Deep learning models can adapt and learn from new data, making them suitable for use in dynamic and ever-changing environments.
+
+While deep learning does have its advantages, it also has some limitations, such as requiring large amounts of data and computational resources, making it unsuitable for some applications.
+
+
+
+
 
 ### Q22: What is a depthwise Separable layer and what are its advantages? ###
 
