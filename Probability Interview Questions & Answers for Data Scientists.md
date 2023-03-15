@@ -241,4 +241,8 @@ On the other hand, Bayesian probability defines probability as a degree of belie
 In summary, the frequentist approach deals with fixed and objective probabilities and uses methods like estimation, while the Bayesian approach deals with subjective and personal probabilities and uses methods like updating prior beliefs with new data.
 
 ### Q17: Explain the Difference Between Probability and Likelihood ###
+Probability and likelihood are two concepts that are often used in statistics and data analysis, but they have different meanings and uses.
 
+Probability is the measure of the likelihood of an event occurring. It is a number between 0 and 1, with 0 indicating an impossible event and 1 indicating a certain event. For example, the probability of flipping a coin and getting heads is 0.5.
+
+The likelihood, on the other hand, is the measure of how well a statistical model or hypothesis fits a set of observed data. It is not a probability, but rather a measure of how plausible the data is given the model or hypothesis. For example, if we have a hypothesis that the average height of people in a certain population is 6 feet, the likelihood of observing a random sample of people with an average height of 5 feet would be low.
