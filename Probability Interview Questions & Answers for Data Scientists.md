@@ -17,6 +17,7 @@
 * [Q14: Discuss some methods you will use to estimate the Parameters of a Probability Distribution](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Probability%20Interview%20Questions%20%26%20Answers%20for%20Data%20Scientists.md#q14-discuss-some-methods-you-will-use-to-estimate-the-parameters-of-a-probability-distribution)
 * [Q15: You have 40 cards in four colors, 10 reds, 10 greens, 10 blues, and ten yellows. Each color has a number from 1 to 10. When you pick two cards without replacement, what is the probability that the two cards are not in the same color and not in the same number?](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Probability%20Interview%20Questions%20%26%20Answers%20for%20Data%20Scientists.md#q15-you-have-40-cards-in-four-colors-10-reds-10-greens-10-blues-and-ten-yellows-each-color-has-a-number-from-1-to-10-when-you-pick-two-cards-without-replacement-what-is-the-probability-that-the-two-cards-are-not-in-the-same-color-and-not-in-the-same-number)
 * [Q16: Can you explain the difference between frequentist and Bayesian probability approaches?]()
+* [Q17: Explain the Difference Between Probability and Likelihood]()
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Questions & Answers ##
 
@@ -239,5 +240,5 @@ On the other hand, Bayesian probability defines probability as a degree of belie
 
 In summary, the frequentist approach deals with fixed and objective probabilities and uses methods like estimation, while the Bayesian approach deals with subjective and personal probabilities and uses methods like updating prior beliefs with new data.
 
-
+### Q17: Explain the Difference Between Probability and Likelihood ###
 
