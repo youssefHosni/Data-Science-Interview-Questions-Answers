@@ -250,7 +250,7 @@ In data science, the law of large numbers is used to understand the behavior of 
 
 The law of large numbers helps to guarantee that the average of the results from a large number of independent and identically distributed trials will converge to the expected value, providing a foundation for statistical inference and hypothesis testing.
 
-Q17: What is the difference between a confidence interval and a prediction interval, and how do you calculate them?
+### Q17: What is the difference between a confidence interval and a prediction interval, and how do you calculate them? ###
 
 Answer:
 
