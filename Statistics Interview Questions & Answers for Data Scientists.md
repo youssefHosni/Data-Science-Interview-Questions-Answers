@@ -17,7 +17,7 @@
 * [Q14: Say you have two subsets of a dataset for which you know their means and standard deviations. How do you calculate the blended mean and standard deviation of the total dataset? Can you extend it to K subsets?](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Statistics%20Interview%20Questions%20%26%20Answers%20for%20Data%20Scientists.md#q14-say-you-have-two-subsets-of-a-dataset-for-which-you-know-their-means-and-standard-deviations-how-do-you-calculate-the-blended-mean-and-standard-deviation-of-the-total-dataset-can-you-extend-it-to-k-subsets)
 * [Q15: What is the relationship between the significance level and the confidence level in Statistics?](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Statistics%20Interview%20Questions%20%26%20Answers%20for%20Data%20Scientists.md#q15-what-is-the-relationship-between-the-significance-level-and-the-confidence-level-in-statistics)
 * [Q16: What is the Law of Large Numbers in statistics and how it can be used in data science ?](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Statistics%20Interview%20Questions%20%26%20Answers%20for%20Data%20Scientists.md#:~:text=written%20in%20percentages.-,Q16%3A%20What%20is%20the%20Law%20of%20Large%20Numbers%20in%20statistics%20and%20how%20it%20can%20be%20used%20in%20data%20science%20%3F,-Answer%3A%20The%20law)
-
+* [Q17: What is the difference between a confidence interval and a prediction interval, and how do you calculate them?]()
 
 ## Questions & Answers ##
 
@@ -249,4 +249,8 @@ The law of large numbers states that as the number of trials in a random experim
 In data science, the law of large numbers is used to understand the behavior of random variables over many trials. It's often applied in areas such as predictive modeling, risk assessment, and quality control to ensure that data-driven decisions are based on a robust and accurate representation of the underlying patterns in the data.
 
 The law of large numbers helps to guarantee that the average of the results from a large number of independent and identically distributed trials will converge to the expected value, providing a foundation for statistical inference and hypothesis testing.
+
+Q17: What is the difference between a confidence interval and a prediction interval, and how do you calculate them?
+
+Answer:
 
