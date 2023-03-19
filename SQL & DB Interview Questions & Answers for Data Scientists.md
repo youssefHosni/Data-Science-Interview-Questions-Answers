@@ -12,7 +12,7 @@
 * [Q7: What do you understand by Self Join? Explain using an example](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/SQL%20%26%20DB%20Interview%20Questions%20%26%20Answers%20for%20Data%20Scientists.md#q7-what-do-you-understand-by-self-join-explain-using-an-example)
 * [Q8: Write an SQL query to join 3 tables](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/SQL%20%26%20DB%20Interview%20Questions%20%26%20Answers%20for%20Data%20Scientists.md#q8-write-an-sql-query-to-join-3-tables)
 * [Q9: Write a SQL query to get the third-highest salary of an employee from employee_table and arrange them in descending order.](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/SQL%20%26%20DB%20Interview%20Questions%20%26%20Answers%20for%20Data%20Scientists.md#q9-write-a-sql-query-to-get-the-third-highest-salary-of-an-employee-from-employee_table-and-arrange-them-in-descending-order)
-* [Q10: What is the difference between temporary tables and common table expressions?]()
+* [Q10: What is the difference between temporary tables and common table expressions?](https://github.com/soopertramp/Data-Science-Interview-Questions-Answers/blob/main/SQL%20&%20DB%20Interview%20Questions%20&%20Answers%20for%20Data%20Scientists.md#q10-what-is-the-difference-between-temporary-tables-and-common-table-expressions)
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Questions & Answers ##
