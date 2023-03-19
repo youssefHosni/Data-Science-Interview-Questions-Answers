@@ -12,6 +12,7 @@
 * [Q7: What do you understand by Self Join? Explain using an example](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/SQL%20%26%20DB%20Interview%20Questions%20%26%20Answers%20for%20Data%20Scientists.md#q7-what-do-you-understand-by-self-join-explain-using-an-example)
 * [Q8: Write an SQL query to join 3 tables](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/SQL%20%26%20DB%20Interview%20Questions%20%26%20Answers%20for%20Data%20Scientists.md#q8-write-an-sql-query-to-join-3-tables)
 * [Q9: Write a SQL query to get the third-highest salary of an employee from employee_table and arrange them in descending order.](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/SQL%20%26%20DB%20Interview%20Questions%20%26%20Answers%20for%20Data%20Scientists.md#q9-write-a-sql-query-to-get-the-third-highest-salary-of-an-employee-from-employee_table-and-arrange-them-in-descending-order)
+* [Q10: What is the difference between temporary tables and common table expressions?]()
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Questions & Answers ##
@@ -131,5 +132,24 @@ P.S. we would need to take care of duplicates that may occur and consider them i
 
 Answer:
 
+### Q10: What is the difference between temporary tables and common table expressions? ###
+
+Answer:
+
+𝗧𝗲𝗺𝗽𝗼𝗿𝗮𝗿𝘆 𝘁𝗮𝗯𝗹𝗲𝘀 and 𝗖𝗧𝗘s are both used to store intermediate results in MySQL, but there are some key differences between the two:
+
+𝗗𝗲𝗳𝗶𝗻𝗶𝘁𝗶𝗼𝗻: A temporary table is a physical table that is created in the database and persists until it is explicitly dropped or the session ends. A CTE is a virtual table that is defined only within the scope of a single SQL statement.
+
+𝗦𝘁𝗼𝗿𝗮𝗴𝗲: Temporary tables are stored in the database and occupy physical disk space. CTEs are not stored on disk and exist only in memory for the duration of the query.
+
+𝗔𝗰𝗰𝗲𝘀𝘀: Temporary tables can be accessed from any session that has the appropriate privileges. CTEs are only accessible within the scope of the query in which they are defined.
+
+𝗟𝗶𝗳𝗲𝘀𝗽𝗮𝗻: Temporary tables persist until they are explicitly dropped or the session ends. CTEs are only available for the duration of the query in which they are defined and are then discarded.
+
+𝗦𝘆𝗻𝘁𝗮𝘅: Temporary tables are created using the CREATE TEMPORARY TABLE statement, while CTEs are defined using the WITH clause.
+
+𝗣𝘂𝗿𝗽𝗼𝘀𝗲: Temporary tables are typically used to store intermediate results that will be used in multiple queries, while CTEs are used to simplify complex queries by breaking them down into smaller, more manageable parts.
+
+In summary, temporary tables are physical tables that persist in the database and can be accessed from any session, while CTEs are virtual tables that exist only within the scope of a single query and are discarded once the query is complete. Both temporary tables and CTEs can be useful tools for simplifying complex queries and storing intermediate results.
 
 
