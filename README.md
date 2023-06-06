@@ -1,6 +1,16 @@
 # Data-Science-Interview-Questions-Answers
 A Curated list of data science interview questions and answers
 
+[![GitHub license](https://img.shields.io/github/license/youssefHosni/Data-Science-Interview-Questions-Answers.svg)](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/master/LICENSE)
+[![GitHub contributors](https://img.shields.io/github/contributors/youssefHosni/Data-Science-Interview-Questions-Answers.svg)](https://GitHub.com/youssefHosni/Data-Science-Interview-Questions-Answers/graphs/contributors/)
+[![GitHub issues](https://img.shields.io/github/issues/youssefHosni/Data-Science-Interview-Questions-Answers.svg)](https://GitHub.com/youssefHosni/Data-Science-Interview-Questions-Answers/issues/)
+[![GitHub pull-requests](https://img.shields.io/github/issues-pr/youssefHosni/Data-Science-Interview-Questions-Answers.svg)](https://GitHub.com/youssefHosni/Data-Science-Interview-Questions-Answers/pulls/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+
+[![GitHub watchers](https://img.shields.io/github/watchers/youssefHosni/Data-Science-Interview-Questions-Answers.svg?style=social&label=Watch)](https://GitHub.com/youssefHosni/Data-Science-Interview-Questions-Answers/watchers/)
+[![GitHub forks](https://img.shields.io/github/forks/youssefHosni/Data-Science-Interview-Questions-Answers.svg?style=social&label=Fork)](https://GitHub.com/youssefHosni/Data-Science-Interview-Questions-Answers/network/)
+[![GitHub stars](https://img.shields.io/github/stars/youssefHosni/Data-Science-Interview-Questions-Answers.svg?style=social&label=Star)](https://GitHub.com/youssefHosni/Data-Science-Interview-Questions-Answers/stargazers/)
+
 
 I started an intuitve on LinkedIn in which I post a daily data science interview questions. For better access the questions and answers will be updated in this repo.
 The questions can be divided into six categoreies: machine learning questions, deep learning questions, statstics questions, propbability questions, python questions and resume based questions.  If you would like to partcipate in this questions and answers follow me on [LinkedIn](https://www.linkedin.com/in/youssef-hosni-b2960b135/)
