@@ -325,8 +325,8 @@ Also since the momentum is used to update the weights based on an "exponential m
 
 ### Q19: What are the hyperparameters that can be optimized for the batch normalization layer? ###
 
-Answer:
-
+Answer: The $\gamma$ and $\beta$ hyperparameters for the batch normalization layer are learned end to end by the network. 
+In batch-normalization, the outputs of the intermediate layers are normalized to have a mean of 0 and standard deviation of 1. Rescaling by $\gamma$ and shifting by $\beta$ helps us change the mean and standard deviation to other values.
 
 ### Q20: What is the effect of dropout on the training and prediction speed of your deep learning model? ###
 
