@@ -500,3 +500,14 @@ ARIMA models are widely used in forecasting applications, but they do make certa
 ### Q36: What are the assumptions made by the ARIMA model? ###
 Answer:
 
+The ARIMA model makes several assumptions about the underlying time series data. These assumptions are important to ensure the validity and accuracy of the model's results. Here are the key assumptions:
+
+Stationarity: The ARIMA model assumes that the time series is stationary. Stationarity means that the statistical properties of the data, such as the mean and variance, remain constant over time. This assumption is crucial for the autoregressive and moving average components to hold. If the time series is non-stationary, differencing (the "I" component) is applied to transform it into a stationary series.
+
+Linearity: The ARIMA model assumes that the relationship between the observations and the lagged values is linear. It assumes that the future values of the time series can be modeled as a linear combination of past values and error terms.
+
+No Autocorrelation in Residuals: The ARIMA model assumes that the residuals (the differences between the predicted values and the actual values) do not exhibit any autocorrelation. In other words, the errors are not correlated with each other.
+
+Normally Distributed Residuals: The ARIMA model assumes that the residuals follow a normal distribution with a mean of zero. This assumption is necessary for statistical inference, parameter estimation, and hypothesis testing.
+
+It's important to note that while these assumptions are commonly made in ARIMA modeling, they may not always hold in real-world scenarios. It's essential to assess the data and, if needed, apply transformations or consider alternative models that relax some of these assumptions. Additionally, diagnostics tools, such as residual analysis and statistical tests, can help evaluate the adequacy of the assumptions and the model's fit to the data.
