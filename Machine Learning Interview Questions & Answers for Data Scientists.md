@@ -35,6 +35,9 @@
 * [Q32: What are the different approaches to implementing recommendation systems?](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Machine%20Learning%20Interview%20Questions%20&%20Answers%20for%20Data%20Scientists.md#:~:text=the%20best%20instances.-,Q32%3A%20What%20are%20the%20different%20approaches%20to%20implementing%20recommendation%20systems%3F,-Answer%3A)
 * [Q33: What are the evaluation metrics that can be used for multi-label classification?](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Machine%20Learning%20Interview%20Questions%20&%20Answers%20for%20Data%20Scientists.md#:~:text=Q33%3A%20What%20are%20the%20evaluation%20metrics%20that%20can%20be%20used%20for%20multi%2Dlabel%20classification%3F)
 * [Q34: What is the difference between concept and data drift and how to overcome each of them?](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Machine%20Learning%20Interview%20Questions%20&%20Answers%20for%20Data%20Scientists.md#:~:text=at%20k%20(MAP%40k)-,Q34%3A%20What%20is%20the%20difference%20between%20concept%20and%20data%20drift%20and%20how%20to%20overcome%20each%20of%20them%3F,-Answer%3A)
+* [Q35: Can you explain the ARIMA model and its components?]()
+* [Q36: What are the assumptions made by the ARIMA model?]()
+
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Questions & Answers ##
@@ -473,4 +476,27 @@ To overcome data drift, one approach is to monitor the input data for changes an
 
 Another approach is to preprocess the input data to remove or mitigate the effects of the features changing over time so that the model can continue learning from the remaining features.
 ![ezgif com-webp-to-jpg (7)](https://user-images.githubusercontent.com/72076328/221916192-7a9fcf21-8e5f-4ddc-bd90-ef1bdabf1d3f.jpg)
+
+### Q35: Can you explain the ARIMA model and its components? ###
+Answer:
+The ARIMA model, which stands for Autoregressive Integrated Moving Average, is a widely used time series forecasting model. It combines three key components: Autoregression (AR), Differencing (I), and Moving Average (MA).
+
+* Autoregression (AR):
+The autoregressive component captures the relationship between an observation in a time series and a certain number of lagged observations. It assumes that the value at a given time depends linearly on its own previous values. The "p" parameter in ARIMA(p, d, q) represents the order of autoregressive terms. For example, ARIMA(1, 0, 0) refers to a model with one autoregressive term.
+
+* Differencing (I):
+Differencing is used to make a time series stationary by removing trends or seasonality. It calculates the difference between consecutive observations to eliminate any non-stationary behavior. The "d" parameter in ARIMA(p, d, q) represents the order of differencing. For instance, ARIMA(0, 1, 0) indicates that differencing is applied once.
+
+* Moving Average (MA):
+The moving average component takes into account the dependency between an observation and a residual error from a moving average model applied to lagged observations. It assumes that the value at a given time depends linearly on the error terms from previous time steps. The "q" parameter in ARIMA(p, d, q) represents the order of the moving average terms. For example, ARIMA(0, 0, 1) signifies a model with one moving average term.
+
+By combining these three components, the ARIMA model can capture both autoregressive patterns, temporal dependencies, and stationary behavior in a time series. The parameters p, d, and q are typically determined through techniques like the Akaike Information Criterion (AIC) or Bayesian Information Criterion (BIC).
+
+It's worth noting that there are variations of the ARIMA model, such as SARIMA (Seasonal ARIMA), which incorporates additional seasonal components for modeling seasonal patterns in the data.
+
+ARIMA models are widely used in forecasting applications, but they do make certain assumptions about the underlying data, such as linearity and stationarity. It's important to validate these assumptions and adjust the model accordingly if they are not met.
+![1-1](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/assets/72076328/12707951-bdf5-4cd1-9efd-c60c465007a3)
+
+### Q36: What are the assumptions made by the ARIMA model? ###
+Answer:
 
