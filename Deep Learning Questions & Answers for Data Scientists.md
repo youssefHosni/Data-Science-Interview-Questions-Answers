@@ -455,7 +455,7 @@ A transformer model consists of several key components that work together to pro
 
   * Self-Attention Mechanism: Similar to the encoder, the decoder uses self-attention to attend to different parts of the decoded sequence while generating the output. It allows the  decoder to consider the previously generated elements in the output sequence when generating the next element.
 
- * Cross-Attention Mechanism: In addition to self-attention, the decoder employs cross-attention to attend to relevant parts of the encoded input sequence. It allows the decoder to align and extract information from the encoded sequence when generating the output.
+  * Cross-Attention Mechanism: In addition to self-attention, the decoder employs cross-attention to attend to relevant parts of the encoded input sequence. It allows the decoder to align and extract information from the encoded sequence when generating the output.
 
 * Self-Attention and Cross-Attention: These attention mechanisms are fundamental components of the transformer architecture. They enable the model to weigh the importance of different elements in the input and output sequences when generating representations. Attention scores are computed by measuring the compatibility between elements, and the weighted sum of values is used to capture contextual dependencies.
 
