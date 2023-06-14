@@ -23,6 +23,19 @@
 * [Q20: What is the effect of dropout on the training and prediction speed of your deep learning model?](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Deep%20Learning%20Questions%20%26%20Answers%20for%20Data%20Scientists.md#q20-what-is-the-effect-of-dropout-on-the-training-and-prediction-speed-of-your-deep-learning-model)
 * [Q21: What is the advantage of deep learning over traditional machine learning?](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Deep%20Learning%20Questions%20%26%20Answers%20for%20Data%20Scientists.md#q21-what-is-the-advantage-of-deep-learning-over-traditional-machine-learning)
 * [Q22: What is a depthwise Separable layer and what are its advantages?](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Deep%20Learning%20Questions%20%26%20Answers%20for%20Data%20Scientists.md#q22-what-is-a-depthwise-separable-layer-and-what-are-its-advantages)
+* [ What is a transformer architecture, and why is it widely used in natural language processing tasks?]()
+* [Explain the key components of a transformer model.]()
+* [What is self-attention, and how does it work in transformers?]()
+* [What are the advantages of transformers over traditional sequence-to-sequence models?]()
+* [How does the attention mechanism help transformers capture long-range dependencies in sequences?]()
+* [What are the limitations of transformers, and what are some potential solutions?]()
+* [How are transformers trained, and what is the role of pre-training and fine-tuning?]()
+* [What is BERT (Bidirectional Encoder Representations from Transformers), and how does it improve language understanding tasks?]()
+* [Describe the process of generating text using a transformer-based language model.]()
+* [What are some challenges or ethical considerations associated with large language models?]()
+* [Explain the concept of transfer learning and how it can be applied to transformers.]()
+* [How can transformers be used for tasks other than natural language processing, such as computer vision?]()
+
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Questions & Answers ##
