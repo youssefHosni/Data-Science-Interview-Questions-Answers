@@ -1,6 +1,8 @@
 # Deep Learning Interview Questions for Data Scientists #
 
 ## Questions ##
+
+## Deep Neural Networks ##
 * [Q1: What are autoencoders? Explain the different layers of autoencoders and mention three practical usages of them?](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Deep%20Learning%20Questions%20%26%20Answers%20for%20Data%20Scientists.md#q1-what-are-autoencoders-explain-the-different-layers-of-autoencoders-and-mention-three-practical-usages-of-them)
 * [Q2: What is an activation function and discuss the use of an activation function? Explain three different types of activation functions?](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Deep%20Learning%20Questions%20%26%20Answers%20for%20Data%20Scientists.md#q2-what-is-an-activation-function-and-discuss-the-use-of-an-activation-function-explain-three-different-types-of-activation-functions)
 * [Q3: You are using a deep neural network for a prediction task. After training your model, you notice that it is strongly overfitting the training set and that the performance on the test isn’t good. What can you do to reduce overfitting?](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Deep%20Learning%20Questions%20%26%20Answers%20for%20Data%20Scientists.md#q3-you-are-using-a-deep-neural-network-for-a-prediction-task-after-training-your-model-you-notice-that-it-is-strongly-overfitting-the-training-set-and-that-the-performance-on-the-test-isnt-good-what-can-you-do-to-reduce-overfitting)
@@ -23,18 +25,23 @@
 * [Q20: What is the effect of dropout on the training and prediction speed of your deep learning model?](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Deep%20Learning%20Questions%20%26%20Answers%20for%20Data%20Scientists.md#q20-what-is-the-effect-of-dropout-on-the-training-and-prediction-speed-of-your-deep-learning-model)
 * [Q21: What is the advantage of deep learning over traditional machine learning?](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Deep%20Learning%20Questions%20%26%20Answers%20for%20Data%20Scientists.md#q21-what-is-the-advantage-of-deep-learning-over-traditional-machine-learning)
 * [Q22: What is a depthwise Separable layer and what are its advantages?](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Deep%20Learning%20Questions%20%26%20Answers%20for%20Data%20Scientists.md#q22-what-is-a-depthwise-separable-layer-and-what-are-its-advantages)
-* [ What is a transformer architecture, and why is it widely used in natural language processing tasks?]()
-* [Explain the key components of a transformer model.]()
-* [What is self-attention, and how does it work in transformers?]()
-* [What are the advantages of transformers over traditional sequence-to-sequence models?]()
-* [How does the attention mechanism help transformers capture long-range dependencies in sequences?]()
-* [What are the limitations of transformers, and what are some potential solutions?]()
-* [How are transformers trained, and what is the role of pre-training and fine-tuning?]()
-* [What is BERT (Bidirectional Encoder Representations from Transformers), and how does it improve language understanding tasks?]()
-* [Describe the process of generating text using a transformer-based language model.]()
-* [What are some challenges or ethical considerations associated with large language models?]()
-* [Explain the concept of transfer learning and how it can be applied to transformers.]()
-* [How can transformers be used for tasks other than natural language processing, such as computer vision?]()
+
+## Natural Language Processing ##
+* [Q23: What is a transformer architecture, and why is it widely used in natural language processing tasks?]()
+* [Q24: Explain the key components of a transformer model.]()
+* [Q25: What is self-attention, and how does it work in transformers?]()
+* [Q26: What are the advantages of transformers over traditional sequence-to-sequence models?]()
+* [Q27: How does the attention mechanism help transformers capture long-range dependencies in sequences?]()
+* [Q28: What are the limitations of transformers, and what are some potential solutions?]()
+* [Q29: How are transformers trained, and what is the role of pre-training and fine-tuning?]()
+* [Q30: What is BERT (Bidirectional Encoder Representations from Transformers), and how does it improve language understanding tasks?]()
+* [Q31: Describe the process of generating text using a transformer-based language model.]()
+* [Q32: What are some challenges or ethical considerations associated with large language models?]()
+* [Q33: Explain the concept of transfer learning and how it can be applied to transformers.]()
+* [Q34: How can transformers be used for tasks other than natural language processing, such as computer vision?]()
+
+## Computer Vision ##
+
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -362,10 +369,6 @@ Deep learning offers several advantages over traditional machine learning approa
 
 While deep learning does have its advantages, it also has some limitations, such as requiring large amounts of data and computational resources, making it unsuitable for some applications.
 
-
-
-
-
 ### Q22: What is a depthwise Separable layer and what are its advantages? ###
 
 Answer: 
@@ -405,3 +408,70 @@ Total number of multiplications = 4800 + 49152 = 53952 multiplications which is 
 
 Reference: https://towardsdatascience.com/a-basic-introduction-to-separable-convolutions-b99ec3102728
 
+
+# Natural Language Processing #
+
+## Q23: What is a transformer architecture, and why is it widely used in natural language processing tasks? ##
+Answer:
+The key components of a transformer architecture are as follows:
+
+1. Encoder: The encoder processes the input sequence, such as a sentence or a document, and transforms it into a set of representations that capture the contextual information of each input element. The encoder consists of multiple identical layers, each containing a self-attention mechanism and position-wise feed-forward neural networks. The self-attention mechanism allows the model to attend to different parts of the input sequence while encoding it.
+
+2. Decoder: The decoder takes the encoded representations generated by the encoder and generates an output sequence. It also consists of multiple identical layers, each containing a self-attention mechanism and additional cross-attention mechanisms. The cross-attention mechanisms enable the decoder to attend to relevant parts of the encoded input sequence when generating the output.
+
+3. Self-Attention: Self-attention is a mechanism that allows the transformer to weigh the importance of different elements in the input sequence when generating representations. It computes attention scores between each element and every other element in the sequence, resulting in a weighted sum of the values. This process allows the model to capture dependencies and relationships between different elements in the sequence.
+
+4. Positional Encoding: Transformers incorporate positional encoding to provide information about the order or position of elements in the input sequence. This encoding is added to the input embeddings and allows the model to understand the sequential nature of the data.
+
+5. Feed-Forward Networks: Transformers utilize feed-forward neural networks to process the representations generated by the attention mechanisms. These networks consist of multiple layers of fully connected neural networks with activation functions, enabling non-linear transformations of the input representations.
+
+![Screenshot-from-2019-06-17-19-53-10](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/assets/72076328/44c96916-f6cc-4b69-b163-ef94f027eb2e)
+
+The transformer architecture is widely used in NLP tasks due to several reasons:
+
+Self-Attention Mechanism: Transformers leverage a self-attention mechanism that allows the model to focus on different parts of the input sequence during processing. This mechanism enables the model to capture long-range dependencies and contextual information efficiently, making it particularly effective for tasks that involve understanding and generating natural language.
+
+Parallelization: Transformers can process the elements of a sequence in parallel, as opposed to recurrent neural networks (RNNs) that require sequential processing. This parallelization greatly accelerates training and inference, making transformers more computationally efficient.
+
+Scalability: Transformers scale well with the length of input sequences, thanks to the self-attention mechanism. Unlike RNNs, transformers do not suffer from the vanishing or exploding gradient problem, which can hinder the modeling of long sequences. This scalability makes transformers suitable for tasks that involve long texts or documents.
+
+Transfer Learning: Transformers have shown great success in pre-training and transfer learning. Models like BERT (Bidirectional Encoder Representations from Transformers) and GPT (Generative Pre-trained Transformer) are pre-trained on massive amounts of text data, enabling them to learn rich representations of language. These pre-trained models can then be fine-tuned on specific downstream tasks with comparatively smaller datasets, leading to better generalization and improved performance.
+
+Contextual Understanding: Transformers excel in capturing the contextual meaning of words and sentences. By considering the entire input sequence simultaneously, transformers can generate more accurate representations that incorporate global context, allowing for better language understanding and generation.
+
+
+## Q24: Explain the key components of a transformer model. ##
+Answer:
+
+## Q25: What is self-attention, and how does it work in transformers? ##
+Answer:
+
+## Q26: What are the advantages of transformers over traditional sequence-to-sequence models? ##
+Answer:
+
+## Q27: How does the attention mechanism help transformers capture long-range dependencies in sequences? ##
+Answer:
+
+## Q28: What are the limitations of transformers, and what are some potential solutions? ##
+Answer:
+
+## Q29: How are transformers trained, and what is the role of pre-training and fine-tuning? ## 
+Answer:
+
+## Q30: What is BERT (Bidirectional Encoder Representations from Transformers), and how does it improve language understanding tasks? ## 
+Answer:
+
+## Q31: Describe the process of generating text using a transformer-based language model. ##
+Answer:
+
+## Q32: What are some challenges or ethical considerations associated with large language models? ## 
+Answer:
+
+## Q33: Explain the concept of transfer learning and how it can be applied to transformers. ## 
+Answer:
+
+## Q34: How can transformers be used for tasks other than natural language processing, such as computer vision? ## 
+Answer:
+
+
+# Computer Vision #
