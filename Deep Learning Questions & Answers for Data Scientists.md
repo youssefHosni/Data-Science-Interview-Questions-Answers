@@ -473,5 +473,4 @@ Answer:
 ## Q34: How can transformers be used for tasks other than natural language processing, such as computer vision? ## 
 Answer:
 
-
 # Computer Vision #
