@@ -512,7 +512,21 @@ By allowing each position to attend to other positions, the attention mechanism 
 
 ## Q28: What are the limitations of transformers, and what are some potential solutions? ##
 Answer:
+While transformers have revolutionized many natural language processing tasks, they do have certain limitations. Here are some notable limitations of transformers and potential solutions:
 
+* Sequential Computation: Transformers process the entire sequence in parallel, which limits their ability to model sequential information explicitly. This can be a disadvantage when tasks require strong sequential reasoning. Potential solutions include incorporating recurrent connections into transformers or using hybrid models that combine the strengths of transformers and recurrent neural networks.
+
+* Memory and Computational Requirements: Transformers consume more memory and computational resources compared to traditional sequence models, especially for large-scale models and long sequences. This limits their scalability and deployment on resource-constrained devices. Solutions involve developing more efficient architectures, such as sparse attention mechanisms or approximations, to reduce memory and computational requirements without sacrificing performance significantly.
+
+* Lack of Interpretability: Transformers are often considered as black-box models, making it challenging to interpret the reasoning behind their predictions. Understanding the decision-making process of transformers is an ongoing research area. Techniques such as attention visualization, layer-wise relevance propagation, and saliency maps can provide insights into the model's attention and contribution to predictions, enhancing interpretability.
+
+* Handling Out-of-Distribution Data: Transformers can struggle with data that significantly deviates from the distribution seen during training. They may make overconfident predictions or produce incorrect outputs when faced with out-of-distribution samples. Solutions include exploring uncertainty estimation techniques, robust training approaches, or incorporating external knowledge sources to improve generalization and handle out-of-distribution scenarios.
+
+* Limited Contextual Understanding: Transformers rely heavily on context information to make predictions. However, they can still struggle with understanding the broader context, especially in scenarios with complex background knowledge or multi-modal data. Incorporating external knowledge bases, leveraging graph neural networks, or combining transformers with other modalities like images or graphs can help improve contextual understanding and capture richer representations.
+
+* Training Data Requirements: Transformers typically require large amounts of labeled data for effective training due to their high capacity. Acquiring labeled data can be expensive and time-consuming, limiting their applicability to domains with limited labeled datasets. Solutions include exploring semi-supervised learning, active learning, or transfer learning techniques to mitigate the data requirements and leverage pretraining on large-scale datasets.
+
+Researchers and practitioners are actively working on addressing these limitations to further enhance the capabilities and applicability of transformers in various domains. As the field progresses, we can expect continued advancements and novel solutions to overcome these challenges.
 
 
 ## Q29: How are transformers trained, and what is the role of pre-training and fine-tuning? ## 
