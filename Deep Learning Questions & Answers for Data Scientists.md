@@ -42,6 +42,17 @@
 
 ## Computer Vision ##
 
+* What is computer vision, and why is it important?
+* Explain the concept of image segmentation and its applications.
+* What is object detection, and how does it differ from image classification?
+* Describe the steps involved in building an image recognition system.
+* What are the challenges in implementing real-time object tracking?
+* Can you explain the concept of feature extraction in computer vision?
+* What is optical character recognition (OCR), and what are its main applications?
+* How does convolutional neural network (CNN) differ from a traditional neural network in the context of computer vision?
+* What is the purpose of data augmentation in computer vision, and what techniques can be used?
+* Discuss some popular deep learning frameworks or libraries used for computer vision tasks.
+
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -524,3 +535,33 @@ By leveraging the knowledge encoded in pre-trained transformers, transfer learni
 Answer:
 
 # Computer Vision #
+
+##  Q35: What is computer vision, and why is it important?
+Answer:
+
+## Q36: Explain the concept of image segmentation and its applications.
+Answer:
+
+## Q37: What is object detection, and how does it differ from image classification?
+Answer: 
+
+## Q38: Describe the steps involved in building an image recognition system.
+Answer:
+
+## Q39: What are the challenges in implementing real-time object tracking?
+Answer:
+
+## Q40: Can you explain the concept of feature extraction in computer vision?
+Answer:
+
+## Q41: What is optical character recognition (OCR), and what are its main applications?
+Answer:
+
+## Q42: How does a convolutional neural network (CNN) differ from a traditional neural network in the context of computer vision?
+Answer:
+
+## Q43:  What is the purpose of data augmentation in computer vision, and what techniques can be used?
+Answer:
+
+## Q44: Discuss some popular deep learning frameworks or libraries used for computer vision tasks.
+Answer:
