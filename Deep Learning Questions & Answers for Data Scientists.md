@@ -17,7 +17,7 @@
 * [Q12: Discuss in what context it is recommended to use transfer learning and when it is not.](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Deep%20Learning%20Questions%20%26%20Answers%20for%20Data%20Scientists.md#q12-discuss-in-what-context-it-is-recommended-to-use-transfer-learning-and-when-it-is-not)
 * [Q13: Discuss the vanishing gradient in RNN and How they can be solved.](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Deep%20Learning%20Questions%20%26%20Answers%20for%20Data%20Scientists.md#q13-discuss-the-vanishing-gradient-in-rnn-and-how-they-can-be-solved)
 * [Q14: What are the main gates in LSTM and what are their tasks?](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Deep%20Learning%20Questions%20%26%20Answers%20for%20Data%20Scientists.md#q14-what-are-the-main-gates-in-lstm-and-what-are-their-tasks)
-* [Q15: Is it a good idea to use CNN to classify 1D signal? ](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Deep%20Learning%20Questions%20%26%20Answers%20for%20Data%20Scientists.md#q15-is-it-a-good-idea-to-use-cnn-to-classify1dsignal)
+* [Q15: Is it a good idea to use CNN to classify 1D signals? ](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Deep%20Learning%20Questions%20%26%20Answers%20for%20Data%20Scientists.md#q15-is-it-a-good-idea-to-use-cnn-to-classify1dsignal)
 * [Q16: How does L1/L2 regularization affect a neural network?](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Deep%20Learning%20Questions%20%26%20Answers%20for%20Data%20Scientists.md#q16-how-does-l1l2-regularization-affect-a-neural-network)
 * [Q17: 𝐇𝐨𝐰 𝐰𝐨𝐮𝐥𝐝 𝐲𝐨𝐮 𝐜𝐡𝐚𝐧𝐠𝐞 𝐚 𝐩𝐫𝐞-𝐭𝐫𝐚𝐢𝐧𝐞𝐝 𝐧𝐞𝐮𝐫𝐚𝐥 𝐧𝐞𝐭𝐰𝐨𝐫𝐤 𝐟𝐫𝐨𝐦 𝐜𝐥𝐚𝐬𝐬𝐢𝐟𝐢𝐜𝐚𝐭𝐢𝐨𝐧 𝐭𝐨 𝐫𝐞𝐠𝐫𝐞𝐬𝐬𝐢𝐨𝐧?](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Deep%20Learning%20Questions%20%26%20Answers%20for%20Data%20Scientists.md#q17-%F0%9D%90%87%F0%9D%90%A8%F0%9D%90%B0-%F0%9D%90%B0%F0%9D%90%A8%F0%9D%90%AE%F0%9D%90%A5%F0%9D%90%9D-%F0%9D%90%B2%F0%9D%90%A8%F0%9D%90%AE-%F0%9D%90%9C%F0%9D%90%A1%F0%9D%90%9A%F0%9D%90%A7%F0%9D%90%A0%F0%9D%90%9E-%F0%9D%90%9A-%F0%9D%90%A9%F0%9D%90%AB%F0%9D%90%9E-%F0%9D%90%AD%F0%9D%90%AB%F0%9D%90%9A%F0%9D%90%A2%F0%9D%90%A7%F0%9D%90%9E%F0%9D%90%9D-%F0%9D%90%A7%F0%9D%90%9E%F0%9D%90%AE%F0%9D%90%AB%F0%9D%90%9A%F0%9D%90%A5-%F0%9D%90%A7%F0%9D%90%9E%F0%9D%90%AD%F0%9D%90%B0%F0%9D%90%A8%F0%9D%90%AB%F0%9D%90%A4-%F0%9D%90%9F%F0%9D%90%AB%F0%9D%90%A8%F0%9D%90%A6-%F0%9D%90%9C%F0%9D%90%A5%F0%9D%90%9A%F0%9D%90%AC%F0%9D%90%AC%F0%9D%90%A2%F0%9D%90%9F%F0%9D%90%A2%F0%9D%90%9C%F0%9D%90%9A%F0%9D%90%AD%F0%9D%90%A2%F0%9D%90%A8%F0%9D%90%A7-%F0%9D%90%AD%F0%9D%90%A8-%F0%9D%90%AB%F0%9D%90%9E%F0%9D%90%A0%F0%9D%90%AB%F0%9D%90%9E%F0%9D%90%AC%F0%9D%90%AC%F0%9D%90%A2%F0%9D%90%A8%F0%9D%90%A7)
 * [Q18: What might happen if you set the momentum hyperparameter too close to 1 (e.g., 0.9999) when using an SGD optimizer?](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Deep%20Learning%20Questions%20%26%20Answers%20for%20Data%20Scientists.md#q18-what-might-happen-if-you-set-the-momentum-hyperparameter-too-close-to-1-eg-09999-when-using-an-sgd-optimizer)
@@ -42,16 +42,16 @@
 
 ## Computer Vision ##
 
-* What is computer vision, and why is it important?
-* Explain the concept of image segmentation and its applications.
-* What is object detection, and how does it differ from image classification?
-* Describe the steps involved in building an image recognition system.
-* What are the challenges in implementing real-time object tracking?
-* Can you explain the concept of feature extraction in computer vision?
-* What is optical character recognition (OCR), and what are its main applications?
-* How does convolutional neural network (CNN) differ from a traditional neural network in the context of computer vision?
-* What is the purpose of data augmentation in computer vision, and what techniques can be used?
-* Discuss some popular deep learning frameworks or libraries used for computer vision tasks.
+* [Q35: What is computer vision, and why is it important?]()
+* [Q36: Explain the concept of image segmentation and its applications.]()
+* [Q37: What is object detection, and how does it differ from image classification?]()
+* [Q38: Describe the steps involved in building an image recognition system.]()
+* [Q39: What are the challenges in implementing real-time object tracking?]()
+* [Q40: Can you explain the concept of feature extraction in computer vision?]()
+* [Q41: What is optical character recognition (OCR), and what are its main applications?]()
+* [Q42: How does a convolutional neural network (CNN) differ from a traditional neural network in the context of computer vision?]()
+* [Q43: What is the purpose of data augmentation in computer vision, and what techniques can be used?]()
+* [Q44: Discuss some popular deep learning frameworks or libraries used for computer vision tasks.]()
 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
