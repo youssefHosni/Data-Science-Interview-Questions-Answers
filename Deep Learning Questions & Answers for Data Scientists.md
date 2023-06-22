@@ -474,7 +474,7 @@ A transformer model consists of several key components that work together to pro
 
 * Residual Connections and Layer Normalization: Transformers employ residual connections and layer normalization to facilitate the flow of information and improve gradient propagation. Residual connections enable the model to capture both high-level and low-level features, while layer normalization normalizes the inputs to each layer, improving the stability and performance of the model.
 
-These components collectively enable the transformer model to process and generate representations for input sequences in an efficient and effective manner. The self-attention mechanisms, along with the feed-forward networks and positional encoding, allow the model to capture long-range dependencies, handle parallel processing, and generate high-quality representations, making transformers highly successful in natural language processing tasks.
+These components collectively enable the transformer model to process and generate representations for input sequences in an efficient and effective manner. The self-attention mechanisms, along with the feed-forward networks and positional encoding, allow the model to capture long-range dependencies, handle the parallel processing, and generate high-quality representations, making transformers highly successful in natural language processing tasks.
 
 
 ## Q25: What is self-attention, and how does it work in transformers? ##
@@ -482,12 +482,38 @@ Answer:
 
 ## Q26: What are the advantages of transformers over traditional sequence-to-sequence models? ##
 Answer:
+Transformers have several advantages over traditional sequence-to-sequence models, such as recurrent neural networks (RNNs), when it comes to natural language processing tasks. Here are some key advantages:
+
+* Long-range dependencies: Transformers are capable of capturing long-range dependencies in sequences more effectively compared to RNNs. This is because RNNs suffer from vanishing or exploding gradient problems when processing long sequences, which limits their ability to capture long-term dependencies. Transformers address this issue by using self-attention mechanisms that allow for capturing relationships between any two positions in a sequence, regardless of their distance.
+
+* Parallelization: Transformers can process inputs in parallel, making them more efficient in terms of computational time compared to RNNs. In RNNs, the sequential nature of computation limits parallelization since each step depends on the previous step's output. Transformers, on the other hand, process all positions in a sequence simultaneously, enabling efficient parallelization across different positions.
+
+* Scalability: Transformers are highly scalable and can handle larger input sequences without significantly increasing computational requirements. In RNNs, the computational complexity grows linearly with the length of the input sequence, making it challenging to process long sequences efficiently. Transformers, with their parallel processing and self-attention mechanisms, maintain a constant computational complexity, making them suitable for longer sequences.
+
+* Global context understanding: Transformers capture global context information effectively due to their attention mechanisms. Each position in the sequence attends to all other positions, allowing for a comprehensive understanding of the entire sequence during the encoding and decoding process. This global context understanding aids in various NLP tasks, such as machine translation, where the translation of a word can depend on the entire source sentence.
+
+* Transfer learning and fine-tuning: Transformers facilitate transfer learning and fine-tuning, which is the ability to pre-train models on large-scale datasets and then adapt them to specific downstream tasks with smaller datasets. Pretraining transformers on massive amounts of data, such as in models like BERT or GPT, helps capture rich language representations that can be fine-tuned for a wide range of NLP tasks, providing significant performance gains.
 
 ## Q27: How does the attention mechanism help transformers capture long-range dependencies in sequences? ##
 Answer:
+The attention mechanism in transformers plays a crucial role in capturing long-range dependencies in sequences. It allows each position in a sequence to attend to other positions, enabling the model to focus on relevant parts of the input during both the encoding and decoding stages. Here's how the attention mechanism works in transformers:
+
+* Self-Attention: Self-attention, also known as intra-attention, is the key component of the attention mechanism in transformers. It computes the importance, or attention weight, that each position in the sequence should assign to other positions. This attention weight determines how much information a position should gather from other positions.
+
+* Query, Key, and Value: To compute self-attention, each position in the sequence is associated with three learned vectors: query, key, and value. These vectors are derived from the input embeddings and transformed through linear transformations. The query vector is used to search for relevant information, the key vector represents the positions to which the query attends, and the value vector holds the information content of each position.
+
+* Attention Scores: The attention mechanism calculates attention scores between the query vector of a position and the key vectors of all other positions in the sequence. The attention scores quantify the relevance or similarity between positions. They are obtained by taking the dot product between the query and key vectors and scaling it by a factor of the square root of the dimensionality of the key vectors.
+
+* Attention Weights: The attention scores are then normalized using the softmax function to obtain attention weights. These weights determine the contribution of each position to the final representation of the current position. Positions with higher attention weights have a stronger influence on the current position's representation.
+
+* Weighted Sum: Finally, the attention weights are used to compute a weighted sum of the value vectors. This aggregation of values gives the current position a comprehensive representation that incorporates information from all relevant positions, capturing the long-range dependencies effectively.
+
+By allowing each position to attend to other positions, the attention mechanism provides a mechanism for information to flow across the entire sequence. This enables transformers to capture dependencies between distant positions, even in long sequences, without suffering from the limitations of vanishing or exploding gradients that affect traditional recurrent neural networks. Consequently, transformers excel in modeling complex relationships and dependencies in sequences, making them powerful tools for various tasks, including natural language processing and computer vision.
 
 ## Q28: What are the limitations of transformers, and what are some potential solutions? ##
 Answer:
+
+
 
 ## Q29: How are transformers trained, and what is the role of pre-training and fine-tuning? ## 
 Answer:
