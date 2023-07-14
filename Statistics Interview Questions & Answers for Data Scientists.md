@@ -18,14 +18,17 @@
 * [Q15: What is the relationship between the significance level and the confidence level in Statistics?](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Statistics%20Interview%20Questions%20%26%20Answers%20for%20Data%20Scientists.md#q15-what-is-the-relationship-between-the-significance-level-and-the-confidence-level-in-statistics)
 * [Q16: What is the Law of Large Numbers in statistics and how it can be used in data science ?](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Statistics%20Interview%20Questions%20%26%20Answers%20for%20Data%20Scientists.md#:~:text=written%20in%20percentages.-,Q16%3A%20What%20is%20the%20Law%20of%20Large%20Numbers%20in%20statistics%20and%20how%20it%20can%20be%20used%20in%20data%20science%20%3F,-Answer%3A%20The%20law)
 * [Q17: What is the difference between a confidence interval and a prediction interval, and how do you calculate them?](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Statistics%20Interview%20Questions%20&%20Answers%20for%20Data%20Scientists.md#:~:text=and%20hypothesis%20testing.-,Q17%3A%20What%20is%20the%20difference%20between%20a%20confidence%20interval%20and%20a%20prediction%20interval%2C%20and%20how%20do%20you%20calculate%20them%3F,-Answer%3A)
+* [Q18: What are the differences between the z-test and t-test?]()
+* [Q19: When to use a z-test Vs a t-test?]()
+* [Q20: Given a specific dataset, how do you calculate t-statistic or z-statistics?]()
 
 ## Questions & Answers ##
 
-### Q1: Explain the central limit theorem and give examples of when you can use it in a real-world problem? ###
+### Q1: Explain the central limit theorem and give examples of when you can use it in a real-world problem. ###
 
 Answers:
 
-The center limit theorem states that if any random variable, regardless of the distribution, is sampled a large enough times, the sample mean will be approximately normally distributed. This allows for studying the properties of any statistical distribution as long as there is a large enough sample size.
+The center limit theorem states that if any random variable, regardless of the distribution, is sampled a large enough time, the sample mean will be approximately normally distributed. This allows for studying the properties of any statistical distribution as long as there is a large enough sample size.
 
 Important remark from Adrian Olszewski:
 ⚠️ we can rely on the CLT with means (because it applies to any unbiased statistic) only if expressing data in this way makes sense. And it makes sense *ONLY* in the case of unimodal and symmetric data, coming from additive processes. So forget skewed, multi-modal data with mixtures of distributions, coming from multiplicative processes, and non-trivial mean-variance relationships. That are the places where arithmetic means is meaningless. Thus, using the CLT of e.g. bootstrap will give some valid answers to an invalid question.
