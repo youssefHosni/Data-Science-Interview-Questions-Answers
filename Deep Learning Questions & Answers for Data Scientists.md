@@ -592,6 +592,8 @@ By leveraging the knowledge encoded in pre-trained transformers, transfer learni
 ## Q34: How can transformers be used for tasks other than natural language processing, such as computer vision? ## 
 Answer:
 
+
+
 # Computer Vision #
 
 ##  Q35: What is computer vision, and why is it important?
@@ -620,6 +622,34 @@ Answer:
 
 ## Q43:  What is the purpose of data augmentation in computer vision, and what techniques can be used?
 Answer:
+
+The purpose of data augmentation in computer vision is to artificially increase the size and diversity of a training dataset by applying various transformations to the original images. Data augmentation helps prevent overfitting and improves the generalization ability of deep learning models by exposing them to a broader range of variations and patterns present in the data. It also reduces the risk of the model memorizing specific examples in the training data.
+
+By applying different augmentation techniques, the model becomes more robust and capable of handling variations in the real-world test data that may not be present in the original training set. Common data augmentation techniques include:
+
+1. Horizontal Flipping: Flipping images horizontally, i.e., left to right, or vice versa. This is particularly useful for tasks where the orientation of objects doesn't affect their interpretation, such as object detection or image classification.
+
+2. Vertical Flipping: Similar to horizontal flipping but flipping images from top to bottom.
+
+3. Random Rotation: Rotating images by a random angle. This can be helpful to simulate objects at different angles and orientations.
+
+4. Random Crop: Taking random crops from the input images. This forces the model to focus on different parts of the image and helps in handling varying object scales.
+
+5. Scaling and Resizing: Rescaling images to different sizes or resizing them while maintaining the aspect ratio. This augmentation helps the model handle objects of varying sizes.
+
+6. Color Jittering: Changing the brightness, contrast, saturation, and hue of the images randomly. This augmentation can help the model become more robust to changes in lighting conditions.
+
+7. Gaussian Noise: Adding random Gaussian noise to the images, which simulates noisy environments and enhances the model's noise tolerance.
+
+8. Elastic Transformations: Applying local deformations to the image, simulating distortions that might occur due to variations in the imaging process.
+
+9. Cutout: Randomly masking out portions of the image with black pixels. This helps the model learn to focus on other informative parts of the image.
+
+10. Mixup: Combining two or more images and their corresponding labels in a weighted manner to create new training examples. This encourages the model to learn from the combined patterns of multiple images.
+
+It's important to note that the choice of data augmentation techniques depends on the specific computer vision task and the characteristics of the dataset. Additionally, augmentation should be applied only during the training phase and not during testing or evaluation to ensure that the model generalizes well to unseen data.
+
+
 
 ## Q44: Discuss some popular deep learning frameworks or libraries used for computer vision tasks.
 Answer:
