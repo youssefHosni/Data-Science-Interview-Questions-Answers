@@ -3,12 +3,12 @@
 ## Questions ##
 * [Q1: Mention three ways to make your model robust to outliers?](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Machine%20Learning%20Interview%20Questions%20%26%20Answers%20for%20Data%20Scientists.md#q1-mention-three-ways-to-make-your-model-robust-to-outliers)
 * [Q2: Describe the motivation behind random forests and mention two reasons why they are better than individual decision trees?](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Machine%20Learning%20Interview%20Questions%20%26%20Answers%20for%20Data%20Scientists.md#q2-describe-the-motivation-behind-random-forests-and-mention-two-reasons-why-they-are-better-than-individual-decision-trees)
-* [Q3: What are the differences and similarities between gradient boosting and random forest? and what are the advantage and disadvantages of each when compared to each other?](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Machine%20Learning%20Interview%20Questions%20%26%20Answers%20for%20Data%20Scientists.md#q3-what-are-the-differences-and-similarities-between-gradient-boosting-and-random-forest-and-what-are-the-advantage-and-disadvantages-of-each-when-compared-to-each-other)
+* [Q3: What are the differences and similarities between gradient boosting and random forest? and what are the advantages and disadvantages of each when compared to each other?](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Machine%20Learning%20Interview%20Questions%20%26%20Answers%20for%20Data%20Scientists.md#q3-what-are-the-differences-and-similarities-between-gradient-boosting-and-random-forest-and-what-are-the-advantage-and-disadvantages-of-each-when-compared-to-each-other)
 * [Q4: What are L1 and L2 regularization? What are the differences between the two?](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Machine%20Learning%20Interview%20Questions%20%26%20Answers%20for%20Data%20Scientists.md#q4-what-are-l1-and-l2-regularization-what-are-the-differences-between-the-two)
 * [Q5: What are the Bias and Variance in a Machine Learning Model and explain the bias-variance trade-off?](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Machine%20Learning%20Interview%20Questions%20%26%20Answers%20for%20Data%20Scientists.md#q5-what-are-the-bias-and-variance-in-a-machine-learning-model-and-explain-the-bias-variance-trade-off)
 * [Q6: Mention three ways to handle missing or corrupted data in a dataset?](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Machine%20Learning%20Interview%20Questions%20%26%20Answers%20for%20Data%20Scientists.md#q6-mention-three-ways-to-handle-missing-or-corrupted-data-in-a-dataset)
 * [Q7: Explain briefly the logistic regression model and state an example of when you have used it recently?](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Machine%20Learning%20Interview%20Questions%20%26%20Answers%20for%20Data%20Scientists.md#q7-explain-briefly-the-logistic-regression-model-and-state-an-example-of-when-you-have-used-it-recently)
-* [Q8: Explain briefly batch gradient descent, stochastic gradient descent, and mini-batch gradient descent? and what are the pros and cons for each of them?](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Machine%20Learning%20Interview%20Questions%20%26%20Answers%20for%20Data%20Scientists.md#q8-explain-briefly-batch-gradient-descent-stochastic-gradient-descent-and-mini-batch-gradient-descent-and-what-are-the-pros-and-cons-for-each-of-them)
+* [Q8: Explain briefly batch gradient descent, stochastic gradient descent, and mini-batch gradient descent. and what are the pros and cons for each of them?](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Machine%20Learning%20Interview%20Questions%20%26%20Answers%20for%20Data%20Scientists.md#q8-explain-briefly-batch-gradient-descent-stochastic-gradient-descent-and-mini-batch-gradient-descent-and-what-are-the-pros-and-cons-for-each-of-them)
 * [Q9: Explain what is information gain and entropy in the context of decision trees?](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Machine%20Learning%20Interview%20Questions%20%26%20Answers%20for%20Data%20Scientists.md#q9-explain-what-is-information-gain-and-entropy-in-the-context-of-decision-trees)
 * [Q10: Explain the linear regression model and discuss its assumption?](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Machine%20Learning%20Interview%20Questions%20%26%20Answers%20for%20Data%20Scientists.md#q10-explain-the-linear-regression-model-and-discuss-its-assumption)
 * [Q11: Explain briefly the K-Means clustering and how can we find the best value of K?](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Machine%20Learning%20Interview%20Questions%20%26%20Answers%20for%20Data%20Scientists.md#q11-explain-briefly-the-k-means-clustering-and-how-can-we-find-the-best-value-of-k)
@@ -26,9 +26,9 @@
 * [Q23: Define the curse of dimensionality and how to solve it. ](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Machine%20Learning%20Interview%20Questions%20%26%20Answers%20for%20Data%20Scientists.md#q23-define-the-curse-of-dimensionality-and-how-to-solve-it)
 * [Q24: In what cases would you use vanilla PCA, Incremental PCA, Randomized PCA, or Kernel PCA?](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Machine%20Learning%20Interview%20Questions%20%26%20Answers%20for%20Data%20Scientists.md#q24-in-what-cases-would-you-use-vanilla-pca-incremental-pca-randomized-pca-or-kernel-pca)
 * [Q25: Discuss two clustering algorithms that can scale to large datasets](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Machine%20Learning%20Interview%20Questions%20%26%20Answers%20for%20Data%20Scientists.md#q25-discuss-two-clustering-algorithms-that-can-scale-to-large-datasets)
-* [Q26: Do you need to scale your data if you will be using the SVM classifier and discus your answer](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Machine%20Learning%20Interview%20Questions%20%26%20Answers%20for%20Data%20Scientists.md#q26-do-you-need-to-scale-your-data-if-you-will-be-using-the-svm-classifier-and-discus-your-answer)
+* [Q26: Do you need to scale your data if you will be using the SVM classifier and discuss your answer](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Machine%20Learning%20Interview%20Questions%20%26%20Answers%20for%20Data%20Scientists.md#q26-do-you-need-to-scale-your-data-if-you-will-be-using-the-svm-classifier-and-discus-your-answer)
 * [Q27: What are Loss Functions and Cost Functions? Explain the key Difference Between them.](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Machine%20Learning%20Interview%20Questions%20%26%20Answers%20for%20Data%20Scientists.md#q27-what-are-loss-functions-and-cost-functions-explain-the-key-difference-between-them)
-* [Q28: What is the importance of batch in machine learning and explain some batch depend gradient descent algorithm?](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Machine%20Learning%20Interview%20Questions%20%26%20Answers%20for%20Data%20Scientists.md#q28-what-is-the-importance-of-batch-in-machine-learning-and-explain-some-batch-depend-gradient-descent-algorithm)
+* [Q28: What is the importance of batch in machine learning and explain some batch depend on gradient descent algorithm?](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Machine%20Learning%20Interview%20Questions%20%26%20Answers%20for%20Data%20Scientists.md#q28-what-is-the-importance-of-batch-in-machine-learning-and-explain-some-batch-depend-gradient-descent-algorithm)
 * [Q29: What are the different methods to split a tree in a decision tree algorithm?](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Machine%20Learning%20Interview%20Questions%20%26%20Answers%20for%20Data%20Scientists.md#q29-what-are-the-different-methods-to-split-a-tree-in-a-decision-tree-algorithm)
 * [Q30: Why boosting is a more stable algorithm as compared to other ensemble algorithms? ](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Machine%20Learning%20Interview%20Questions%20%26%20Answers%20for%20Data%20Scientists.md#q30-why-boosting-is-a-more-stable-algorithm-as-compared-to-other-ensemble-algorithms)
 * [Q31: What is active learning and discuss one strategy of it?](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Machine%20Learning%20Interview%20Questions%20%26%20Answers%20for%20Data%20Scientists.md#q31-what-is-active-learning-and-discuss-one-strategy-of-it)
@@ -42,18 +42,18 @@
 
 ## Questions & Answers ##
 
-### Q1: Mention three ways to make your model robust to outliers? ###
+### Q1: Mention three ways to make your model robust to outliers. ###
 
 Investigating the outliers is always the first step in understanding how to treat them. After you understand the nature of why the outliers occurred you can apply one of the several methods mentioned [here](https://365datascience.com/career-advice/job-interview-tips/machine-learning-interview-questions-and-answers/#11:~:text=for%20large%20datasets.-,Bonus%20Question%3A%20Discuss%20how%20to%20make%20your%20model%20robust%20to%20outliers.,-There%20are%20several).
 
-### Q2: Describe the motivation behind random forests and mention two reasons why they are better than individual decision trees? ###
+### Q2: Describe the motivation behind random forests and mention two reasons why they are better than individual decision trees. ###
 
 The motivation behind random forest or ensemble models in general in layman's terms, Let's say we have a question/problem to solve we bring 100 people and ask each of them the question/problem and record their solution. The rest of the answer is [here](https://365datascience.com/career-advice/job-interview-tips/machine-learning-interview-questions-and-answers/#2:~:text=2.%20Describe%20the%20motivation%20behind%20random%20forests%20and%20mention%20two%20reasons%20why%20they%20are%20better%20than%20individual%20decision%C2%A0trees.)
 
-### Q3: What are the differences and similarities between gradient boosting and random forest? and what are the advantage and disadvantages of each when compared to each other? ###
+### Q3: What are the differences and similarities between gradient boosting and random forest? and what are the advantages and disadvantages of each when compared to each other? ###
 
 Similarities:
-1. Both these algorithms are decision-tree based algorithms
+1. Both these algorithms are decision-tree-based algorithms
 2. Both these algorithms are ensemble algorithms
 3. Both are flexible models and do not need much data preprocessing.
 
@@ -71,13 +71,13 @@ Answer:
 The goal of any supervised machine learning model is to estimate the mapping function (f) that predicts the target variable (y) given input (x). The prediction error can be broken down into three parts:
 The rest of the answer is [here](https://365datascience.com/career-advice/job-interview-tips/machine-learning-interview-questions-and-answers/#2:~:text=8.%20What%20are%20the%20bias%20and%20variance%20in%20a%20machine%20learning%20model%20and%20explain%20the%20bias%2Dvariance%20trade%2Doff%3F)
 
-### Q6: Mention three ways to handle missing or corrupted data in a dataset? ###
+### Q6: Mention three ways to handle missing or corrupted data in a dataset. ###
 
 Answer:
 
 In general, real-world data often has a lot of missing values. The cause of missing values can be data corruption or failure to record data. The rest of the answer is [here](https://365datascience.com/career-advice/job-interview-tips/machine-learning-interview-questions-and-answers/#9:~:text=10.-,Mention%20three%20ways%20to%20handle%20missing%20or%20corrupted%20data%20in%20a%C2%A0dataset.,-In%20general%2C%20real)
 
-### Q7: Explain briefly the logistic regression model and state an example of when you have used it recently? ###
+### Q7: Explain briefly the logistic regression model and state an example of when you have used it recently. ###
 
 Answer:
 
@@ -89,12 +89,12 @@ There is a lot of classification applications to it:
 
 Classify email as spam or not, To identify whether the patient is healthy or not, and so on.
 
-### Q8: Explain briefly batch gradient descent, stochastic gradient descent, and mini-batch gradient descent? and what are the pros and cons for each of them? ###
+### Q8: Explain briefly batch gradient descent, stochastic gradient descent, and mini-batch gradient descent. and what are the pros and cons for each of them? ###
 
 Gradient descent is a generic optimization algorithm cable for finding optimal solutions to a wide range of problems. The general idea of gradient descent is to tweak parameters iteratively in order to minimize a cost function.
 
 Batch Gradient Descent:
-In Batch Gradient descent the whole training data is used to minimize the loss function by taking a step towards the nearest minimum by calculating the gradient (the direction of descent)
+In Batch Gradient descent the whole training data is used to minimize the loss function by taking a step toward the nearest minimum by calculating the gradient (the direction of descent)
 
 Pros:
 Since the whole data set is used to calculate the gradient it will be stable and reach the minimum of the cost function without bouncing (if the learning rate is chosen cooreclty)
@@ -106,7 +106,7 @@ Since batch gradient descent uses all the training set to compute the gradient a
 
 Stochastic Gradient Descent:
 
-Stochastic Gradient Descent picks up a random instance in the training data set at every step and computes the gradient-based only on that single instance.
+Stochastic Gradient Descent picks up a random instance in the training data set at every step and computes the gradient based only on that single instance.
 
 Pros:
 1. It makes the training much faster as it only works on one instance at a time.
@@ -114,7 +114,7 @@ Pros:
 
 Cons:
 
-Due to the stochastic (random) nature of this algorithm, this algorithm is much less regular than the batch gradient descent. Instead of gently decreasing until it reaches the minimum, the cost function will bounce up and down, decreasing only on average. Over time it will end up very close to the minimum, but once it gets there it will continue to bounce around, not settling down there. So once the algorithm stops the final parameter are good but not optimal. For this reason, it is important to use a training schedule to overcome this randomness.
+Due to the stochastic (random) nature of this algorithm, this algorithm is much less regular than the batch gradient descent. Instead of gently decreasing until it reaches the minimum, the cost function will bounce up and down, decreasing only on average. Over time it will end up very close to the minimum, but once it gets there it will continue to bounce around, not settling down there. So once the algorithm stops the final parameters are good but not optimal. For this reason, it is important to use a training schedule to overcome this randomness.
 
 Mini-batch Gradient:
 
@@ -129,15 +129,15 @@ Cons:
 
 ![alt text](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Figures/gradient%20descent%20vs%20batch%20gradient%20descent.png)
 
-### Q9: Explain what is information gain and entropy in the context of decision trees? ###
-Entropy and Information Gain are two key metrics used in determining the relevance of decision making when constructing a decision tree model and to determine the nodes and the best way to split.
+### Q9: Explain what is information gain and entropy in the context of decision trees. ###
+Entropy and Information Gain are two key metrics used in determining the relevance of decision-making when constructing a decision tree model and determining the nodes and the best way to split.
 
 The idea of a decision tree is to divide the data set into smaller data sets based on the descriptive features until we reach a small enough set that contains data points that fall under one label.
 
 Entropy is the measure of impurity, disorder, or uncertainty in a bunch of examples. Entropy controls how a Decision Tree decides to split the data.
-Information gain calculates the reduction in entropy or surprise from transforming a dataset in some way. It is commonly used in the construction of decision trees from a training dataset, by evaluating the information gain for each variable, and selecting the variable that maximizes the information gain, which in turn minimizes the entropy and best splits the dataset into groups for effective classification.
+Information gain calculates the reduction in entropy or surprise from transforming a dataset in some way. It is commonly used in the construction of decision trees from a training dataset, by evaluating the information gain for each variable and selecting the variable that maximizes the information gain, which in turn minimizes the entropy and best splits the dataset into groups for effective classification.
 
-### Q10: Explain the linear regression model and discuss its assumption? ###
+### Q10: Explain the linear regression model and discuss its assumption. ###
 Linear regression is a supervised statistical model to predict dependent variable quantity based on independent variables.
 Linear regression is a parametric model and the objective of linear regression is that it has to learn coefficients using the training data and predict the target value given only independent values.
 
@@ -158,7 +158,7 @@ The figure below summarizes these assumptions.
 ![alt text](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Figures/Linear%20regression%20assumptions.jpg)
 
 ### Q11: Explain briefly the K-Means clustering and how can we find the best value of K? ###
-K-Means is a well-known clustering algorithm. K-Means clustering is often used because it is easy to interpret and implement. The rest of the answer is [here](https://365datascience.com/career-advice/job-interview-tips/machine-learning-interview-questions-and-answers/#2:~:text=4.%20Briefly%20explain%20the%20K%2DMeans%20clustering%20and%20how%20can%20we%20find%20the%20best%20value%20of%C2%A0K.)
+K-Means is a well-known clustering algorithm. K-means clustering is often used because it is easy to interpret and implement. The rest of the answer is [here](https://365datascience.com/career-advice/job-interview-tips/machine-learning-interview-questions-and-answers/#2:~:text=4.%20Briefly%20explain%20the%20K%2DMeans%20clustering%20and%20how%20can%20we%20find%20the%20best%20value%20of%C2%A0K.)
 
 ### Q12: Define Precision, recall, and F1 and discuss the trade-off between them? ###
 
@@ -175,7 +175,7 @@ Computation-wise MSE is easier to use as the gradient calculation will be more s
 
 Answer:
 
-**Parametric models** assume that the dataset comes from a certain function with some set of parameters that should be tuned to reach the optimal performance. For such models, the number of parameters is determined prior to training, thus the degree of freedom is limited, and reduces the chances of overfitting.
+**Parametric models** assume that the dataset comes from a certain function with some set of parameters that should be tuned to reach the optimal performance. For such models, the number of parameters is determined prior to training, thus the degree of freedom is limited and reduces the chances of overfitting.
 
 Ex. Linear Regression, Logistic Regression, LDA
 
@@ -183,30 +183,30 @@ Ex. Linear Regression, Logistic Regression, LDA
 
 Ex. Decision Tree, Random Forest.
 
-### Q15: Explain the kernel trick in SVM and why we use it and how to choose what kernel to use? ###
+### Q15: Explain the kernel trick in SVM. Why do we use it and how to choose what kernel to use? ###
 Answer:
 Kernels are used in SVM to map the original input data into a particular higher dimensional space where it will be easier to find patterns in the data and train the model with better performance.
 
-For eg.: If we have binary class data which form a ring-like pattern (inner and outer rings representing two different class instances) when plotted in 2D space, a linear SVM kernel will not be able to differentiate the two classes well when compared to a RBF (radial basis function) kernel, mapping the data into a particular higher dimensional space where the two classes are clearly separable.
+For eg.: If we have binary class data which form a ring-like pattern (inner and outer rings representing two different class instances) when plotted in 2D space, a linear SVM kernel will not be able to differentiate the two classes well when compared to an RBF (radial basis function) kernel, mapping the data into a particular higher dimensional space where the two classes are clearly separable.
 
-Typically without the kernel trick, in order to calculate support vectors and support vector classifiers, we need first to transform data points one by one to the higher dimensional space, and do the calculations based on SVM equations in the higher dimensional space, then return the results. The ‘trick’ in the kernel trick is that we design the kernels based on some conditions as mathematical functions that are equivalent to a dot product in the higher dimensional space without even having to transform data points to the higher dimensional space. i.e we can calculate support vectors and support vector classifiers in the same space where the data is provided which saves a lot of time and calculations.
+Typically without the kernel trick, in order to calculate support vectors and support vector classifiers, we need first to transform data points one by one to the higher dimensional space, do the calculations based on SVM equations in the higher dimensional space, and then return the results. The ‘trick’ in the kernel trick is that we design the kernels based on some conditions as mathematical functions that are equivalent to a dot product in the higher dimensional space without even having to transform data points to the higher dimensional space. i.e. we can calculate support vectors and support vector classifiers in the same space where the data is provided which saves a lot of time and calculations.
 
-Having domain knowledge can be very helpful in choosing the optimal kernel for your problem, however in the absence of such knowledge following this default rule can be helpful:
-For linear problems, we can try linear or logistic kernels and for nonlinear problems, we can use RBF or Gaussian kernels.
+Having domain knowledge can be very helpful in choosing the optimal kernel for your problem, however, in the absence of such knowledge following this default rule can be helpful:
+For linear problems, we can try linear or logistic kernels, and for nonlinear problems, we can use RBF or Gaussian kernels.
 
 ![Alt_text](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Figures/Kerenl%20trick.png)
 
-### Q16: Define the cross-validation process and the motivation behind using it? ###
-Cross-validation is a technique used to assess the performance of a learning model in several subsamples of training data. In general, we split the data into train and test sets where we use the training data to train our model and the test data to evaluate the performance of the model on unseen data and validation set for choosing the best hyperparameters. Now, a random split in most cases(for large datasets) is fine. But for smaller datasets, it is susceptible to loss of important information present in the data in which it was not trained. Hence, cross-validation though computationally bit expensive combats this issue.
+### Q16: Define the cross-validation process and the motivation behind using it. ###
+Cross-validation is a technique used to assess the performance of a learning model in several subsamples of training data. In general, we split the data into train and test sets where we use the training data to train our model and the test data to evaluate the performance of the model on unseen data and validation set for choosing the best hyperparameters. Now, a random split in most cases(for large datasets) is fine. However, for smaller datasets, it is susceptible to loss of important information present in the data in which it was not trained. Hence, cross-validation though computationally expensive combats this issue.
 
-The process of cross-validation is as the following:
+The process of cross-validation is as follows:
 
 1. Define k or the number of folds
 2. Randomly shuffle the data into K equally-sized blocks (folds)
 3. For each i in fold 1 to k train the data using all the folds except for fold i and test on the fold i.
 3. Average the K validation/test error from the previous step to get an estimate of the error.
 
-This process aims in accomplishing the following:
+This process aims to accomplish the following:
 1- Prevent overfitting during training by avoiding training and testing on the same subset of the data points
 
 2- Avoid information loss by using a certain subset of the data for validation only. This is important for small datasets.
@@ -223,7 +223,7 @@ If there is a data imbalance there are several measures we can take to train a f
 
 * Check whether you can get more data or not.
 
-* Use sampling techniques (Up Sample minority class, Downsample majority class, can take the hybrid approach as well). We can also use data augmentation to add more data points for the minority class but with little deviations/changes leading to new data points which are similar to the ones they are derived from. The most common/popular technique is SMOTE (Synthetic Minority Oversampling technique)
+* Use sampling techniques (Sample minority class, Downsample majority class, can take the hybrid approach as well). We can also use data augmentation to add more data points for the minority class but with little deviations/changes leading to new data points that are similar to the ones they are derived from. The most common/popular technique is SMOTE (Synthetic Minority Oversampling technique)
 
 * Suppression: Though not recommended, we can drop off some features directly responsible for the imbalance.
 
@@ -233,12 +233,12 @@ If there is a data imbalance there are several measures we can take to train a f
 
 **2. In-Processing:**
 
-* Regularisation: We can add score terms that measure the data imbalance in the loss function and therefore minimizing the loss function will also minimize the degree of imbalance with respect to the score chosen which also indirectly minimizes other metrics which measure the degree of data imbalance.
+* Regularisation: We can add score terms that measure the data imbalance in the loss function and therefore minimizing the loss function will also minimize the degree of imbalance concerning the score chosen which also indirectly minimizes other metrics that measure the degree of data imbalance.
 
 * Adversarial Debiasing: Here we use the adversarial notion to train the model where the discriminator tries to detect if there are signs of data imbalance in the predicted data by the generator and hence the generator learns to generate data that is less prone to imbalance.
 
 **3. Post-Processing:**
-* Odds-Equalization: Here we try to equalize the odds for the classes wrt the data is imbalanced for correct imbalance in the trained model. Usually, the F1 score is a good choice, if both precision and recall scores are important
+* Odds-Equalization: Here we try to equalize the odds for the classes with respect to the data is imbalanced for correct imbalance in the trained model. Usually, the F1 score is a good choice, if both precision and recall scores are important
 
 * Choose appropriate performance metrics. For example, accuracy is not a correct metric to use when classes are imbalanced. Instead, use precision, recall, F1 score, and ROC curve.
 
@@ -248,7 +248,7 @@ If there is a data imbalance there are several measures we can take to train a f
 
 Answer:
 
-Clusters are evaluated based on some similarity or dissimilarity measure such as the distance between cluster points. If the clustering algorithm separates dissimilar observations apart and similar observations together, then it has performed well. The two most popular metrics evaluation metrics for clustering algorithms are the 𝐒𝐢𝐥𝐡𝐨𝐮𝐞𝐭𝐭𝐞 𝐜𝐨𝐞𝐟𝐟𝐢𝐜𝐢𝐞𝐧𝐭 and 𝐃𝐮𝐧𝐧’𝐬 𝐈𝐧𝐝𝐞𝐱.
+Clusters are evaluated based on some similarity or dissimilarity measure such as the distance between cluster points. If the clustering algorithm separates dissimilar observations and similar observations together, then it has performed well. The two most popular metrics evaluation metrics for clustering algorithms are the 𝐒𝐢𝐥𝐡𝐨𝐮𝐞𝐭𝐭𝐞 𝐜𝐨𝐞𝐟𝐟𝐢𝐜𝐢𝐞𝐧𝐭 and 𝐃𝐮𝐧𝐧’𝐬 𝐈𝐧𝐝𝐞𝐱.
 
 𝐒𝐢𝐥𝐡𝐨𝐮𝐞𝐭𝐭𝐞 𝐜𝐨𝐞𝐟𝐟𝐢𝐜𝐢𝐞𝐧𝐭
 The Silhouette Coefficient is defined for each sample and is composed of two scores:
@@ -356,22 +356,22 @@ Yes, feature scaling is required for SVM and all margin-based classifiers since 
 
 This can be seen in the figure below, when the features have different scales, we can see that the decision boundary and the support vectors are only classifying the X1 features without taking into consideration the X0 feature, however after scaling the data to the same scale the decision boundaries and support vectors are looking much better and the model is taking into account both features.
 
-To scale the data, normalization and standardization are the most popular approaches.
+To scale the data, normalization, and standardization are the most popular approaches.
 ![SVM scaled Vs non scaled](https://user-images.githubusercontent.com/72076328/192571498-4a939472-7bb1-4bf2-963f-a6e6394802ba.png)
 
 ### Q27: What are Loss Functions and Cost Functions? Explain the key Difference Between them. ###
 
 Answer:
-The loss function is the measure of performance of the model on a single training example, whereas the cost function is the average loss function over all training examples or across the batch in the case of mini-batch gradient descent.
+The loss function is the measure of the performance of the model on a single training example, whereas the cost function is the average loss function over all training examples or across the batch in the case of mini-batch gradient descent.
 
 Some examples of loss functions are Mean Squared Error, Binary Cross Entropy, etc.
 
 Whereas, the cost function is the average of the above loss functions over training examples.
 
-### Q28: What is the importance of batch in machine learning and explain some batch depend gradient descent algorithm? ###
+### Q28: What is the importance of batch in machine learning and explain some batch-dependent gradient descent algorithms? ###
 
 Answer:
-In the memory, the dataset can load either completely at once or in a form of a set. If we have a huge size of the dataset, then loading the whole data into memory will reduce the training speed, hence batch term introduce.
+In the memory, the dataset can load either completely at once or in the form of a set. If we have a huge size of the dataset, then loading the whole data into memory will reduce the training speed, hence batch term is introduced.
 
 Example: image data contains 1,00,000 images, we can load this into 3125 batches where 1 batch = 32 images. So instead of loading the whole 1,00,000 images in memory, we can load 32 images 3125 times which requires less memory.
 
@@ -390,17 +390,17 @@ For classification, classification accuracy created a lot of instability. So the
 - Gini's Index
 Gini impurity is used to predict the likelihood of a randomly chosen example being incorrectly classified by a particular node. It’s referred to as an “impurity” measure because it demonstrates how the model departs from a simple division.
 
-- Cross-Entropy or Information Gain
+- Cross-entropy or Information Gain
 Information gain refers to the process of identifying the most important features/attributes that convey the most information about a class. The entropy principle is followed with the goal of reducing entropy from the root node to the leaf nodes. Information gain is the difference in entropy before and after splitting, which describes the impurity of in-class items.
 
 
-For regression, the good old mean squared error serves as a good loss function which is minimized by splits of the input features and predicting the mean value of the target feature on the subspaces resulting from the split. But finding the split that results in the minimum possible residual sum of squares is computationally infeasible, so a greedy top-down approach is taken i.e. the splits are made at a level from top to down which results in maximum reduction of RSS. We continue this until some max depth or number of leaves is attained.
+For regression, the good old mean squared error serves as a good loss function which is minimized by splits of the input features and predicting the mean value of the target feature on the subspaces resulting from the split. But finding the split that results in the minimum possible residual sum of squares is computationally infeasible, so a greedy top-down approach is taken i.e. the splits are made at a level from top to down which results in maximum reduction of RSS. We continue this until some maximum depth or number of leaves is attained.
 
 ### Q30: Why boosting is a more stable algorithm as compared to other ensemble algorithms? ###
 
 Answer:
 
-Since Boosting algorithms focus on errors found in previous iterations until they become obsolete. Whereas in bagging there is no corrective loop. That’s why boosting is a more stable algorithm compared to other ensemble algorithms.
+Boosting algorithms focus on errors found in previous iterations until they become obsolete. Whereas in bagging there is no corrective loop. That’s why boosting is a more stable algorithm compared to other ensemble algorithms.
 
 ### Q31: What is active learning and discuss one strategy of it? ###
 
