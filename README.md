@@ -23,7 +23,11 @@ The main goal of this intuitive is to revise the basics of data science, be prep
 The questions are divided into seven categories:
 
 * [Machine Learning Interview Questions & Answers for Data Scientists](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Machine%20Learning%20Interview%20Questions%20%26%20Answers%20for%20Data%20Scientists.md)
-* [Deep Learning Interview Questions & Answers for Data Scientists](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Deep%20Learning%20Questions%20&%20Answers%20for%20Data%20Scientists.md) 
+* [Deep Learning Interview Questions & Answers for Data Scientists](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Deep%20Learning%20Questions%20&%20Answers%20for%20Data%20Scientists.md)
+* [Top LLM Interview Questions & Answers for Data Scientists]()
+* [Top Computer Vision Interview Questions & Answers for Data Scientists Part 1]()
+* [Top Computer Vision Interview Questions & Answers for Data Scientists Part 2]()
+* [Top Computer Vision Interview Questions & Answers for Data Scientists Part 3]()
 * [Statistics Interview Questions & Answers for Data Scientists](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Statistics%20Interview%20Questions%20%26%20Answers%20for%20Data%20Scientists.md) 
 * [Probability Interview Questions & Answers for Data Scientists](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Probability%20Interview%20Questions%20%26%20Answers%20for%20Data%20Scientists.md) 
 * [Python Interview Questions & Answers for Data Scientists](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Python%20Interview%20Questions%20%26%20Answers%20for%20Data%20Scientists.md)
