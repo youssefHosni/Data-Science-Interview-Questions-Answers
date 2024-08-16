@@ -44,12 +44,19 @@
 
 ### Q1: Mention three ways to make your model robust to outliers. ###
 
-Investigating the outliers is always the first step in understanding how to treat them. After you understand the nature of why the outliers occurred you can apply one of the several methods mentioned [here](https://365datascience.com/career-advice/job-interview-tips/machine-learning-interview-questions-and-answers/#11:~:text=for%20large%20datasets.-,Bonus%20Question%3A%20Discuss%20how%20to%20make%20your%20model%20robust%20to%20outliers.,-There%20are%20several).
+Investigating the outliers is always the first step in understanding how to treat them. After you understand the nature of why the outliers occurred you can apply one of the several methods mentioned.
+- Regularization: Penalizes model complexity, discouraging to fit on the noise
+- Algorigthms robust to outliers: Tree based models that are generally less effected by outliers 
+- Winsorization
+- Error metric MAE or Huber loss instead of MSE. MSE gives very high weight to larger residuals. (potential outliers). HUber loss is a combination of MSE and MAE where for father values it switches. (1.5*(IQR) = 1.5*(Q3-Q1))
+- Transform the data: For example log transform if the distribution is exponential or right skewed
+- Remove the outliers only if they are true anomalies, since it can lead to information loss
 
 ### Q2: Describe the motivation behind random forests and mention two reasons why they are better than individual decision trees. ###
 
-The motivation behind random forest or ensemble models in general in layman's terms, Let's say we have a question/problem to solve we bring 100 people and ask each of them the question/problem and record their solution. The rest of the answer is [here](https://365datascience.com/career-advice/job-interview-tips/machine-learning-interview-questions-and-answers/#2:~:text=2.%20Describe%20the%20motivation%20behind%20random%20forests%20and%20mention%20two%20reasons%20why%20they%20are%20better%20than%20individual%20decision%C2%A0trees.)
-
+- Wisdom of the crowd
+- Decision trees are prone to overfit whereas random forest generalizes better on unseen data as it uses randomness in feature selection and during sampling of the data
+  
 ### Q3: What are the differences and similarities between gradient boosting and random forest? and what are the advantages and disadvantages of each when compared to each other? ###
 
 Similarities:
