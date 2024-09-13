@@ -26,7 +26,14 @@
 
 Answer:
 
-If T is ever flipped, you cannot then reach HH before your friend reaches TH. Therefore, the probability of you winning this is to flip HH initially. Therefore the sample space will be {HH, HT, TH, TT} and the probability of you winning will be (1/4) and your friend (3/4)
+First flip is either heads or tails. If the second flip is heads we have a winner no matter what. Hence we have a 1/2 chance of game ending on the second flip.
+If first flip is H, and the second flip is H, then player 1 wins. If first flip is H, and second flip is T, the game goes on. Generalizing, if the last flip was T, then HH will never occur and player 1 has no chance of wining. Either the game goes on OR player 2 wins OR the game goes on AND player 2 wins. 
+Player 1 can only win if the first flip is H and the second flip is H. Consider the following four scenarios
+- HH : Player 1 wins
+- HT ... ? : HH will never occur before TH. Player 2 wins.
+- TT ... ? : HH will never occur before TH. Player 2 wins.
+- TH : Player 2 wins.
+Hence probability of player 1 wining is 1/4 and probability of player 2 wining is 3/4.
 
 
 ### Q2: If you roll a dice three times, what is the probability to get two consecutive threes? ###
