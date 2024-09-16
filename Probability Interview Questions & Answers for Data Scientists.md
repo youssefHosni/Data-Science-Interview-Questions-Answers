@@ -227,6 +227,13 @@ P(4) = 6C4 * (0.25)^4 * (0.75)^2 = 0.032
 
 Answer:
 
+There are different ways you can go about this. Following are some methods, one may choose only one of these or a combination depending on the observed data.
+- Method of moments
+- Maximum Likelihood Estimatation
+- Bayesian Estimation
+- Least Squares Estimation
+- Method of Least Absolute Deviation
+- Chi-squared Test
 
 ### Q15: You have 40 cards in four colors, 10 reds, 10 greens, 10 blues, and ten yellows. Each color has a number from 1 to 10. When you pick two cards without replacement, what is the probability that the two cards are not in the same color and not in the same number? ###
 
