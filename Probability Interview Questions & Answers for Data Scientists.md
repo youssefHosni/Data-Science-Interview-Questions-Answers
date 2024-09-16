@@ -171,13 +171,13 @@ As per the triangle inequality theorem, the sum of two sides should always be gr
 x<1/2
 y<1/2
 
-Based on the triangle inequality theorem:
-x+y > 1-a-b
-x+y > 1/2
+To achieve this the first breaking point (X) should before the 0.5 mark on the stick and the second breaking point (Y) should be after the 0.5 mark on the stick.
 
-From the diagram below, there is only one triangle that matches all the above conditions out of 4 triangles. Therefore, the probability will be 1/4
+P(X < 0.5) = (0.5-0) / (1-0) = 0.5
 
-![1660836577689](https://user-images.githubusercontent.com/72076328/185434931-9b73c7ea-00d9-4f3e-a381-3424aed1de92.jpg)
+P(Y > 0.5) = (1 - 0.5) / (1-0) = 0.5
+
+Hence, overal probability = P(X < 0.5) * P(Y > 0.5) = 1/5 = 0.25
 
 ### Q10: Say you draw a circle and choose two chords at random. What is the probability that those chords will intersect? ###
 
