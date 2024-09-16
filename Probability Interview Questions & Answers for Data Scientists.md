@@ -216,12 +216,12 @@ p=0.25 (probability if life) q = 0.75(probability of death)
 
 Using probability mass function equation:
 
-P(X) = nCx *p *q*(n-x)  
+P(X) = nCx * p^x * q^(n-x)  
 
 
 Then:
 
-P(4) = 6C4* (0.25)*4*(0.75)*2 = 0.032
+P(4) = 6C4 * (0.25)^4 * (0.75)^2 = 0.032
 
 ### Q14: Discuss some methods you will use to estimate the Parameters of a Probability Distribution ###
 
