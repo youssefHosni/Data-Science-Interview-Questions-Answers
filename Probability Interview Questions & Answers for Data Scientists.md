@@ -137,6 +137,11 @@ The sample space is 365^30 and the number of events is 365p30 because we need to
 
 A theoretical explanation is provided in the figure below thanks to Fazil Mohammed.
 
+> Note: Why do we use permutations and not combinations here? <br> <br>
+When calculating 365C30, you are saying: “Out of 365 days, I'm choosing 30 distinct days, but I don't care in what order they are assigned to people.” This treats the selection of birthdays as unordered, which isn't the case in the birthday problem, because who gets which birthday is important. <br>
+For example, if you selected 30 distinct birthdays (as in a combination), this would only tell you which 30 birthdays are used, but it wouldn't account for the fact that different people being assigned different birthdays creates different outcomes. In contrast, with permutations, we are considering the specific assignment of each person to a particular birthday, where the order matters because we care about which person gets which birthday. i.e. if Person A is born on 01/01 and person B is born on 02/02, its different than if Person A is born on 02/02 and person B is born on 01/01.
+
+
 Interesting facts provided by Rishi Dey Chowdhury:
 1. With just 23 people there is over 50% chance of a birthday match and with 57 people the match probability exceeds 99%. One intuition to think of why with such a low number of people the probability of a match is so high. It's because for a match we require a pair of people and 23 choose 2 is 23*11 = 253 which is a relatively big number and ya 50% sounds like a decent probability of a match for this case.
 
