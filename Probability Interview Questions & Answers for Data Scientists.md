@@ -197,6 +197,8 @@ Probability of no plane in 5 mins interval=0.85
 Probability of seeing at least one plane in 30 mins=1 - Probability of not seeing any plane in 30 minutes
 =1-(0.85)^6 = 0.6228
 
+This problem can also be solved using Poisson distribution. Refer this [blog post](https://towardsdatascience.com/shooting-star-problem-simple-solution-and-poisson-process-demonstration-739e94184edf).
+
 ### Q12: Say you are given an unfair coin, with an unknown bias towards heads or tails. How can you generate fair odds using this coin? ###
 
 Answer:
