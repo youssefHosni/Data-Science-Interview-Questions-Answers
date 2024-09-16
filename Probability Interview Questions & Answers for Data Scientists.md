@@ -148,7 +148,7 @@ Interesting facts provided by Rishi Dey Chowdhury:
 2. Another interesting fact is if the assumption of equal probability of birthday of a person on any day out of 365 is violated and there is a non-equal probability of birthday of a person among days of the year then, it is even more likely to have a birthday match.
 ![Alt_text](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Figures/Therotical%20Explanation%20Q%207%20Probability.jfif)
 
-### Q8: Assume two coins, one fair and the other is unfair. You pick one at random, flip it five times, and observe that it comes up as tails all five times. What is the probability that you are fliping the unfair coin? ###
+### Q8: Assume two coins, one fair and the other is unfair. You pick one at random, flip it five times, and observe that it comes up as tails all five times. What is the probability that you are fliping the unfair coin? Assume that the unfair coin always results in tails. ###
 
 Answer:
 
