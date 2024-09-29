@@ -26,7 +26,14 @@
 
 Answer:
 
-If T is ever flipped, you cannot then reach HH before your friend reaches TH. Therefore, the probability of you winning this is to flip HH initially. Therefore the sample space will be {HH, HT, TH, TT} and the probability of you winning will be (1/4) and your friend (3/4)
+First flip is either heads or tails. If the second flip is heads we have a winner no matter what. Hence we have a 1/2 chance of game ending on the second flip.
+If first flip is H, and the second flip is H, then player 1 wins. If first flip is H, and second flip is T, the game goes on. Generalizing, if the last flip was T, then HH will never occur and player 1 has no chance of wining. Either the game goes on OR player 2 wins OR the game goes on AND player 2 wins. 
+Player 1 can only win if the first flip is H and the second flip is H. Consider the following four scenarios
+- HH : Player 1 wins
+- HT ... ? : HH will never occur before TH. Player 2 wins.
+- TT ... ? : HH will never occur before TH. Player 2 wins.
+- TH : Player 2 wins.
+Hence probability of player 1 wining is 1/4 and probability of player 2 wining is 3/4.
 
 
 ### Q2: If you roll a dice three times, what is the probability to get two consecutive threes? ###
@@ -130,13 +137,18 @@ The sample space is 365^30 and the number of events is 365p30 because we need to
 
 A theoretical explanation is provided in the figure below thanks to Fazil Mohammed.
 
+> Note: Why do we use permutations and not combinations here? <br> <br>
+When calculating 365C30, you are saying: “Out of 365 days, I'm choosing 30 distinct days, but I don't care in what order they are assigned to people.” This treats the selection of birthdays as unordered, which isn't the case in the birthday problem, because who gets which birthday is important. <br>
+For example, if you selected 30 distinct birthdays (as in a combination), this would only tell you which 30 birthdays are used, but it wouldn't account for the fact that different people being assigned different birthdays creates different outcomes. In contrast, with permutations, we are considering the specific assignment of each person to a particular birthday, where the order matters because we care about which person gets which birthday. i.e. if Person A is born on 01/01 and person B is born on 02/02, its different than if Person A is born on 02/02 and person B is born on 01/01.
+
+
 Interesting facts provided by Rishi Dey Chowdhury:
 1. With just 23 people there is over 50% chance of a birthday match and with 57 people the match probability exceeds 99%. One intuition to think of why with such a low number of people the probability of a match is so high. It's because for a match we require a pair of people and 23 choose 2 is 23*11 = 253 which is a relatively big number and ya 50% sounds like a decent probability of a match for this case.
 
 2. Another interesting fact is if the assumption of equal probability of birthday of a person on any day out of 365 is violated and there is a non-equal probability of birthday of a person among days of the year then, it is even more likely to have a birthday match.
 ![Alt_text](https://github.com/youssefHosni/Data-Science-Interview-Questions/blob/main/Figures/Therotical%20Explanation%20Q%207%20Probability.jfif)
 
-### Q8: Assume two coins, one fair and the other is unfair. You pick one at random, flip it five times, and observe that it comes up as tails all five times. What is the probability that you are fliping the unfair coin? ###
+### Q8: Assume two coins, one fair and the other is unfair. You pick one at random, flip it five times, and observe that it comes up as tails all five times. What is the probability that you are fliping the unfair coin? Assume that the unfair coin always results in tails. ###
 
 Answer:
 
@@ -159,13 +171,13 @@ As per the triangle inequality theorem, the sum of two sides should always be gr
 x<1/2
 y<1/2
 
-Based on the triangle inequality theorem:
-x+y > 1-a-b
-x+y > 1/2
+To achieve this the first breaking point (X) should before the 0.5 mark on the stick and the second breaking point (Y) should be after the 0.5 mark on the stick.
 
-From the diagram below, there is only one triangle that matches all the above conditions out of 4 triangles. Therefore, the probability will be 1/4
+P(X < 0.5) = (0.5-0) / (1-0) = 0.5
 
-![1660836577689](https://user-images.githubusercontent.com/72076328/185434931-9b73c7ea-00d9-4f3e-a381-3424aed1de92.jpg)
+P(Y > 0.5) = (1 - 0.5) / (1-0) = 0.5
+
+Hence, overal probability = P(X < 0.5) * P(Y > 0.5) = 1/5 = 0.25
 
 ### Q10: Say you draw a circle and choose two chords at random. What is the probability that those chords will intersect? ###
 
@@ -185,6 +197,8 @@ Probability of no plane in 5 mins interval=0.85
 Probability of seeing at least one plane in 30 mins=1 - Probability of not seeing any plane in 30 minutes
 =1-(0.85)^6 = 0.6228
 
+This problem can also be solved using Poisson distribution. Refer this [blog post](https://towardsdatascience.com/shooting-star-problem-simple-solution-and-poisson-process-demonstration-739e94184edf).
+
 ### Q12: Say you are given an unfair coin, with an unknown bias towards heads or tails. How can you generate fair odds using this coin? ###
 
 Answer:
@@ -202,17 +216,24 @@ p=0.25 (probability if life) q = 0.75(probability of death)
 
 Using probability mass function equation:
 
-P(X) = nCx *p *q*(n-x)  
+P(X) = nCx * p^x * q^(n-x)  
 
 
 Then:
 
-P(4) = 6C4* (0.25)*4*(0.75)*2 = 0.032
+P(4) = 6C4 * (0.25)^4 * (0.75)^2 = 0.032
 
 ### Q14: Discuss some methods you will use to estimate the Parameters of a Probability Distribution ###
 
 Answer:
 
+There are different ways you can go about this. Following are some methods, one may choose only one of these or a combination depending on the observed data.
+- Method of moments
+- Maximum Likelihood Estimatation
+- Bayesian Estimation
+- Least Squares Estimation
+- Method of Least Absolute Deviation
+- Chi-squared Test
 
 ### Q15: You have 40 cards in four colors, 10 reds, 10 greens, 10 blues, and ten yellows. Each color has a number from 1 to 10. When you pick two cards without replacement, what is the probability that the two cards are not in the same color and not in the same number? ###
 
