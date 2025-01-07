@@ -324,10 +324,10 @@ With **RNN**, you would use a cell that takes as input the previous hidden state
 
 Answer:
 
-Overfitting occurs in more complex neural network models (many layers, many neurons) and the complexity of the neural network can be reduced by using L1 and L2 regularization as well as dropout , Data augmenration and Dropaout.
-L1 regularization forces the weight parameters to become zero. L2 regularization forces the weight parameters towards zero (but never exactly zero|| weight deccay )
+Overfitting occurs in more complex neural network models (many layers, many neurons) and the complexity of the neural network can be reduced by using L1 and L2 regularization as well as data augmenration and dropout.
+L1 regularization forces the weight parameters to become zero. L2 regularization forces the weight parameters towards zero (but never exactly zero || weight decay )
 
-Smaller weight parameters make some neurons neglectable therfore neural network becomes less complex and less overfitting.
+Smaller weight parameters make some neurons neglectables. Therefore, the neural network becomes less complex and less prone to overfitting.
 
 Regularisation has the following benefits: 
 - Reducing the variance of the model over unseen data.
