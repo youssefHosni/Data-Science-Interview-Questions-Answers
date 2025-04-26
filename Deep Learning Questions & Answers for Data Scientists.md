@@ -591,6 +591,35 @@ By leveraging the knowledge encoded in pre-trained transformers, transfer learni
 
 ## Q34: How can transformers be used for tasks other than natural language processing, such as computer vision? ## 
 Answer:
+In NLP:
+ - A sentence is a sequence of words.
+ - Transformer sees each word as a token.
+ - It learns how words relate to each other using self-attention.
+Example:
+In the sentence “The cat sat on the mat”,
+"cat" and "sat" are related,
+"cat" and "mat" are also related (because the cat is on the mat).
+The transformer automatically figures out these relationships.
+
+✨ In Computer Vision:
+An image is not a sequence, it’s a 2D grid (height x width x channels).
+So before feeding it to a transformer, we:
+    - Cut the image into small square patches (say 16×16 pixels).
+    - Flatten each patch into a long vector (just line up the pixel values).
+    - Embed each vector into a fixed-size vector (like an embedding layer for text).
+Now, treat patches like "words" and the image like a "sentence"!
+
+Then self-attention can figure out which parts of the image should attend to which others.
+For example Maybe eyes should attend to nose for face recognition.
+Maybe wheels should attend to car body in car detection.
+
+✨ Why does this help?
+  -In traditional CNNs, each convolutional filter looks only at a small local region (say 3×3 pixels).
+  I-n transformers, every patch can look at every other patch — even if they are far away!
+
+So transformers can capture global relationships better.
+
+
 
 
 
